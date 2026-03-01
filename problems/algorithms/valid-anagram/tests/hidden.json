@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "length_mismatch",
+      "input": {"s": "aabb", "t": "aab"},
+      "expected": false
+    },
+    {
+      "name": "high_repeat_true",
+      "input": {"s": "zzzyyyxxx", "t": "xxyzzyzyx"},
+      "expected": true
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+id: log-level-counter
+title: Count Log Levels in a File
+difficulty: medium
+category: shell_lab
+tags:
+  - linux
+  - grep
+  - sort
+  - uniq
+constraints:
+  - "input file may contain >1M lines"
+  - "levels are INFO, WARN, ERROR"
+languages:
+  - shell
+recommended_approach: grep-cut-sort-uniq
+interview_recommended: true

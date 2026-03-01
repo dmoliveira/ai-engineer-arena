@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "negative_values",
+      "input": {"nums": [-3, 4, 3, 90], "target": 0},
+      "expected": [0, 2]
+    },
+    {
+      "name": "late_match",
+      "input": {"nums": [1, 5, 8, 12, 19, 21], "target": 31},
+      "expected": [3, 4]
+    }
+  ]
+}

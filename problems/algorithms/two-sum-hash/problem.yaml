@@ -1,0 +1,15 @@
+id: two-sum-hash
+title: Two Sum (Hash Single Pass)
+difficulty: easy
+category: algorithms
+tags:
+  - arrays
+  - hash-map
+constraints:
+  - "2 <= n <= 100000"
+  - "-10^9 <= nums[i] <= 10^9"
+  - "exactly one valid answer"
+languages:
+  - python
+recommended_approach: hash-map-single-pass
+interview_recommended: true

@@ -1,0 +1,18 @@
+{
+  "function": "solve",
+  "tests": [
+    {
+      "name": "drop_null_and_text",
+      "input": {
+        "rows": [
+          {"id": 1, "region": "NA", "sales": 10.2},
+          {"id": 2, "region": "EU", "sales": null},
+          {"id": 3, "region": "APAC", "sales": "NA"}
+        ]
+      },
+      "expected": [
+        {"id": 1, "region": "NA", "sales": 10.2}
+      ]
+    }
+  ]
+}

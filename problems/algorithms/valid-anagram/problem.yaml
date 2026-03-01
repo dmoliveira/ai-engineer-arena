@@ -1,0 +1,14 @@
+id: valid-anagram
+title: Valid Anagram
+difficulty: easy
+category: algorithms
+tags:
+  - strings
+  - hash-map
+constraints:
+  - "1 <= len(s), len(t) <= 50000"
+  - "lowercase English letters"
+languages:
+  - python
+recommended_approach: frequency-count
+interview_recommended: true

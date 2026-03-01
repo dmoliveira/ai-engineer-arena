@@ -1,0 +1,11 @@
+{
+  "tests": [
+    {
+      "name": "large_file_distribution",
+      "generator": "log_levels",
+      "seed": 7,
+      "size": 1000000,
+      "runtime_limit_ms": 2000
+    }
+  ]
+}

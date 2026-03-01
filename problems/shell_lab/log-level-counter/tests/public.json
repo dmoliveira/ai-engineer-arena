@@ -1,0 +1,9 @@
+{
+  "tests": [
+    {
+      "name": "example_output",
+      "input": "example-app.log",
+      "expected": ["ERROR 2", "INFO 3", "WARN 1"]
+    }
+  ]
+}

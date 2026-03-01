@@ -1,0 +1,14 @@
+id: clean-null-sales
+title: Clean Null Sales Rows
+difficulty: easy
+category: data_science
+tags:
+  - data-cleaning
+  - preprocessing
+constraints:
+  - "1 <= len(rows) <= 200000"
+  - "each row has keys: id, region, sales"
+languages:
+  - python
+recommended_approach: single-pass-filter
+interview_recommended: true

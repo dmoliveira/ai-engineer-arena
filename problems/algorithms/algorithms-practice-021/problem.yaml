@@ -1,0 +1,13 @@
+id: algorithms-practice-021
+title: Algorithms Practice 021
+difficulty: easy
+category: algorithms
+tags:
+  - practice
+  - generated
+constraints:
+  - "define realistic bounds"
+languages:
+  - python
+recommended_approach: reference-solution
+interview_recommended: true

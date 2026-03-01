@@ -1,0 +1,13 @@
+id: algorithms-practice-065
+title: Algorithms Practice 065
+difficulty: hard
+category: algorithms
+tags:
+  - practice
+  - generated
+constraints:
+  - "define realistic bounds"
+languages:
+  - python
+recommended_approach: reference-solution
+interview_recommended: true

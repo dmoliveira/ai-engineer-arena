@@ -1,0 +1,12 @@
+id: kth-smallest-sorted-matrix
+title: Kth Smallest in Sorted Matrix
+difficulty: hard
+category: algorithms
+tags:
+  - seed
+constraints:
+  - "define realistic bounds"
+languages:
+  - python
+recommended_approach: reference-solution
+interview_recommended: true

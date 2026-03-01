@@ -1,0 +1,12 @@
+id: sliding-window-max-sum
+title: Sliding Window Max Sum
+difficulty: medium
+category: algorithms
+tags:
+  - seed
+constraints:
+  - "define realistic bounds"
+languages:
+  - python
+recommended_approach: reference-solution
+interview_recommended: true

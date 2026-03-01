@@ -1,0 +1,12 @@
+id: binary-confusion-metrics
+title: Binary Confusion Metrics
+difficulty: easy
+category: ml_fundamentals
+tags:
+  - seed
+constraints:
+  - "define realistic bounds"
+languages:
+  - python
+recommended_approach: reference-solution
+interview_recommended: true

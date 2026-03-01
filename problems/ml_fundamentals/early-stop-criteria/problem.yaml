@@ -1,0 +1,12 @@
+id: early-stop-criteria
+title: Early Stop Criteria
+difficulty: hard
+category: ml_fundamentals
+tags:
+  - seed
+constraints:
+  - "define realistic bounds"
+languages:
+  - python
+recommended_approach: reference-solution
+interview_recommended: true

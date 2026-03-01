@@ -1,0 +1,13 @@
+id: ml-fundamentals-practice-067
+title: Ml Fundamentals Practice 067
+difficulty: medium
+category: ml_fundamentals
+tags:
+  - practice
+  - generated
+constraints:
+  - "define realistic bounds"
+languages:
+  - python
+recommended_approach: reference-solution
+interview_recommended: true

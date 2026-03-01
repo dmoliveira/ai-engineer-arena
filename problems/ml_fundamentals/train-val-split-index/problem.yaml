@@ -1,0 +1,12 @@
+id: train-val-split-index
+title: Train Validation Split Index
+difficulty: easy
+category: ml_fundamentals
+tags:
+  - seed
+constraints:
+  - "define realistic bounds"
+languages:
+  - python
+recommended_approach: reference-solution
+interview_recommended: true

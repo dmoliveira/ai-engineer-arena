@@ -164,6 +164,10 @@ body {
   grid-column: span 12;
 }
 
+.tracks-panel {
+  grid-column: span 12;
+}
+
 .support-panel {
   grid-column: span 12;
 }
@@ -258,6 +262,16 @@ button {
   border: 1px solid rgba(255, 255, 255, 0.24);
 }
 
+input[type="search"] {
+  font-family: "JetBrains Mono", monospace;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.24);
+  background: #0c2c3f;
+  color: var(--text);
+  padding: 0.42rem 0.5rem;
+  width: 100%;
+}
+
 select {
   background: #0c2c3f;
   color: var(--text);
@@ -285,6 +299,47 @@ li button:hover,
 li button.active {
   border-color: var(--accent);
   background: #1b4053;
+}
+
+.search-row {
+  margin-bottom: 0.6rem;
+}
+
+.search-label {
+  min-width: 60px;
+}
+
+.pagination-row {
+  margin-top: 0.7rem;
+}
+
+.pagination-row button {
+  background: #1f3f4f;
+  color: var(--text);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 0.34rem 0.6rem;
+  cursor: pointer;
+}
+
+.track-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 0.5rem 0;
+}
+
+.track-actions button {
+  background: #1f3f4f;
+  color: var(--text);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 0.42rem 0.7rem;
+  cursor: pointer;
+}
+
+.track-actions button.active {
+  border-color: var(--accent);
+  color: #0f2430;
+  background: linear-gradient(120deg, var(--accent), var(--accent-2));
 }
 
 textarea {

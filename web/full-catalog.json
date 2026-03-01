@@ -1,0 +1,1867 @@
+[
+  {
+    "id": "algorithms-practice-009",
+    "title": "Algorithms Practice 009",
+    "difficulty": "easy",
+    "category": "algorithms",
+    "tags": [
+      "practice",
+      "generated"
+    ],
+    "languages": [
+      "python"
+    ],
+    "track": "python",
+    "prompt": "Generated practice problem in the algorithms topic.",
+    "statement_path": "problems/algorithms/algorithms-practice-009/statement.md",
+    "public_test_path": "problems/algorithms/algorithms-practice-009/tests/public.json",
+    "starter": "def solve(*args, **kwargs):\n    pass\n",
+    "function": "solve"
+  },
+  {
+    "id": "algorithms-practice-021",
+    "title": "Algorithms Practice 021",
+    "difficulty": "easy",
+    "category": "algorithms",
+    "tags": [
+      "practice",
+      "generated"
+    ],
+    "languages": [
+      "python"
+    ],
+    "track": "python",
+    "prompt": "Generated practice problem in the algorithms topic.",
+    "statement_path": "problems/algorithms/algorithms-practice-021/statement.md",
+    "public_test_path": "problems/algorithms/algorithms-practice-021/tests/public.json",
+    "starter": "def solve(*args, **kwargs):\n    pass\n",
+    "function": "solve"
+  },
+  {
+    "id": "algorithms-practice-033",
+    "title": "Algorithms Practice 033",
+    "difficulty": "easy",
+    "category": "algorithms",
+    "tags": [
+      "practice",
+      "generated"
+    ],
+    "languages": [
+      "python"
+    ],
+    "track": "python",
+    "prompt": "Generated practice problem in the algorithms topic.",
+    "statement_path": "problems/algorithms/algorithms-practice-033/statement.md",
+    "public_test_path": "problems/algorithms/algorithms-practice-033/tests/public.json",
+    "starter": "def solve(*args, **kwargs):\n    pass\n",
+    "function": "solve"
+  },
+  {
+    "id": "algorithms-practice-045",
+    "title": "Algorithms Practice 045",
+    "difficulty": "easy",
+    "category": "algorithms",
+    "tags": [
+      "practice",
+      "generated"
+    ],
+    "languages": [
+      "python"
+    ],
+    "track": "python",
+    "prompt": "Generated practice problem in the algorithms topic.",
+    "statement_path": "problems/algorithms/algorithms-practice-045/statement.md",
+    "public_test_path": "problems/algorithms/algorithms-practice-045/tests/public.json",
+    "starter": "def solve(*args, **kwargs):\n    pass\n",
+    "function": "solve"
+  },
+  {
+    "id": "algorithms-practice-057",
+    "title": "Algorithms Practice 057",
+    "difficulty": "easy",
+    "category": "algorithms",
+    "tags": [
+      "practice",
+      "generated"
+    ],
+    "languages": [
+      "python"
+    ],
+    "track": "python",
+    "prompt": "Generated practice problem in the algorithms topic.",
+    "statement_path": "problems/algorithms/algorithms-practice-057/statement.md",
+    "public_test_path": "problems/algorithms/algorithms-practice-057/tests/public.json",
+    "starter": "def solve(*args, **kwargs):\n    pass\n",
+    "function": "solve"
+  },
+  {
+    "id": "algorithms-practice-069",
+    "title": "Algorithms Practice 069",
+    "difficulty": "easy",
+    "category": "algorithms",
+    "tags": [
+      "practice",
+      "generated"
+    ],
+    "languages": [
+      "python"
+    ],
+    "track": "python",
+    "prompt": "Generated practice problem in the algorithms topic.",
+    "statement_path": "problems/algorithms/algorithms-practice-069/statement.md",
+    "public_test_path": "problems/algorithms/algorithms-practice-069/tests/public.json",
+    "starter": "def solve(*args, **kwargs):\n    pass\n",
+    "function": "solve"
+  },
+  {
+    "id": "first-unique-char",
+    "title": "First Unique Character",
+    "difficulty": "easy",
+    "category": "algorithms",
+    "tags": [
+      "seed"
+    ],
+    "languages": [
+      "python"
+    ],
+    "track": "python",
+    "prompt": "Seed practice problem for algorithms.",
+    "statement_path": "problems/algorithms/first-unique-char/statement.md",
+    "public_test_path": "problems/algorithms/first-unique-char/tests/public.json",
+    "starter": "def solve(*args, **kwargs):\n    pass\n",
+    "function": "solve"
+  },
+  {
+    "id": "min-stack-ops",
+    "title": "Min Stack Operations",
+    "difficulty": "easy",
+    "category": "algorithms",
+    "tags": [
+      "seed"
+    ],
+    "languages": [
+      "python"
+    ],
+    "track": "python",
+    "prompt": "Seed practice problem for algorithms.",
+    "statement_path": "problems/algorithms/min-stack-ops/statement.md",
+    "public_test_path": "problems/algorithms/min-stack-ops/tests/public.json",
+    "starter": "def solve(*args, **kwargs):\n    pass\n",
+    "function": "solve"
+  },
+  {
+    "id": "two-sum-hash",
+    "title": "Two Sum (Hash Single Pass)",
+    "difficulty": "easy",
+    "category": "algorithms",
+    "tags": [
+      "arrays",
+      "hash-map"
+    ],
+    "languages": [
+      "python"
+    ],
+    "track": "python",
+    "prompt": "Given an array of integers `nums` and an integer `target`, return indices of the two numbers such that they add up to `target`.",
+    "statement_path": "problems/algorithms/two-sum-hash/statement.md",
+    "public_test_path": "problems/algorithms/two-sum-hash/tests/public.json",
+    "starter": "def solve(*args, **kwargs):\n    pass\n",
+    "function": "solve"
+  },
+  {
+    "id": "valid-anagram",
+    "title": "Valid Anagram",
+    "difficulty": "easy",
+    "category": "algorithms",
+    "tags": [
+      "strings",
+      "hash-map"
+    ],
+    "languages": [
+      "python"
+    ],
+    "track": "python",
+    "prompt": "Given two strings `s` and `t`, return `true` if `t` is an anagram of `s`, and `false` otherwise.",
+    "statement_path": "problems/algorithms/valid-anagram/statement.md",
+    "public_test_path": "problems/algorithms/valid-anagram/tests/public.json",
+    "starter": "def solve(*args, **kwargs):\n    pass\n",
+    "function": "solve"
+  },
+  {
+    "id": "algorithms-practice-005",
+    "title": "Algorithms Practice 005",
+    "difficulty": "hard",
+    "category": "algorithms",
+    "tags": [
+      "practice",
+      "generated"
+    ],
+    "languages": [
+      "python"
+    ],
+    "track": "python",
+    "prompt": "Generated practice problem in the algorithms topic.",
+    "statement_path": "problems/algorithms/algorithms-practice-005/statement.md",
+    "public_test_path": "problems/algorithms/algorithms-practice-005/tests/public.json",
+    "starter": "def solve(*args, **kwargs):\n    pass\n",
+    "function": "solve"
+  },
+  {
+    "id": "algorithms-practice-017",
+    "title": "Algorithms Practice 017",
+    "difficulty": "hard",
+    "category": "algorithms",
+    "tags": [
+      "practice",
+      "generated"
+    ],
+    "languages": [
+      "python"
+    ],
+    "track": "python",
+    "prompt": "Generated practice problem in the algorithms topic.",
+    "statement_path": "problems/algorithms/algorithms-practice-017/statement.md",
+    "public_test_path": "problems/algorithms/algorithms-practice-017/tests/public.json",
+    "starter": "def solve(*args, **kwargs):\n    pass\n",
+    "function": "solve"
+  },
+  {
+    "id": "algorithms-practice-029",
+    "title": "Algorithms Practice 029",
+    "difficulty": "hard",
+    "category": "algorithms",
+    "tags": [
+      "practice",
+      "generated"
+    ],
+    "languages": [
+      "python"
+    ],
+    "track": "python",
+    "prompt": "Generated practice problem in the algorithms topic.",
+    "statement_path": "problems/algorithms/algorithms-practice-029/statement.md",
+    "public_test_path": "problems/algorithms/algorithms-practice-029/tests/public.json",
+    "starter": "def solve(*args, **kwargs):\n    pass\n",
+    "function": "solve"
+  },
+  {
+    "id": "algorithms-practice-041",
+    "title": "Algorithms Practice 041",
+    "difficulty": "hard",
+    "category": "algorithms",
+    "tags": [
+      "practice",
+      "generated"
+    ],
+    "languages": [
+      "python"
+    ],
+    "track": "python",
+    "prompt": "Generated practice problem in the algorithms topic.",
+    "statement_path": "problems/algorithms/algorithms-practice-041/statement.md",
+    "public_test_path": "problems/algorithms/algorithms-practice-041/tests/public.json",
+    "starter": "def solve(*args, **kwargs):\n    pass\n",
+    "function": "solve"
+  },
+  {
+    "id": "algorithms-practice-053",
+    "title": "Algorithms Practice 053",
+    "difficulty": "hard",
+    "category": "algorithms",
+    "tags": [
+      "practice",
+      "generated"
+    ],
+    "languages": [
+      "python"
+    ],
+    "track": "python",
+    "prompt": "Generated practice problem in the algorithms topic.",
+    "statement_path": "problems/algorithms/algorithms-practice-053/statement.md",
+    "public_test_path": "problems/algorithms/algorithms-practice-053/tests/public.json",
+    "starter": "def solve(*args, **kwargs):\n    pass\n",
+    "function": "solve"
+  },
+  {
+    "id": "algorithms-practice-065",
+    "title": "Algorithms Practice 065",
+    "difficulty": "hard",
+    "category": "algorithms",
+    "tags": [
+      "practice",
+      "generated"
+    ],
+    "languages": [
+      "python"
+    ],
+    "track": "python",
+    "prompt": "Generated practice problem in the algorithms topic.",
+    "statement_path": "problems/algorithms/algorithms-practice-065/statement.md",
+    "public_test_path": "problems/algorithms/algorithms-practice-065/tests/public.json",
+    "starter": "def solve(*args, **kwargs):\n    pass\n",
+    "function": "solve"
+  },
+  {
+    "id": "kth-smallest-sorted-matrix",
+    "title": "Kth Smallest in Sorted Matrix",
+    "difficulty": "hard",
+    "category": "algorithms",
+    "tags": [
+      "seed"
+    ],
+    "languages": [
+      "python"
+    ],
+    "track": "python",
+    "prompt": "Seed practice problem for algorithms.",
+    "statement_path": "problems/algorithms/kth-smallest-sorted-matrix/statement.md",
+    "public_test_path": "problems/algorithms/kth-smallest-sorted-matrix/tests/public.json",
+    "starter": "def solve(*args, **kwargs):\n    pass\n",
+    "function": "solve"
+  },
+  {
+    "id": "algorithms-practice-001",
+    "title": "Algorithms Practice 001",
+    "difficulty": "medium",
+    "category": "algorithms",
+    "tags": [
+      "practice",
+      "generated"
+    ],
+    "languages": [
+      "python"
+    ],
+    "track": "python",
+    "prompt": "Generated practice problem in the algorithms topic.",
+    "statement_path": "problems/algorithms/algorithms-practice-001/statement.md",
+    "public_test_path": "problems/algorithms/algorithms-practice-001/tests/public.json",
+    "starter": "def solve(*args, **kwargs):\n    pass\n",
+    "function": "solve"
+  },
+  {
+    "id": "algorithms-practice-013",
+    "title": "Algorithms Practice 013",
+    "difficulty": "medium",
+    "category": "algorithms",
+    "tags": [
+      "practice",
+      "generated"
+    ],
+    "languages": [
+      "python"
+    ],
+    "track": "python",
+    "prompt": "Generated practice problem in the algorithms topic.",
+    "statement_path": "problems/algorithms/algorithms-practice-013/statement.md",
+    "public_test_path": "problems/algorithms/algorithms-practice-013/tests/public.json",
+    "starter": "def solve(*args, **kwargs):\n    pass\n",
+    "function": "solve"
+  },
+  {
+    "id": "algorithms-practice-025",
+    "title": "Algorithms Practice 025",
+    "difficulty": "medium",
+    "category": "algorithms",
+    "tags": [
+      "practice",
+      "generated"
+    ],
+    "languages": [
+      "python"
+    ],
+    "track": "python",
+    "prompt": "Generated practice problem in the algorithms topic.",
+    "statement_path": "problems/algorithms/algorithms-practice-025/statement.md",
+    "public_test_path": "problems/algorithms/algorithms-practice-025/tests/public.json",
+    "starter": "def solve(*args, **kwargs):\n    pass\n",
+    "function": "solve"
+  },
+  {
+    "id": "algorithms-practice-037",
+    "title": "Algorithms Practice 037",
+    "difficulty": "medium",
+    "category": "algorithms",
+    "tags": [
+      "practice",
+      "generated"
+    ],
+    "languages": [
+      "python"
+    ],
+    "track": "python",
+    "prompt": "Generated practice problem in the algorithms topic.",
+    "statement_path": "problems/algorithms/algorithms-practice-037/statement.md",
+    "public_test_path": "problems/algorithms/algorithms-practice-037/tests/public.json",
+    "starter": "def solve(*args, **kwargs):\n    pass\n",
+    "function": "solve"
+  },
+  {
+    "id": "algorithms-practice-049",
+    "title": "Algorithms Practice 049",
+    "difficulty": "medium",
+    "category": "algorithms",
+    "tags": [
+      "practice",
+      "generated"
+    ],
+    "languages": [
+      "python"
+    ],
+    "track": "python",
+    "prompt": "Generated practice problem in the algorithms topic.",
+    "statement_path": "problems/algorithms/algorithms-practice-049/statement.md",
+    "public_test_path": "problems/algorithms/algorithms-practice-049/tests/public.json",
+    "starter": "def solve(*args, **kwargs):\n    pass\n",
+    "function": "solve"
+  },
+  {
+    "id": "algorithms-practice-061",
+    "title": "Algorithms Practice 061",
+    "difficulty": "medium",
+    "category": "algorithms",
+    "tags": [
+      "practice",
+      "generated"
+    ],
+    "languages": [
+      "python"
+    ],
+    "track": "python",
+    "prompt": "Generated practice problem in the algorithms topic.",
+    "statement_path": "problems/algorithms/algorithms-practice-061/statement.md",
+    "public_test_path": "problems/algorithms/algorithms-practice-061/tests/public.json",
+    "starter": "def solve(*args, **kwargs):\n    pass\n",
+    "function": "solve"
+  },
+  {
+    "id": "binary-tree-level-order",
+    "title": "Binary Tree Level Order Traversal",
+    "difficulty": "medium",
+    "category": "algorithms",
+    "tags": [
+      "trees",
+      "bfs",
+      "queues"
+    ],
+    "languages": [
+      "python"
+    ],
+    "track": "python",
+    "prompt": "Given a binary tree represented as an array in level-order form (using `null` for missing nodes), return the node values grouped by depth level.",
+    "statement_path": "problems/algorithms/binary-tree-level-order/statement.md",
+    "public_test_path": "problems/algorithms/binary-tree-level-order/tests/public.json",
+    "starter": "def solve(*args, **kwargs):\n    pass\n",
+    "function": "solve"
+  },
+  {
+    "id": "detect-cycle-directed-graph",
+    "title": "Detect Cycle in Directed Graph",
+    "difficulty": "medium",
+    "category": "algorithms",
+    "tags": [
+      "seed"
+    ],
+    "languages": [
+      "python"
+    ],
+    "track": "python",
+    "prompt": "Seed practice problem for algorithms.",
+    "statement_path": "problems/algorithms/detect-cycle-directed-graph/statement.md",
+    "public_test_path": "problems/algorithms/detect-cycle-directed-graph/tests/public.json",
+    "starter": "def solve(*args, **kwargs):\n    pass\n",
+    "function": "solve"
+  },
+  {
+    "id": "merge-intervals",
+    "title": "Merge Overlapping Intervals",
+    "difficulty": "medium",
+    "category": "algorithms",
+    "tags": [
+      "arrays",
+      "sorting"
+    ],
+    "languages": [
+      "python"
+    ],
+    "track": "python",
+    "prompt": "Given a list of intervals where each interval is `[start, end]`, merge all overlapping intervals and return a list of non-overlapping intervals that covers the same ranges.",
+    "statement_path": "problems/algorithms/merge-intervals/statement.md",
+    "public_test_path": "problems/algorithms/merge-intervals/tests/public.json",
+    "starter": "def solve(*args, **kwargs):\n    pass\n",
+    "function": "solve"
+  },
+  {
+    "id": "number-of-islands",
+    "title": "Number of Islands",
+    "difficulty": "medium",
+    "category": "algorithms",
+    "tags": [
+      "graphs",
+      "dfs",
+      "bfs"
+    ],
+    "languages": [
+      "python"
+    ],
+    "track": "python",
+    "prompt": "Given a 2D grid of `'1'` (land) and `'0'` (water), return the number of islands. An island is formed by connecting adjacent lands horizontally or vertically.",
+    "statement_path": "problems/algorithms/number-of-islands/statement.md",
+    "public_test_path": "problems/algorithms/number-of-islands/tests/public.json",
+    "starter": "def solve(*args, **kwargs):\n    pass\n",
+    "function": "solve"
+  },
+  {
+    "id": "sliding-window-max-sum",
+    "title": "Sliding Window Max Sum",
+    "difficulty": "medium",
+    "category": "algorithms",
+    "tags": [
+      "seed"
+    ],
+    "languages": [
+      "python"
+    ],
+    "track": "python",
+    "prompt": "Seed practice problem for algorithms.",
+    "statement_path": "problems/algorithms/sliding-window-max-sum/statement.md",
+    "public_test_path": "problems/algorithms/sliding-window-max-sum/tests/public.json",
+    "starter": "def solve(*args, **kwargs):\n    pass\n",
+    "function": "solve"
+  },
+  {
+    "id": "clean-null-sales",
+    "title": "Clean Null Sales Rows",
+    "difficulty": "easy",
+    "category": "data_science",
+    "tags": [
+      "data-cleaning",
+      "preprocessing"
+    ],
+    "languages": [
+      "python"
+    ],
+    "track": "python",
+    "prompt": "Given a list of row dictionaries, return only rows with a valid numeric `sales` value.",
+    "statement_path": "problems/data_science/clean-null-sales/statement.md",
+    "public_test_path": "problems/data_science/clean-null-sales/tests/public.json",
+    "starter": "def solve(*args, **kwargs):\n    pass\n",
+    "function": "solve"
+  },
+  {
+    "id": "data-science-practice-006",
+    "title": "Data Science Practice 006",
+    "difficulty": "easy",
+    "category": "data_science",
+    "tags": [
+      "practice",
+      "generated"
+    ],
+    "languages": [
+      "python"
+    ],
+    "track": "python",
+    "prompt": "Generated practice problem in the data_science topic.",
+    "statement_path": "problems/data_science/data-science-practice-006/statement.md",
+    "public_test_path": "problems/data_science/data-science-practice-006/tests/public.json",
+    "starter": "def solve(*args, **kwargs):\n    pass\n",
+    "function": "solve"
+  },
+  {
+    "id": "data-science-practice-018",
+    "title": "Data Science Practice 018",
+    "difficulty": "easy",
+    "category": "data_science",
+    "tags": [
+      "practice",
+      "generated"
+    ],
+    "languages": [
+      "python"
+    ],
+    "track": "python",
+    "prompt": "Generated practice problem in the data_science topic.",
+    "statement_path": "problems/data_science/data-science-practice-018/statement.md",
+    "public_test_path": "problems/data_science/data-science-practice-018/tests/public.json",
+    "starter": "def solve(*args, **kwargs):\n    pass\n",
+    "function": "solve"
+  },
+  {
+    "id": "data-science-practice-030",
+    "title": "Data Science Practice 030",
+    "difficulty": "easy",
+    "category": "data_science",
+    "tags": [
+      "practice",
+      "generated"
+    ],
+    "languages": [
+      "python"
+    ],
+    "track": "python",
+    "prompt": "Generated practice problem in the data_science topic.",
+    "statement_path": "problems/data_science/data-science-practice-030/statement.md",
+    "public_test_path": "problems/data_science/data-science-practice-030/tests/public.json",
+    "starter": "def solve(*args, **kwargs):\n    pass\n",
+    "function": "solve"
+  },
+  {
+    "id": "data-science-practice-042",
+    "title": "Data Science Practice 042",
+    "difficulty": "easy",
+    "category": "data_science",
+    "tags": [
+      "practice",
+      "generated"
+    ],
+    "languages": [
+      "python"
+    ],
+    "track": "python",
+    "prompt": "Generated practice problem in the data_science topic.",
+    "statement_path": "problems/data_science/data-science-practice-042/statement.md",
+    "public_test_path": "problems/data_science/data-science-practice-042/tests/public.json",
+    "starter": "def solve(*args, **kwargs):\n    pass\n",
+    "function": "solve"
+  },
+  {
+    "id": "data-science-practice-054",
+    "title": "Data Science Practice 054",
+    "difficulty": "easy",
+    "category": "data_science",
+    "tags": [
+      "practice",
+      "generated"
+    ],
+    "languages": [
+      "python"
+    ],
+    "track": "python",
+    "prompt": "Generated practice problem in the data_science topic.",
+    "statement_path": "problems/data_science/data-science-practice-054/statement.md",
+    "public_test_path": "problems/data_science/data-science-practice-054/tests/public.json",
+    "starter": "def solve(*args, **kwargs):\n    pass\n",
+    "function": "solve"
+  },
+  {
+    "id": "data-science-practice-066",
+    "title": "Data Science Practice 066",
+    "difficulty": "easy",
+    "category": "data_science",
+    "tags": [
+      "practice",
+      "generated"
+    ],
+    "languages": [
+      "python"
+    ],
+    "track": "python",
+    "prompt": "Generated practice problem in the data_science topic.",
+    "statement_path": "problems/data_science/data-science-practice-066/statement.md",
+    "public_test_path": "problems/data_science/data-science-practice-066/tests/public.json",
+    "starter": "def solve(*args, **kwargs):\n    pass\n",
+    "function": "solve"
+  },
+  {
+    "id": "normalize-min-max-column",
+    "title": "Normalize Min-Max Column",
+    "difficulty": "easy",
+    "category": "data_science",
+    "tags": [
+      "seed"
+    ],
+    "languages": [
+      "python"
+    ],
+    "track": "python",
+    "prompt": "Seed practice problem for data_science.",
+    "statement_path": "problems/data_science/normalize-min-max-column/statement.md",
+    "public_test_path": "problems/data_science/normalize-min-max-column/tests/public.json",
+    "starter": "def solve(*args, **kwargs):\n    pass\n",
+    "function": "solve"
+  },
+  {
+    "id": "rolling-average-window",
+    "title": "Rolling Average Window",
+    "difficulty": "easy",
+    "category": "data_science",
+    "tags": [
+      "seed"
+    ],
+    "languages": [
+      "python"
+    ],
+    "track": "python",
+    "prompt": "Seed practice problem for data_science.",
+    "statement_path": "problems/data_science/rolling-average-window/statement.md",
+    "public_test_path": "problems/data_science/rolling-average-window/tests/public.json",
+    "starter": "def solve(*args, **kwargs):\n    pass\n",
+    "function": "solve"
+  },
+  {
+    "id": "data-science-practice-002",
+    "title": "Data Science Practice 002",
+    "difficulty": "hard",
+    "category": "data_science",
+    "tags": [
+      "practice",
+      "generated"
+    ],
+    "languages": [
+      "python"
+    ],
+    "track": "python",
+    "prompt": "Generated practice problem in the data_science topic.",
+    "statement_path": "problems/data_science/data-science-practice-002/statement.md",
+    "public_test_path": "problems/data_science/data-science-practice-002/tests/public.json",
+    "starter": "def solve(*args, **kwargs):\n    pass\n",
+    "function": "solve"
+  },
+  {
+    "id": "data-science-practice-014",
+    "title": "Data Science Practice 014",
+    "difficulty": "hard",
+    "category": "data_science",
+    "tags": [
+      "practice",
+      "generated"
+    ],
+    "languages": [
+      "python"
+    ],
+    "track": "python",
+    "prompt": "Generated practice problem in the data_science topic.",
+    "statement_path": "problems/data_science/data-science-practice-014/statement.md",
+    "public_test_path": "problems/data_science/data-science-practice-014/tests/public.json",
+    "starter": "def solve(*args, **kwargs):\n    pass\n",
+    "function": "solve"
+  },
+  {
+    "id": "data-science-practice-026",
+    "title": "Data Science Practice 026",
+    "difficulty": "hard",
+    "category": "data_science",
+    "tags": [
+      "practice",
+      "generated"
+    ],
+    "languages": [
+      "python"
+    ],
+    "track": "python",
+    "prompt": "Generated practice problem in the data_science topic.",
+    "statement_path": "problems/data_science/data-science-practice-026/statement.md",
+    "public_test_path": "problems/data_science/data-science-practice-026/tests/public.json",
+    "starter": "def solve(*args, **kwargs):\n    pass\n",
+    "function": "solve"
+  },
+  {
+    "id": "data-science-practice-038",
+    "title": "Data Science Practice 038",
+    "difficulty": "hard",
+    "category": "data_science",
+    "tags": [
+      "practice",
+      "generated"
+    ],
+    "languages": [
+      "python"
+    ],
+    "track": "python",
+    "prompt": "Generated practice problem in the data_science topic.",
+    "statement_path": "problems/data_science/data-science-practice-038/statement.md",
+    "public_test_path": "problems/data_science/data-science-practice-038/tests/public.json",
+    "starter": "def solve(*args, **kwargs):\n    pass\n",
+    "function": "solve"
+  },
+  {
+    "id": "data-science-practice-050",
+    "title": "Data Science Practice 050",
+    "difficulty": "hard",
+    "category": "data_science",
+    "tags": [
+      "practice",
+      "generated"
+    ],
+    "languages": [
+      "python"
+    ],
+    "track": "python",
+    "prompt": "Generated practice problem in the data_science topic.",
+    "statement_path": "problems/data_science/data-science-practice-050/statement.md",
+    "public_test_path": "problems/data_science/data-science-practice-050/tests/public.json",
+    "starter": "def solve(*args, **kwargs):\n    pass\n",
+    "function": "solve"
+  },
+  {
+    "id": "data-science-practice-062",
+    "title": "Data Science Practice 062",
+    "difficulty": "hard",
+    "category": "data_science",
+    "tags": [
+      "practice",
+      "generated"
+    ],
+    "languages": [
+      "python"
+    ],
+    "track": "python",
+    "prompt": "Generated practice problem in the data_science topic.",
+    "statement_path": "problems/data_science/data-science-practice-062/statement.md",
+    "public_test_path": "problems/data_science/data-science-practice-062/tests/public.json",
+    "starter": "def solve(*args, **kwargs):\n    pass\n",
+    "function": "solve"
+  },
+  {
+    "id": "dedupe-latest-record",
+    "title": "Deduplicate Latest Record",
+    "difficulty": "hard",
+    "category": "data_science",
+    "tags": [
+      "seed"
+    ],
+    "languages": [
+      "python"
+    ],
+    "track": "python",
+    "prompt": "Seed practice problem for data_science.",
+    "statement_path": "problems/data_science/dedupe-latest-record/statement.md",
+    "public_test_path": "problems/data_science/dedupe-latest-record/tests/public.json",
+    "starter": "def solve(*args, **kwargs):\n    pass\n",
+    "function": "solve"
+  },
+  {
+    "id": "data-science-practice-010",
+    "title": "Data Science Practice 010",
+    "difficulty": "medium",
+    "category": "data_science",
+    "tags": [
+      "practice",
+      "generated"
+    ],
+    "languages": [
+      "python"
+    ],
+    "track": "python",
+    "prompt": "Generated practice problem in the data_science topic.",
+    "statement_path": "problems/data_science/data-science-practice-010/statement.md",
+    "public_test_path": "problems/data_science/data-science-practice-010/tests/public.json",
+    "starter": "def solve(*args, **kwargs):\n    pass\n",
+    "function": "solve"
+  },
+  {
+    "id": "data-science-practice-022",
+    "title": "Data Science Practice 022",
+    "difficulty": "medium",
+    "category": "data_science",
+    "tags": [
+      "practice",
+      "generated"
+    ],
+    "languages": [
+      "python"
+    ],
+    "track": "python",
+    "prompt": "Generated practice problem in the data_science topic.",
+    "statement_path": "problems/data_science/data-science-practice-022/statement.md",
+    "public_test_path": "problems/data_science/data-science-practice-022/tests/public.json",
+    "starter": "def solve(*args, **kwargs):\n    pass\n",
+    "function": "solve"
+  },
+  {
+    "id": "data-science-practice-034",
+    "title": "Data Science Practice 034",
+    "difficulty": "medium",
+    "category": "data_science",
+    "tags": [
+      "practice",
+      "generated"
+    ],
+    "languages": [
+      "python"
+    ],
+    "track": "python",
+    "prompt": "Generated practice problem in the data_science topic.",
+    "statement_path": "problems/data_science/data-science-practice-034/statement.md",
+    "public_test_path": "problems/data_science/data-science-practice-034/tests/public.json",
+    "starter": "def solve(*args, **kwargs):\n    pass\n",
+    "function": "solve"
+  },
+  {
+    "id": "data-science-practice-046",
+    "title": "Data Science Practice 046",
+    "difficulty": "medium",
+    "category": "data_science",
+    "tags": [
+      "practice",
+      "generated"
+    ],
+    "languages": [
+      "python"
+    ],
+    "track": "python",
+    "prompt": "Generated practice problem in the data_science topic.",
+    "statement_path": "problems/data_science/data-science-practice-046/statement.md",
+    "public_test_path": "problems/data_science/data-science-practice-046/tests/public.json",
+    "starter": "def solve(*args, **kwargs):\n    pass\n",
+    "function": "solve"
+  },
+  {
+    "id": "data-science-practice-058",
+    "title": "Data Science Practice 058",
+    "difficulty": "medium",
+    "category": "data_science",
+    "tags": [
+      "practice",
+      "generated"
+    ],
+    "languages": [
+      "python"
+    ],
+    "track": "python",
+    "prompt": "Generated practice problem in the data_science topic.",
+    "statement_path": "problems/data_science/data-science-practice-058/statement.md",
+    "public_test_path": "problems/data_science/data-science-practice-058/tests/public.json",
+    "starter": "def solve(*args, **kwargs):\n    pass\n",
+    "function": "solve"
+  },
+  {
+    "id": "data-science-practice-070",
+    "title": "Data Science Practice 070",
+    "difficulty": "medium",
+    "category": "data_science",
+    "tags": [
+      "practice",
+      "generated"
+    ],
+    "languages": [
+      "python"
+    ],
+    "track": "python",
+    "prompt": "Generated practice problem in the data_science topic.",
+    "statement_path": "problems/data_science/data-science-practice-070/statement.md",
+    "public_test_path": "problems/data_science/data-science-practice-070/tests/public.json",
+    "starter": "def solve(*args, **kwargs):\n    pass\n",
+    "function": "solve"
+  },
+  {
+    "id": "group-mean-by-region",
+    "title": "Group Mean by Region",
+    "difficulty": "medium",
+    "category": "data_science",
+    "tags": [
+      "seed"
+    ],
+    "languages": [
+      "python"
+    ],
+    "track": "python",
+    "prompt": "Seed practice problem for data_science.",
+    "statement_path": "problems/data_science/group-mean-by-region/statement.md",
+    "public_test_path": "problems/data_science/group-mean-by-region/tests/public.json",
+    "starter": "def solve(*args, **kwargs):\n    pass\n",
+    "function": "solve"
+  },
+  {
+    "id": "iqr-outlier-flag",
+    "title": "IQR Outlier Flagging",
+    "difficulty": "medium",
+    "category": "data_science",
+    "tags": [
+      "seed"
+    ],
+    "languages": [
+      "python"
+    ],
+    "track": "python",
+    "prompt": "Seed practice problem for data_science.",
+    "statement_path": "problems/data_science/iqr-outlier-flag/statement.md",
+    "public_test_path": "problems/data_science/iqr-outlier-flag/tests/public.json",
+    "starter": "def solve(*args, **kwargs):\n    pass\n",
+    "function": "solve"
+  },
+  {
+    "id": "binary-confusion-metrics",
+    "title": "Binary Confusion Metrics",
+    "difficulty": "easy",
+    "category": "ml_fundamentals",
+    "tags": [
+      "seed"
+    ],
+    "languages": [
+      "python"
+    ],
+    "track": "python",
+    "prompt": "Seed practice problem for ml_fundamentals.",
+    "statement_path": "problems/ml_fundamentals/binary-confusion-metrics/statement.md",
+    "public_test_path": "problems/ml_fundamentals/binary-confusion-metrics/tests/public.json",
+    "starter": "def solve(*args, **kwargs):\n    pass\n",
+    "function": "solve"
+  },
+  {
+    "id": "logistic-threshold-classifier",
+    "title": "Logistic Threshold Classifier",
+    "difficulty": "easy",
+    "category": "ml_fundamentals",
+    "tags": [
+      "classification",
+      "metrics",
+      "thresholds"
+    ],
+    "languages": [
+      "python"
+    ],
+    "track": "python",
+    "prompt": "Given a list of model probabilities and a threshold, convert each probability into class label `1` if `p >= threshold`, else `0`.",
+    "statement_path": "problems/ml_fundamentals/logistic-threshold-classifier/statement.md",
+    "public_test_path": "problems/ml_fundamentals/logistic-threshold-classifier/tests/public.json",
+    "starter": "def solve(*args, **kwargs):\n    pass\n",
+    "function": "solve"
+  },
+  {
+    "id": "ml-fundamentals-practice-003",
+    "title": "Ml Fundamentals Practice 003",
+    "difficulty": "easy",
+    "category": "ml_fundamentals",
+    "tags": [
+      "practice",
+      "generated"
+    ],
+    "languages": [
+      "python"
+    ],
+    "track": "python",
+    "prompt": "Generated practice problem in the ml_fundamentals topic.",
+    "statement_path": "problems/ml_fundamentals/ml-fundamentals-practice-003/statement.md",
+    "public_test_path": "problems/ml_fundamentals/ml-fundamentals-practice-003/tests/public.json",
+    "starter": "def solve(*args, **kwargs):\n    pass\n",
+    "function": "solve"
+  },
+  {
+    "id": "ml-fundamentals-practice-015",
+    "title": "Ml Fundamentals Practice 015",
+    "difficulty": "easy",
+    "category": "ml_fundamentals",
+    "tags": [
+      "practice",
+      "generated"
+    ],
+    "languages": [
+      "python"
+    ],
+    "track": "python",
+    "prompt": "Generated practice problem in the ml_fundamentals topic.",
+    "statement_path": "problems/ml_fundamentals/ml-fundamentals-practice-015/statement.md",
+    "public_test_path": "problems/ml_fundamentals/ml-fundamentals-practice-015/tests/public.json",
+    "starter": "def solve(*args, **kwargs):\n    pass\n",
+    "function": "solve"
+  },
+  {
+    "id": "ml-fundamentals-practice-027",
+    "title": "Ml Fundamentals Practice 027",
+    "difficulty": "easy",
+    "category": "ml_fundamentals",
+    "tags": [
+      "practice",
+      "generated"
+    ],
+    "languages": [
+      "python"
+    ],
+    "track": "python",
+    "prompt": "Generated practice problem in the ml_fundamentals topic.",
+    "statement_path": "problems/ml_fundamentals/ml-fundamentals-practice-027/statement.md",
+    "public_test_path": "problems/ml_fundamentals/ml-fundamentals-practice-027/tests/public.json",
+    "starter": "def solve(*args, **kwargs):\n    pass\n",
+    "function": "solve"
+  },
+  {
+    "id": "ml-fundamentals-practice-039",
+    "title": "Ml Fundamentals Practice 039",
+    "difficulty": "easy",
+    "category": "ml_fundamentals",
+    "tags": [
+      "practice",
+      "generated"
+    ],
+    "languages": [
+      "python"
+    ],
+    "track": "python",
+    "prompt": "Generated practice problem in the ml_fundamentals topic.",
+    "statement_path": "problems/ml_fundamentals/ml-fundamentals-practice-039/statement.md",
+    "public_test_path": "problems/ml_fundamentals/ml-fundamentals-practice-039/tests/public.json",
+    "starter": "def solve(*args, **kwargs):\n    pass\n",
+    "function": "solve"
+  },
+  {
+    "id": "ml-fundamentals-practice-051",
+    "title": "Ml Fundamentals Practice 051",
+    "difficulty": "easy",
+    "category": "ml_fundamentals",
+    "tags": [
+      "practice",
+      "generated"
+    ],
+    "languages": [
+      "python"
+    ],
+    "track": "python",
+    "prompt": "Generated practice problem in the ml_fundamentals topic.",
+    "statement_path": "problems/ml_fundamentals/ml-fundamentals-practice-051/statement.md",
+    "public_test_path": "problems/ml_fundamentals/ml-fundamentals-practice-051/tests/public.json",
+    "starter": "def solve(*args, **kwargs):\n    pass\n",
+    "function": "solve"
+  },
+  {
+    "id": "ml-fundamentals-practice-063",
+    "title": "Ml Fundamentals Practice 063",
+    "difficulty": "easy",
+    "category": "ml_fundamentals",
+    "tags": [
+      "practice",
+      "generated"
+    ],
+    "languages": [
+      "python"
+    ],
+    "track": "python",
+    "prompt": "Generated practice problem in the ml_fundamentals topic.",
+    "statement_path": "problems/ml_fundamentals/ml-fundamentals-practice-063/statement.md",
+    "public_test_path": "problems/ml_fundamentals/ml-fundamentals-practice-063/tests/public.json",
+    "starter": "def solve(*args, **kwargs):\n    pass\n",
+    "function": "solve"
+  },
+  {
+    "id": "train-val-split-index",
+    "title": "Train Validation Split Index",
+    "difficulty": "easy",
+    "category": "ml_fundamentals",
+    "tags": [
+      "seed"
+    ],
+    "languages": [
+      "python"
+    ],
+    "track": "python",
+    "prompt": "Seed practice problem for ml_fundamentals.",
+    "statement_path": "problems/ml_fundamentals/train-val-split-index/statement.md",
+    "public_test_path": "problems/ml_fundamentals/train-val-split-index/tests/public.json",
+    "starter": "def solve(*args, **kwargs):\n    pass\n",
+    "function": "solve"
+  },
+  {
+    "id": "early-stop-criteria",
+    "title": "Early Stop Criteria",
+    "difficulty": "hard",
+    "category": "ml_fundamentals",
+    "tags": [
+      "seed"
+    ],
+    "languages": [
+      "python"
+    ],
+    "track": "python",
+    "prompt": "Seed practice problem for ml_fundamentals.",
+    "statement_path": "problems/ml_fundamentals/early-stop-criteria/statement.md",
+    "public_test_path": "problems/ml_fundamentals/early-stop-criteria/tests/public.json",
+    "starter": "def solve(*args, **kwargs):\n    pass\n",
+    "function": "solve"
+  },
+  {
+    "id": "ml-fundamentals-practice-011",
+    "title": "Ml Fundamentals Practice 011",
+    "difficulty": "hard",
+    "category": "ml_fundamentals",
+    "tags": [
+      "practice",
+      "generated"
+    ],
+    "languages": [
+      "python"
+    ],
+    "track": "python",
+    "prompt": "Generated practice problem in the ml_fundamentals topic.",
+    "statement_path": "problems/ml_fundamentals/ml-fundamentals-practice-011/statement.md",
+    "public_test_path": "problems/ml_fundamentals/ml-fundamentals-practice-011/tests/public.json",
+    "starter": "def solve(*args, **kwargs):\n    pass\n",
+    "function": "solve"
+  },
+  {
+    "id": "ml-fundamentals-practice-023",
+    "title": "Ml Fundamentals Practice 023",
+    "difficulty": "hard",
+    "category": "ml_fundamentals",
+    "tags": [
+      "practice",
+      "generated"
+    ],
+    "languages": [
+      "python"
+    ],
+    "track": "python",
+    "prompt": "Generated practice problem in the ml_fundamentals topic.",
+    "statement_path": "problems/ml_fundamentals/ml-fundamentals-practice-023/statement.md",
+    "public_test_path": "problems/ml_fundamentals/ml-fundamentals-practice-023/tests/public.json",
+    "starter": "def solve(*args, **kwargs):\n    pass\n",
+    "function": "solve"
+  },
+  {
+    "id": "ml-fundamentals-practice-035",
+    "title": "Ml Fundamentals Practice 035",
+    "difficulty": "hard",
+    "category": "ml_fundamentals",
+    "tags": [
+      "practice",
+      "generated"
+    ],
+    "languages": [
+      "python"
+    ],
+    "track": "python",
+    "prompt": "Generated practice problem in the ml_fundamentals topic.",
+    "statement_path": "problems/ml_fundamentals/ml-fundamentals-practice-035/statement.md",
+    "public_test_path": "problems/ml_fundamentals/ml-fundamentals-practice-035/tests/public.json",
+    "starter": "def solve(*args, **kwargs):\n    pass\n",
+    "function": "solve"
+  },
+  {
+    "id": "ml-fundamentals-practice-047",
+    "title": "Ml Fundamentals Practice 047",
+    "difficulty": "hard",
+    "category": "ml_fundamentals",
+    "tags": [
+      "practice",
+      "generated"
+    ],
+    "languages": [
+      "python"
+    ],
+    "track": "python",
+    "prompt": "Generated practice problem in the ml_fundamentals topic.",
+    "statement_path": "problems/ml_fundamentals/ml-fundamentals-practice-047/statement.md",
+    "public_test_path": "problems/ml_fundamentals/ml-fundamentals-practice-047/tests/public.json",
+    "starter": "def solve(*args, **kwargs):\n    pass\n",
+    "function": "solve"
+  },
+  {
+    "id": "ml-fundamentals-practice-059",
+    "title": "Ml Fundamentals Practice 059",
+    "difficulty": "hard",
+    "category": "ml_fundamentals",
+    "tags": [
+      "practice",
+      "generated"
+    ],
+    "languages": [
+      "python"
+    ],
+    "track": "python",
+    "prompt": "Generated practice problem in the ml_fundamentals topic.",
+    "statement_path": "problems/ml_fundamentals/ml-fundamentals-practice-059/statement.md",
+    "public_test_path": "problems/ml_fundamentals/ml-fundamentals-practice-059/tests/public.json",
+    "starter": "def solve(*args, **kwargs):\n    pass\n",
+    "function": "solve"
+  },
+  {
+    "id": "gradient-descent-step",
+    "title": "One Gradient Descent Step",
+    "difficulty": "medium",
+    "category": "ml_fundamentals",
+    "tags": [
+      "optimization",
+      "linear-models",
+      "regression"
+    ],
+    "languages": [
+      "python"
+    ],
+    "track": "python",
+    "prompt": "Given current `weights`, `gradients`, and `learning_rate`, compute updated weights after one gradient descent step.",
+    "statement_path": "problems/ml_fundamentals/gradient-descent-step/statement.md",
+    "public_test_path": "problems/ml_fundamentals/gradient-descent-step/tests/public.json",
+    "starter": "def solve(*args, **kwargs):\n    pass\n",
+    "function": "solve"
+  },
+  {
+    "id": "ml-fundamentals-practice-007",
+    "title": "Ml Fundamentals Practice 007",
+    "difficulty": "medium",
+    "category": "ml_fundamentals",
+    "tags": [
+      "practice",
+      "generated"
+    ],
+    "languages": [
+      "python"
+    ],
+    "track": "python",
+    "prompt": "Generated practice problem in the ml_fundamentals topic.",
+    "statement_path": "problems/ml_fundamentals/ml-fundamentals-practice-007/statement.md",
+    "public_test_path": "problems/ml_fundamentals/ml-fundamentals-practice-007/tests/public.json",
+    "starter": "def solve(*args, **kwargs):\n    pass\n",
+    "function": "solve"
+  },
+  {
+    "id": "ml-fundamentals-practice-019",
+    "title": "Ml Fundamentals Practice 019",
+    "difficulty": "medium",
+    "category": "ml_fundamentals",
+    "tags": [
+      "practice",
+      "generated"
+    ],
+    "languages": [
+      "python"
+    ],
+    "track": "python",
+    "prompt": "Generated practice problem in the ml_fundamentals topic.",
+    "statement_path": "problems/ml_fundamentals/ml-fundamentals-practice-019/statement.md",
+    "public_test_path": "problems/ml_fundamentals/ml-fundamentals-practice-019/tests/public.json",
+    "starter": "def solve(*args, **kwargs):\n    pass\n",
+    "function": "solve"
+  },
+  {
+    "id": "ml-fundamentals-practice-031",
+    "title": "Ml Fundamentals Practice 031",
+    "difficulty": "medium",
+    "category": "ml_fundamentals",
+    "tags": [
+      "practice",
+      "generated"
+    ],
+    "languages": [
+      "python"
+    ],
+    "track": "python",
+    "prompt": "Generated practice problem in the ml_fundamentals topic.",
+    "statement_path": "problems/ml_fundamentals/ml-fundamentals-practice-031/statement.md",
+    "public_test_path": "problems/ml_fundamentals/ml-fundamentals-practice-031/tests/public.json",
+    "starter": "def solve(*args, **kwargs):\n    pass\n",
+    "function": "solve"
+  },
+  {
+    "id": "ml-fundamentals-practice-043",
+    "title": "Ml Fundamentals Practice 043",
+    "difficulty": "medium",
+    "category": "ml_fundamentals",
+    "tags": [
+      "practice",
+      "generated"
+    ],
+    "languages": [
+      "python"
+    ],
+    "track": "python",
+    "prompt": "Generated practice problem in the ml_fundamentals topic.",
+    "statement_path": "problems/ml_fundamentals/ml-fundamentals-practice-043/statement.md",
+    "public_test_path": "problems/ml_fundamentals/ml-fundamentals-practice-043/tests/public.json",
+    "starter": "def solve(*args, **kwargs):\n    pass\n",
+    "function": "solve"
+  },
+  {
+    "id": "ml-fundamentals-practice-055",
+    "title": "Ml Fundamentals Practice 055",
+    "difficulty": "medium",
+    "category": "ml_fundamentals",
+    "tags": [
+      "practice",
+      "generated"
+    ],
+    "languages": [
+      "python"
+    ],
+    "track": "python",
+    "prompt": "Generated practice problem in the ml_fundamentals topic.",
+    "statement_path": "problems/ml_fundamentals/ml-fundamentals-practice-055/statement.md",
+    "public_test_path": "problems/ml_fundamentals/ml-fundamentals-practice-055/tests/public.json",
+    "starter": "def solve(*args, **kwargs):\n    pass\n",
+    "function": "solve"
+  },
+  {
+    "id": "ml-fundamentals-practice-067",
+    "title": "Ml Fundamentals Practice 067",
+    "difficulty": "medium",
+    "category": "ml_fundamentals",
+    "tags": [
+      "practice",
+      "generated"
+    ],
+    "languages": [
+      "python"
+    ],
+    "track": "python",
+    "prompt": "Generated practice problem in the ml_fundamentals topic.",
+    "statement_path": "problems/ml_fundamentals/ml-fundamentals-practice-067/statement.md",
+    "public_test_path": "problems/ml_fundamentals/ml-fundamentals-practice-067/tests/public.json",
+    "starter": "def solve(*args, **kwargs):\n    pass\n",
+    "function": "solve"
+  },
+  {
+    "id": "precision-recall-threshold",
+    "title": "Precision Recall at Threshold",
+    "difficulty": "medium",
+    "category": "ml_fundamentals",
+    "tags": [
+      "seed"
+    ],
+    "languages": [
+      "python"
+    ],
+    "track": "python",
+    "prompt": "Seed practice problem for ml_fundamentals.",
+    "statement_path": "problems/ml_fundamentals/precision-recall-threshold/statement.md",
+    "public_test_path": "problems/ml_fundamentals/precision-recall-threshold/tests/public.json",
+    "starter": "def solve(*args, **kwargs):\n    pass\n",
+    "function": "solve"
+  },
+  {
+    "id": "sgd-mini-batch-step",
+    "title": "SGD Mini-Batch Step",
+    "difficulty": "medium",
+    "category": "ml_fundamentals",
+    "tags": [
+      "seed"
+    ],
+    "languages": [
+      "python"
+    ],
+    "track": "python",
+    "prompt": "Seed practice problem for ml_fundamentals.",
+    "statement_path": "problems/ml_fundamentals/sgd-mini-batch-step/statement.md",
+    "public_test_path": "problems/ml_fundamentals/sgd-mini-batch-step/tests/public.json",
+    "starter": "def solve(*args, **kwargs):\n    pass\n",
+    "function": "solve"
+  },
+  {
+    "id": "csv-column-extract",
+    "title": "CSV Column Extract",
+    "difficulty": "easy",
+    "category": "shell_lab",
+    "tags": [
+      "seed"
+    ],
+    "languages": [
+      "shell"
+    ],
+    "track": "shell",
+    "prompt": "Seed practice problem for shell_lab.",
+    "statement_path": "problems/shell_lab/csv-column-extract/statement.md",
+    "public_test_path": "problems/shell_lab/csv-column-extract/tests/public.json",
+    "starter": "# Shell challenge: run in your terminal"
+  },
+  {
+    "id": "grep-count-unique-users",
+    "title": "Grep Count Unique Users",
+    "difficulty": "easy",
+    "category": "shell_lab",
+    "tags": [
+      "seed"
+    ],
+    "languages": [
+      "shell"
+    ],
+    "track": "shell",
+    "prompt": "Seed practice problem for shell_lab.",
+    "statement_path": "problems/shell_lab/grep-count-unique-users/statement.md",
+    "public_test_path": "problems/shell_lab/grep-count-unique-users/tests/public.json",
+    "starter": "# Shell challenge: run in your terminal"
+  },
+  {
+    "id": "shell-lab-practice-012",
+    "title": "Shell Lab Practice 012",
+    "difficulty": "easy",
+    "category": "shell_lab",
+    "tags": [
+      "practice",
+      "generated"
+    ],
+    "languages": [
+      "shell"
+    ],
+    "track": "shell",
+    "prompt": "Generated practice problem in the shell_lab topic.",
+    "statement_path": "problems/shell_lab/shell-lab-practice-012/statement.md",
+    "public_test_path": "problems/shell_lab/shell-lab-practice-012/tests/public.json",
+    "starter": "# Shell challenge: run in your terminal"
+  },
+  {
+    "id": "shell-lab-practice-024",
+    "title": "Shell Lab Practice 024",
+    "difficulty": "easy",
+    "category": "shell_lab",
+    "tags": [
+      "practice",
+      "generated"
+    ],
+    "languages": [
+      "shell"
+    ],
+    "track": "shell",
+    "prompt": "Generated practice problem in the shell_lab topic.",
+    "statement_path": "problems/shell_lab/shell-lab-practice-024/statement.md",
+    "public_test_path": "problems/shell_lab/shell-lab-practice-024/tests/public.json",
+    "starter": "# Shell challenge: run in your terminal"
+  },
+  {
+    "id": "shell-lab-practice-036",
+    "title": "Shell Lab Practice 036",
+    "difficulty": "easy",
+    "category": "shell_lab",
+    "tags": [
+      "practice",
+      "generated"
+    ],
+    "languages": [
+      "shell"
+    ],
+    "track": "shell",
+    "prompt": "Generated practice problem in the shell_lab topic.",
+    "statement_path": "problems/shell_lab/shell-lab-practice-036/statement.md",
+    "public_test_path": "problems/shell_lab/shell-lab-practice-036/tests/public.json",
+    "starter": "# Shell challenge: run in your terminal"
+  },
+  {
+    "id": "shell-lab-practice-048",
+    "title": "Shell Lab Practice 048",
+    "difficulty": "easy",
+    "category": "shell_lab",
+    "tags": [
+      "practice",
+      "generated"
+    ],
+    "languages": [
+      "shell"
+    ],
+    "track": "shell",
+    "prompt": "Generated practice problem in the shell_lab topic.",
+    "statement_path": "problems/shell_lab/shell-lab-practice-048/statement.md",
+    "public_test_path": "problems/shell_lab/shell-lab-practice-048/tests/public.json",
+    "starter": "# Shell challenge: run in your terminal"
+  },
+  {
+    "id": "shell-lab-practice-060",
+    "title": "Shell Lab Practice 060",
+    "difficulty": "easy",
+    "category": "shell_lab",
+    "tags": [
+      "practice",
+      "generated"
+    ],
+    "languages": [
+      "shell"
+    ],
+    "track": "shell",
+    "prompt": "Generated practice problem in the shell_lab topic.",
+    "statement_path": "problems/shell_lab/shell-lab-practice-060/statement.md",
+    "public_test_path": "problems/shell_lab/shell-lab-practice-060/tests/public.json",
+    "starter": "# Shell challenge: run in your terminal"
+  },
+  {
+    "id": "shell-lab-practice-008",
+    "title": "Shell Lab Practice 008",
+    "difficulty": "hard",
+    "category": "shell_lab",
+    "tags": [
+      "practice",
+      "generated"
+    ],
+    "languages": [
+      "shell"
+    ],
+    "track": "shell",
+    "prompt": "Generated practice problem in the shell_lab topic.",
+    "statement_path": "problems/shell_lab/shell-lab-practice-008/statement.md",
+    "public_test_path": "problems/shell_lab/shell-lab-practice-008/tests/public.json",
+    "starter": "# Shell challenge: run in your terminal"
+  },
+  {
+    "id": "shell-lab-practice-020",
+    "title": "Shell Lab Practice 020",
+    "difficulty": "hard",
+    "category": "shell_lab",
+    "tags": [
+      "practice",
+      "generated"
+    ],
+    "languages": [
+      "shell"
+    ],
+    "track": "shell",
+    "prompt": "Generated practice problem in the shell_lab topic.",
+    "statement_path": "problems/shell_lab/shell-lab-practice-020/statement.md",
+    "public_test_path": "problems/shell_lab/shell-lab-practice-020/tests/public.json",
+    "starter": "# Shell challenge: run in your terminal"
+  },
+  {
+    "id": "shell-lab-practice-032",
+    "title": "Shell Lab Practice 032",
+    "difficulty": "hard",
+    "category": "shell_lab",
+    "tags": [
+      "practice",
+      "generated"
+    ],
+    "languages": [
+      "shell"
+    ],
+    "track": "shell",
+    "prompt": "Generated practice problem in the shell_lab topic.",
+    "statement_path": "problems/shell_lab/shell-lab-practice-032/statement.md",
+    "public_test_path": "problems/shell_lab/shell-lab-practice-032/tests/public.json",
+    "starter": "# Shell challenge: run in your terminal"
+  },
+  {
+    "id": "shell-lab-practice-044",
+    "title": "Shell Lab Practice 044",
+    "difficulty": "hard",
+    "category": "shell_lab",
+    "tags": [
+      "practice",
+      "generated"
+    ],
+    "languages": [
+      "shell"
+    ],
+    "track": "shell",
+    "prompt": "Generated practice problem in the shell_lab topic.",
+    "statement_path": "problems/shell_lab/shell-lab-practice-044/statement.md",
+    "public_test_path": "problems/shell_lab/shell-lab-practice-044/tests/public.json",
+    "starter": "# Shell challenge: run in your terminal"
+  },
+  {
+    "id": "shell-lab-practice-056",
+    "title": "Shell Lab Practice 056",
+    "difficulty": "hard",
+    "category": "shell_lab",
+    "tags": [
+      "practice",
+      "generated"
+    ],
+    "languages": [
+      "shell"
+    ],
+    "track": "shell",
+    "prompt": "Generated practice problem in the shell_lab topic.",
+    "statement_path": "problems/shell_lab/shell-lab-practice-056/statement.md",
+    "public_test_path": "problems/shell_lab/shell-lab-practice-056/tests/public.json",
+    "starter": "# Shell challenge: run in your terminal"
+  },
+  {
+    "id": "shell-lab-practice-068",
+    "title": "Shell Lab Practice 068",
+    "difficulty": "hard",
+    "category": "shell_lab",
+    "tags": [
+      "practice",
+      "generated"
+    ],
+    "languages": [
+      "shell"
+    ],
+    "track": "shell",
+    "prompt": "Generated practice problem in the shell_lab topic.",
+    "statement_path": "problems/shell_lab/shell-lab-practice-068/statement.md",
+    "public_test_path": "problems/shell_lab/shell-lab-practice-068/tests/public.json",
+    "starter": "# Shell challenge: run in your terminal"
+  },
+  {
+    "id": "stream-anomaly-lines",
+    "title": "Stream Anomaly Lines",
+    "difficulty": "hard",
+    "category": "shell_lab",
+    "tags": [
+      "seed"
+    ],
+    "languages": [
+      "shell"
+    ],
+    "track": "shell",
+    "prompt": "Seed practice problem for shell_lab.",
+    "statement_path": "problems/shell_lab/stream-anomaly-lines/statement.md",
+    "public_test_path": "problems/shell_lab/stream-anomaly-lines/tests/public.json",
+    "starter": "# Shell challenge: run in your terminal"
+  },
+  {
+    "id": "top-k-error-ips",
+    "title": "Top K IPs with ERROR Logs",
+    "difficulty": "hard",
+    "category": "shell_lab",
+    "tags": [
+      "linux",
+      "grep",
+      "awk",
+      "sort",
+      "uniq"
+    ],
+    "languages": [
+      "shell"
+    ],
+    "track": "shell",
+    "prompt": "Given a log file where each line starts with an IP address and includes a log level token, print the top `k` IP addresses that generated `ERROR` logs.",
+    "statement_path": "problems/shell_lab/top-k-error-ips/statement.md",
+    "public_test_path": "problems/shell_lab/top-k-error-ips/tests/public.json",
+    "starter": "# Shell challenge: run in your terminal"
+  },
+  {
+    "id": "join-two-files-on-key",
+    "title": "Join Two Files on Key",
+    "difficulty": "medium",
+    "category": "shell_lab",
+    "tags": [
+      "seed"
+    ],
+    "languages": [
+      "shell"
+    ],
+    "track": "shell",
+    "prompt": "Seed practice problem for shell_lab.",
+    "statement_path": "problems/shell_lab/join-two-files-on-key/statement.md",
+    "public_test_path": "problems/shell_lab/join-two-files-on-key/tests/public.json",
+    "starter": "# Shell challenge: run in your terminal"
+  },
+  {
+    "id": "log-level-counter",
+    "title": "Count Log Levels in a File",
+    "difficulty": "medium",
+    "category": "shell_lab",
+    "tags": [
+      "linux",
+      "grep",
+      "sort",
+      "uniq"
+    ],
+    "languages": [
+      "shell"
+    ],
+    "track": "shell",
+    "prompt": "Given a log file with entries like:",
+    "statement_path": "problems/shell_lab/log-level-counter/statement.md",
+    "public_test_path": "problems/shell_lab/log-level-counter/tests/public.json",
+    "starter": "# Shell challenge: run in your terminal"
+  },
+  {
+    "id": "shell-lab-practice-004",
+    "title": "Shell Lab Practice 004",
+    "difficulty": "medium",
+    "category": "shell_lab",
+    "tags": [
+      "practice",
+      "generated"
+    ],
+    "languages": [
+      "shell"
+    ],
+    "track": "shell",
+    "prompt": "Generated practice problem in the shell_lab topic.",
+    "statement_path": "problems/shell_lab/shell-lab-practice-004/statement.md",
+    "public_test_path": "problems/shell_lab/shell-lab-practice-004/tests/public.json",
+    "starter": "# Shell challenge: run in your terminal"
+  },
+  {
+    "id": "shell-lab-practice-016",
+    "title": "Shell Lab Practice 016",
+    "difficulty": "medium",
+    "category": "shell_lab",
+    "tags": [
+      "practice",
+      "generated"
+    ],
+    "languages": [
+      "shell"
+    ],
+    "track": "shell",
+    "prompt": "Generated practice problem in the shell_lab topic.",
+    "statement_path": "problems/shell_lab/shell-lab-practice-016/statement.md",
+    "public_test_path": "problems/shell_lab/shell-lab-practice-016/tests/public.json",
+    "starter": "# Shell challenge: run in your terminal"
+  },
+  {
+    "id": "shell-lab-practice-028",
+    "title": "Shell Lab Practice 028",
+    "difficulty": "medium",
+    "category": "shell_lab",
+    "tags": [
+      "practice",
+      "generated"
+    ],
+    "languages": [
+      "shell"
+    ],
+    "track": "shell",
+    "prompt": "Generated practice problem in the shell_lab topic.",
+    "statement_path": "problems/shell_lab/shell-lab-practice-028/statement.md",
+    "public_test_path": "problems/shell_lab/shell-lab-practice-028/tests/public.json",
+    "starter": "# Shell challenge: run in your terminal"
+  },
+  {
+    "id": "shell-lab-practice-040",
+    "title": "Shell Lab Practice 040",
+    "difficulty": "medium",
+    "category": "shell_lab",
+    "tags": [
+      "practice",
+      "generated"
+    ],
+    "languages": [
+      "shell"
+    ],
+    "track": "shell",
+    "prompt": "Generated practice problem in the shell_lab topic.",
+    "statement_path": "problems/shell_lab/shell-lab-practice-040/statement.md",
+    "public_test_path": "problems/shell_lab/shell-lab-practice-040/tests/public.json",
+    "starter": "# Shell challenge: run in your terminal"
+  },
+  {
+    "id": "shell-lab-practice-052",
+    "title": "Shell Lab Practice 052",
+    "difficulty": "medium",
+    "category": "shell_lab",
+    "tags": [
+      "practice",
+      "generated"
+    ],
+    "languages": [
+      "shell"
+    ],
+    "track": "shell",
+    "prompt": "Generated practice problem in the shell_lab topic.",
+    "statement_path": "problems/shell_lab/shell-lab-practice-052/statement.md",
+    "public_test_path": "problems/shell_lab/shell-lab-practice-052/tests/public.json",
+    "starter": "# Shell challenge: run in your terminal"
+  },
+  {
+    "id": "shell-lab-practice-064",
+    "title": "Shell Lab Practice 064",
+    "difficulty": "medium",
+    "category": "shell_lab",
+    "tags": [
+      "practice",
+      "generated"
+    ],
+    "languages": [
+      "shell"
+    ],
+    "track": "shell",
+    "prompt": "Generated practice problem in the shell_lab topic.",
+    "statement_path": "problems/shell_lab/shell-lab-practice-064/statement.md",
+    "public_test_path": "problems/shell_lab/shell-lab-practice-064/tests/public.json",
+    "starter": "# Shell challenge: run in your terminal"
+  },
+  {
+    "id": "top-response-codes",
+    "title": "Top Response Codes",
+    "difficulty": "medium",
+    "category": "shell_lab",
+    "tags": [
+      "seed"
+    ],
+    "languages": [
+      "shell"
+    ],
+    "track": "shell",
+    "prompt": "Seed practice problem for shell_lab.",
+    "statement_path": "problems/shell_lab/top-response-codes/statement.md",
+    "public_test_path": "problems/shell_lab/top-response-codes/tests/public.json",
+    "starter": "# Shell challenge: run in your terminal"
+  }
+]

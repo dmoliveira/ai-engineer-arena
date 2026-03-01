@@ -61,7 +61,16 @@
             </label>
           </div>
         </div>
+        <div class="row search-row">
+          <label class="search-label" for="searchInput">Search</label>
+          <input id="searchInput" type="search" placeholder="title, id, tag" />
+        </div>
         <ul id="problemList"></ul>
+        <div class="row pagination-row">
+          <button id="prevPageBtn" type="button">Prev</button>
+          <span id="pageStatus">Page 1 / 1</span>
+          <button id="nextPageBtn" type="button">Next</button>
+        </div>
       </section>
 
       <section class="panel run-panel">
@@ -83,6 +92,17 @@
         <p class="small">Stored in browser localStorage.</p>
         <div id="progressStats"></div>
         <div id="recommendationCard" class="recommendation-card"></div>
+      </section>
+
+      <section class="panel tracks-panel">
+        <h2>Learning Paths</h2>
+        <p class="small">Curated tracks to guide practice focus.</p>
+        <div class="track-actions">
+          <button id="trackAllBtn" type="button">All Problems</button>
+          <button id="trackInterviewBtn" type="button">Interview Path</button>
+          <button id="trackMlBtn" type="button">ML Engineer Path</button>
+        </div>
+        <p id="trackStatus" class="small"></p>
       </section>
 
       <section class="panel support-panel">

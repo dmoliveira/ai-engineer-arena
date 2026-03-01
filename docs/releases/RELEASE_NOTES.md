@@ -1,5 +1,12 @@
 # Release Notes
 
+## Unreleased
+
+### Added
+
+- Problem pack templates under `problems/_templates/`.
+- Problem pack contract spec in `docs/specs/problem-pack-contract.md`.
+
 ## v0.1.0-planning (2026-03-01)
 
 ### Highlights

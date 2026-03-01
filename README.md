@@ -93,6 +93,7 @@ mkdir -p problems runner web docs/plan docs/specs assets
 
 - Product and delivery planning: `docs/plan/education-platform-roadmap.md`
 - Architecture and feature specs: `docs/specs/platform-architecture.md`
+- Problem package schema: `docs/specs/problem-pack-contract.md`
 
 ## Support this project
 

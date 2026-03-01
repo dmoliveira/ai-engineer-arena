@@ -16,6 +16,9 @@ const prevPageBtn = document.getElementById("prevPageBtn");
 const nextPageBtn = document.getElementById("nextPageBtn");
 const pageStatus = document.getElementById("pageStatus");
 const resultsCount = document.getElementById("resultsCount");
+const activeFiltersBar = document.getElementById("activeFiltersBar");
+const activeFiltersText = document.getElementById("activeFiltersText");
+const clearFiltersBtn = document.getElementById("clearFiltersBtn");
 const recommendationCard = document.getElementById("recommendationCard");
 const trackAllBtn = document.getElementById("trackAllBtn");
 const trackInterviewBtn = document.getElementById("trackInterviewBtn");
@@ -254,18 +257,43 @@ function syncActiveProblemWithFilters() {
 
 function renderProblemList() {
   const visible = getVisibleProblems();
+  const selectedSort = sortFilter.value;
   const totalPages = Math.max(1, Math.ceil(visible.length / PAGE_SIZE));
   if (currentPage > totalPages) currentPage = totalPages;
   const start = (currentPage - 1) * PAGE_SIZE;
   const pageItems = visible.slice(start, start + PAGE_SIZE);
   resultsCount.textContent = `${visible.length} results`;
 
+  const activeTokens = [];
+  if (topicFilter.value !== "all") activeTokens.push(`topic: ${topicFilter.value}`);
+  if (difficultyFilter.value !== "all") activeTokens.push(`difficulty: ${difficultyFilter.value}`);
+  if (tagFilter.value !== "all") activeTokens.push(`tag: ${tagFilter.value}`);
+  if (searchInput.value.trim()) activeTokens.push(`search: ${searchInput.value.trim()}`);
+  if (activeTrack !== "all") {
+    activeTokens.push(activeTrack === "interview" ? "path: interview" : "path: ml engineer");
+  }
+  if (selectedSort !== "recommended") activeTokens.push(`sort: ${selectedSort}`);
+
+  if (activeTokens.length > 0) {
+    activeFiltersText.textContent = activeTokens.join(" | ");
+    activeFiltersBar.hidden = false;
+  } else {
+    activeFiltersBar.hidden = true;
+  }
+
   listNode.innerHTML = "";
   for (const problem of pageItems) {
     const item = document.createElement("li");
     const button = document.createElement("button");
     button.dataset.problemId = problem.id;
-    button.textContent = `${problem.title} (${problem.difficulty})`;
+    button.innerHTML = `
+      <span class="problem-card-title">${problem.title}</span>
+      <span class="problem-meta-row">
+        <span class="mini-badge ${problem.difficulty}">${problem.difficulty}</span>
+        <span class="mini-badge">${problem.category}</span>
+        <span class="mini-id">${problem.id}</span>
+      </span>
+    `;
     button.addEventListener("click", () => setActive(problem));
     item.appendChild(button);
     listNode.appendChild(item);
@@ -424,6 +452,15 @@ nextPageBtn.addEventListener("click", () => {
 trackAllBtn.addEventListener("click", () => setTrack("all"));
 trackInterviewBtn.addEventListener("click", () => setTrack("interview"));
 trackMlBtn.addEventListener("click", () => setTrack("ml_engineer"));
+
+clearFiltersBtn.addEventListener("click", () => {
+  topicFilter.value = "all";
+  difficultyFilter.value = "all";
+  tagFilter.value = "all";
+  sortFilter.value = "recommended";
+  searchInput.value = "";
+  setTrack("all");
+});
 
 supportNudgeDismiss.addEventListener("click", () => {
   const now = Date.now();

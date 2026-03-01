@@ -25,6 +25,8 @@
 - Gold-tier baseline raised to 30 with promoted hidden-test coverage.
 - Decluttered web filters UI with progressive disclosure and visible result count.
 - Added top-level contribution CTA in web hero and README for higher visibility.
+- Added sticky active-filter summary bar with one-click clear action.
+- Converted problem list rows into compact metadata cards for a cleaner scan path.
 
 ### Changed
 

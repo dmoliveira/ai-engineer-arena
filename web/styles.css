@@ -302,6 +302,37 @@ h2 {
   margin-bottom: 0.4rem;
 }
 
+.active-filters-bar {
+  position: sticky;
+  top: 0.35rem;
+  z-index: 3;
+  background: rgba(6, 25, 37, 0.95);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 10px;
+  padding: 0.38rem 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  margin: 0.35rem 0 0.5rem;
+}
+
+#activeFiltersText {
+  color: var(--muted);
+  font-size: 0.78rem;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+#clearFiltersBtn {
+  background: rgba(255, 255, 255, 0.08);
+  color: var(--text);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 0.28rem 0.5rem;
+  cursor: pointer;
+}
+
 .filters label {
   display: flex;
   align-items: center;
@@ -337,22 +368,66 @@ ul {
   padding: 0;
   list-style: none;
   display: grid;
-  gap: 0.5rem;
+  gap: 0.42rem;
 }
 
 li button {
   width: 100%;
   text-align: left;
-  background: #0f3447;
+  background: #0d2f41;
   color: var(--text);
-  padding: 0.65rem 0.7rem;
+  padding: 0.58rem 0.64rem;
   cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  gap: 0.36rem;
 }
 
 li button:hover,
 li button.active {
   border-color: var(--accent);
-  background: #1b4053;
+  background: #14384b;
+}
+
+.problem-card-title {
+  font-size: 0.9rem;
+  font-weight: 600;
+  line-height: 1.25;
+}
+
+.problem-meta-row {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  flex-wrap: wrap;
+}
+
+.mini-badge {
+  font-size: 0.72rem;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 999px;
+  padding: 0.12rem 0.45rem;
+  color: var(--muted);
+}
+
+.mini-badge.easy {
+  color: #9de4b5;
+  border-color: rgba(157, 228, 181, 0.45);
+}
+
+.mini-badge.medium {
+  color: #ffd38a;
+  border-color: rgba(255, 211, 138, 0.45);
+}
+
+.mini-badge.hard {
+  color: #ffad9f;
+  border-color: rgba(255, 173, 159, 0.45);
+}
+
+.mini-id {
+  font-size: 0.7rem;
+  color: rgba(235, 251, 255, 0.62);
 }
 
 .search-row {

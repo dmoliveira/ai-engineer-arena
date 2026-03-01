@@ -1,0 +1,13 @@
+id: data-science-practice-062
+title: Data Science Practice 062
+difficulty: hard
+category: data_science
+tags:
+  - practice
+  - generated
+constraints:
+  - "define realistic bounds"
+languages:
+  - python
+recommended_approach: reference-solution
+interview_recommended: true

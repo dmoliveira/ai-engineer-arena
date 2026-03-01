@@ -1,0 +1,12 @@
+id: group-mean-by-region
+title: Group Mean by Region
+difficulty: medium
+category: data_science
+tags:
+  - seed
+constraints:
+  - "define realistic bounds"
+languages:
+  - python
+recommended_approach: reference-solution
+interview_recommended: true

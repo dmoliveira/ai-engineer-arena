@@ -1,0 +1,13 @@
+id: data-science-practice-054
+title: Data Science Practice 054
+difficulty: easy
+category: data_science
+tags:
+  - practice
+  - generated
+constraints:
+  - "define realistic bounds"
+languages:
+  - python
+recommended_approach: reference-solution
+interview_recommended: true

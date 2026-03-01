@@ -42,9 +42,9 @@ What support funds:
 
 ## Current seed catalog
 
-- 10 starter problems shipped across algorithms, data science, ML fundamentals, and shell lab.
-- 8 Python-track problems with runnable public/hidden tests via local runner.
-- 2 shell-track problems focused on pipeline-style command fluency.
+- 100 starter problems shipped across algorithms, data science, ML fundamentals, and shell lab.
+- 76 Python-track problems with runnable public/hidden tests via local runner.
+- 24 shell-track problems focused on pipeline-style command fluency.
 
 ## Learning and evaluation model
 
@@ -54,6 +54,7 @@ What support funds:
 - Problem editorials with multiple approaches and complexity analysis
 - Metadata tags for interview recommendation and advanced alternatives
 - Local solved-history storage (database integration deferred)
+- Recommendation card that suggests your next challenge based on solved history
 
 ## Supported languages
 
@@ -118,6 +119,24 @@ python3 runner/run_problem.py \
   --solution examples/solutions/two_sum_hash.py
 ```
 
+Run shell challenge public tests:
+
+```bash
+python3 runner/run_shell_problem.py \
+  --problem-dir problems/shell_lab/log-level-counter \
+  --command "cut -d' ' -f2 {input_file} | sort | uniq -c | awk '{print $2, $1}'"
+```
+
+Scaffold a new problem quickly:
+
+```bash
+python3 scripts/new_problem.py \
+  --id sample-problem \
+  --title "Sample Problem" \
+  --category algorithms \
+  --difficulty easy
+```
+
 ## Web MVP (GitHub Pages-ready static app)
 
 Serve locally:
@@ -132,10 +151,20 @@ Then open:
 http://localhost:8000/web/
 ```
 
+Benchmark note:
+
+- Browser runtime stats are labeled `advisory`.
+- Local runner can enforce per-test runtime limits and label results as `strict`.
+
+Problem discovery note:
+
+- Users can filter available browser problems by `topic` and `difficulty`.
+
 ## Deployment
 
 - GitHub Pages is auto-deployed from `main` by `.github/workflows/pages.yml`.
 - The workflow publishes the static site from `web/`.
+- CI checks run from `.github/workflows/ci.yml` (compile, content contracts, smoke tests).
 
 ## Documentation index
 

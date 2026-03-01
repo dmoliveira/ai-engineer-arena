@@ -9,6 +9,20 @@
 - Prominent donation/support CTA in web hero and README badges.
 - New web "Support Progress" panel with transparent funding goals and donate link.
 - Smart post-success donation ribbon in the web app with cooldown and dismiss behavior to avoid user fatigue.
+- Shell challenge evaluator in `runner/run_shell_problem.py` with strict timeout-based checks.
+- New problem scaffolder `scripts/new_problem.py` for faster content authoring.
+- Batch seed generator `scripts/generate_seed_batch.py` and 20 additional seed packs (30 total catalog).
+- Community issue templates for problem proposals, editorial improvements, and test bugs.
+- Recommendation card in web progress panel for next suggested challenge.
+- Topic-based filtering in the web problem list (`topic` + `difficulty`).
+- Catalog scaled to 100 problem packs (10x from initial 10).
+
+### Changed
+
+- Hardened Python runner with AST safety validation, blocked dangerous calls, and per-test process timeouts.
+- Added explicit benchmark tier labeling (`strict` vs `advisory`) in runner and browser outputs.
+- Upgraded content validator with typed schema checks, enums, and web catalog integrity checks.
+- Added generation tooling to scale content (`scripts/generate_scale_batch.py`) and maintain author velocity.
 
 ## v0.3.0-catalog-pages (2026-03-01)
 

@@ -1,0 +1,11 @@
+{
+  "tests": [
+    {
+      "name": "large_input_stress",
+      "generator": "two_sum_large",
+      "seed": 42,
+      "size": 100000,
+      "runtime_limit_ms": 400
+    }
+  ]
+}

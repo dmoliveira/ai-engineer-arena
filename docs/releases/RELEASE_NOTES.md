@@ -4,6 +4,12 @@
 
 ### Added
 
+- Reserved for next iteration.
+
+## v0.3.0-catalog-pages (2026-03-01)
+
+### Added
+
 - GitHub Pages deployment workflow in `.github/workflows/pages.yml`.
 - Six additional seed problem packs (catalog now at 10 total).
 - Extra runnable examples for new Python-track seed problems.

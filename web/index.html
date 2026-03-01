@@ -43,15 +43,23 @@
       <section class="panel list-panel">
         <div class="row">
           <h2>Problem List</h2>
-          <label>
-            Difficulty
-            <select id="difficultyFilter">
-              <option value="all">All</option>
-              <option value="easy">Easy</option>
-              <option value="medium">Medium</option>
-              <option value="hard">Hard</option>
-            </select>
-          </label>
+          <div class="filters">
+            <label>
+              Topic
+              <select id="topicFilter">
+                <option value="all">All</option>
+              </select>
+            </label>
+            <label>
+              Difficulty
+              <select id="difficultyFilter">
+                <option value="all">All</option>
+                <option value="easy">Easy</option>
+                <option value="medium">Medium</option>
+                <option value="hard">Hard</option>
+              </select>
+            </label>
+          </div>
         </div>
         <ul id="problemList"></ul>
       </section>
@@ -74,6 +82,7 @@
         <h2>Local Progress</h2>
         <p class="small">Stored in browser localStorage.</p>
         <div id="progressStats"></div>
+        <div id="recommendationCard" class="recommendation-card"></div>
       </section>
 
       <section class="panel support-panel">

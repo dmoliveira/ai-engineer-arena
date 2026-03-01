@@ -8,6 +8,8 @@ const resultOutput = document.getElementById("resultOutput");
 const runtimeStatus = document.getElementById("runtimeStatus");
 const progressStats = document.getElementById("progressStats");
 const difficultyFilter = document.getElementById("difficultyFilter");
+const topicFilter = document.getElementById("topicFilter");
+const recommendationCard = document.getElementById("recommendationCard");
 const supportNudge = document.getElementById("supportNudge");
 const supportNudgeText = document.getElementById("supportNudgeText");
 const supportNudgeDismiss = document.getElementById("supportNudgeDismiss");
@@ -82,6 +84,38 @@ function renderProgress() {
   const progress = loadProgress();
   const solved = Object.values(progress).filter(Boolean).length;
   progressStats.textContent = `${solved} solved of ${problems.length} loaded`;
+  renderRecommendation(progress);
+}
+
+function renderRecommendation(progress) {
+  const solvedIds = new Set(
+    Object.entries(progress)
+      .filter(([, done]) => Boolean(done))
+      .map(([id]) => id),
+  );
+
+  const pending = problems.filter((problem) => !solvedIds.has(problem.id));
+  if (pending.length === 0) {
+    recommendationCard.innerHTML =
+      "<strong>All loaded problems solved.</strong> Great momentum. Next step: add more packs and keep the streak.";
+    return;
+  }
+
+  const categorySolvedCount = {};
+  for (const problem of problems) {
+    if (!solvedIds.has(problem.id)) continue;
+    categorySolvedCount[problem.category] = (categorySolvedCount[problem.category] || 0) + 1;
+  }
+
+  const next = pending.sort((a, b) => {
+    const solvedA = categorySolvedCount[a.category] || 0;
+    const solvedB = categorySolvedCount[b.category] || 0;
+    if (solvedA !== solvedB) return solvedA - solvedB;
+    const rank = { easy: 0, medium: 1, hard: 2 };
+    return rank[a.difficulty] - rank[b.difficulty];
+  })[0];
+
+  recommendationCard.innerHTML = `<strong>Recommended next:</strong> ${next.title} (${next.difficulty}) in ${next.category}.`;
 }
 
 function setActive(problem) {
@@ -99,8 +133,24 @@ function setActive(problem) {
 }
 
 function filterProblems() {
-  const selected = difficultyFilter.value;
-  return problems.filter((problem) => selected === "all" || problem.difficulty === selected);
+  const selectedDifficulty = difficultyFilter.value;
+  const selectedTopic = topicFilter.value;
+  return problems.filter((problem) => {
+    const topicMatch = selectedTopic === "all" || problem.category === selectedTopic;
+    const difficultyMatch = selectedDifficulty === "all" || problem.difficulty === selectedDifficulty;
+    return topicMatch && difficultyMatch;
+  });
+}
+
+function renderTopicFilter() {
+  const topics = [...new Set(problems.map((problem) => problem.category))].sort();
+  topicFilter.innerHTML = '<option value="all">All</option>';
+  for (const topic of topics) {
+    const option = document.createElement("option");
+    option.value = topic;
+    option.textContent = topic;
+    topicFilter.appendChild(option);
+  }
 }
 
 function renderProblemList() {
@@ -167,6 +217,11 @@ json.dumps(results)
         total: parsed.length,
         avg_runtime_ms: Number((elapsed / parsed.length).toFixed(3)),
         total_runtime_ms: Number(elapsed.toFixed(3)),
+        benchmark_tier: "advisory",
+        metrics: {
+          runtime: "advisory (browser-dependent)",
+          memory: "not measured in browser runner",
+        },
         tests: parsed,
       },
       null,
@@ -196,6 +251,7 @@ json.dumps(results)
 async function bootstrap() {
   const response = await fetch("problems.json");
   problems = await response.json();
+  renderTopicFilter();
   renderProblemList();
   renderProgress();
   setActive(problems[0]);
@@ -203,6 +259,16 @@ async function bootstrap() {
 }
 
 difficultyFilter.addEventListener("change", () => {
+  renderProblemList();
+  if (!filterProblems().includes(activeProblem)) {
+    const available = filterProblems();
+    if (available.length > 0) {
+      setActive(available[0]);
+    }
+  }
+});
+
+topicFilter.addEventListener("change", () => {
   renderProblemList();
   if (!filterProblems().includes(activeProblem)) {
     const available = filterProblems();

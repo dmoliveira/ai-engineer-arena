@@ -189,6 +189,19 @@ body {
   text-decoration: underline;
 }
 
+.recommendation-card {
+  margin-top: 0.65rem;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 12px;
+  padding: 0.65rem;
+  color: var(--muted);
+}
+
+.recommendation-card strong {
+  color: var(--text);
+}
+
 h1,
 h2,
 p {
@@ -223,6 +236,18 @@ h2 {
   justify-content: space-between;
   gap: 0.75rem;
   margin-bottom: 0.75rem;
+}
+
+.filters {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+}
+
+.filters label {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
 }
 
 select,

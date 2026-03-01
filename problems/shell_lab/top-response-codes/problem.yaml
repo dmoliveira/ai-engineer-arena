@@ -1,0 +1,12 @@
+id: top-response-codes
+title: Top Response Codes
+difficulty: medium
+category: shell_lab
+tags:
+  - seed
+constraints:
+  - "define realistic bounds"
+languages:
+  - shell
+recommended_approach: reference-solution
+interview_recommended: true

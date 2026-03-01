@@ -1,0 +1,12 @@
+id: grep-count-unique-users
+title: Grep Count Unique Users
+difficulty: easy
+category: shell_lab
+tags:
+  - seed
+constraints:
+  - "define realistic bounds"
+languages:
+  - shell
+recommended_approach: reference-solution
+interview_recommended: true

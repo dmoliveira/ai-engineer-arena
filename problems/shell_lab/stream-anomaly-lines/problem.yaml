@@ -1,0 +1,12 @@
+id: stream-anomaly-lines
+title: Stream Anomaly Lines
+difficulty: hard
+category: shell_lab
+tags:
+  - seed
+constraints:
+  - "define realistic bounds"
+languages:
+  - shell
+recommended_approach: reference-solution
+interview_recommended: true

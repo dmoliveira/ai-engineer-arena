@@ -1,0 +1,13 @@
+id: shell-lab-practice-060
+title: Shell Lab Practice 060
+difficulty: easy
+category: shell_lab
+tags:
+  - practice
+  - generated
+constraints:
+  - "define realistic bounds"
+languages:
+  - shell
+recommended_approach: reference-solution
+interview_recommended: true

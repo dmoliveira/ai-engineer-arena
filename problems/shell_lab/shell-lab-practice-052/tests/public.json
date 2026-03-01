@@ -1,0 +1,11 @@
+{
+  "tests": [
+    {
+      "name": "example",
+      "input": "example.log",
+      "expected": [
+        "TODO"
+      ]
+    }
+  ]
+}

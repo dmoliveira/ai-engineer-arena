@@ -1,0 +1,41 @@
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - "docs/releases/**"
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Compile Python files
+        run: |
+          python -m py_compile runner/run_problem.py
+          python -m py_compile examples/solutions/*.py
+          python -m py_compile scripts/validate_content.py
+
+      - name: Validate content contracts
+        run: python scripts/validate_content.py
+
+      - name: Runner smoke tests
+        run: |
+          python runner/run_problem.py --problem-dir problems/algorithms/two-sum-hash --solution examples/solutions/two_sum_hash.py
+          python runner/run_problem.py --problem-dir problems/algorithms/valid-anagram --solution examples/solutions/valid_anagram.py
+          python runner/run_problem.py --problem-dir problems/algorithms/merge-intervals --solution examples/solutions/merge_intervals.py
+          python runner/run_problem.py --problem-dir problems/algorithms/number-of-islands --solution examples/solutions/number_of_islands.py
+          python runner/run_problem.py --problem-dir problems/ml_fundamentals/logistic-threshold-classifier --solution examples/solutions/logistic_threshold_classifier.py

@@ -27,6 +27,12 @@ You progress through **Easy -> Medium -> Hard** tracks, solve coding and shell c
 - `ml_fundamentals`: classification, regression, model selection, optimization, evaluation
 - `shell_lab`: Linux command challenges from single-tool basics to end-to-end pipelines
 
+## Current seed catalog
+
+- 10 starter problems shipped across algorithms, data science, ML fundamentals, and shell lab.
+- 8 Python-track problems with runnable public/hidden tests via local runner.
+- 2 shell-track problems focused on pipeline-style command fluency.
+
 ## Learning and evaluation model
 
 - Progressive difficulty tracks: `easy`, `medium`, `hard`
@@ -112,6 +118,11 @@ Then open:
 ```text
 http://localhost:8000/web/
 ```
+
+## Deployment
+
+- GitHub Pages is auto-deployed from `main` by `.github/workflows/pages.yml`.
+- The workflow publishes the static site from `web/`.
 
 ## Documentation index
 

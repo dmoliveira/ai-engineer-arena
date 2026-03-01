@@ -1,0 +1,17 @@
+id: top-k-error-ips
+title: Top K IPs with ERROR Logs
+difficulty: hard
+category: shell_lab
+tags:
+  - linux
+  - grep
+  - awk
+  - sort
+  - uniq
+constraints:
+  - "input file may contain >5M lines"
+  - "line format starts with ip address"
+languages:
+  - shell
+recommended_approach: grep-awk-sort-uniq-head
+interview_recommended: true

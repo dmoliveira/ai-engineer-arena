@@ -1,0 +1,15 @@
+id: logistic-threshold-classifier
+title: Logistic Threshold Classifier
+difficulty: easy
+category: ml_fundamentals
+tags:
+  - classification
+  - metrics
+  - thresholds
+constraints:
+  - "1 <= len(probabilities) <= 200000"
+  - "0.0 <= probability <= 1.0"
+languages:
+  - python
+recommended_approach: single-pass-threshold
+interview_recommended: true

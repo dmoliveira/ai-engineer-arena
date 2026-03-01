@@ -1,0 +1,14 @@
+id: merge-intervals
+title: Merge Overlapping Intervals
+difficulty: medium
+category: algorithms
+tags:
+  - arrays
+  - sorting
+constraints:
+  - "1 <= len(intervals) <= 100000"
+  - "0 <= start <= end <= 1000000"
+languages:
+  - python
+recommended_approach: sort-then-scan
+interview_recommended: true

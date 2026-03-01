@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "single_interval",
+      "input": {"intervals": [[5, 7]]},
+      "expected": [[5, 7]]
+    },
+    {
+      "name": "full_overlap",
+      "input": {"intervals": [[1, 10], [2, 3], [4, 8]]},
+      "expected": [[1, 10]]
+    }
+  ]
+}

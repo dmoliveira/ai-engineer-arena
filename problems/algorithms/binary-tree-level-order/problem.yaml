@@ -1,0 +1,15 @@
+id: binary-tree-level-order
+title: Binary Tree Level Order Traversal
+difficulty: medium
+category: algorithms
+tags:
+  - trees
+  - bfs
+  - queues
+constraints:
+  - "0 <= number of nodes <= 2000"
+  - "node values in range [-1000, 1000]"
+languages:
+  - python
+recommended_approach: queue-bfs
+interview_recommended: true

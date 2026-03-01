@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "strict_threshold",
+      "input": {"probabilities": [0.49, 0.5, 0.9], "threshold": 0.7},
+      "expected": [0, 0, 1]
+    },
+    {
+      "name": "zeros_and_ones",
+      "input": {"probabilities": [0.0, 1.0, 0.999], "threshold": 0.999},
+      "expected": [0, 1, 1]
+    }
+  ]
+}

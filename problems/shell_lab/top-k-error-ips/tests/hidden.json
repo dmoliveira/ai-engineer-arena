@@ -1,0 +1,11 @@
+{
+  "tests": [
+    {
+      "name": "heavy_distribution",
+      "generator": "error_ip_distribution",
+      "seed": 21,
+      "size": 5000000,
+      "runtime_limit_ms": 3500
+    }
+  ]
+}

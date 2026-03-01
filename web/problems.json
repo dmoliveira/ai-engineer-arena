@@ -59,5 +59,40 @@
         "expected": [{"id": 1, "region": "NA", "sales": 10.2}]
       }
     ]
+  },
+  {
+    "id": "merge-intervals",
+    "title": "Merge Overlapping Intervals",
+    "difficulty": "medium",
+    "category": "algorithms",
+    "prompt": "Implement solve(intervals) and merge all overlapping intervals.",
+    "starter": "def solve(intervals):\n    pass\n",
+    "public_tests": [
+      {
+        "name": "basic_merge",
+        "input": {"intervals": [[1, 3], [2, 6], [8, 10], [15, 18]]},
+        "expected": [[1, 6], [8, 10], [15, 18]]
+      },
+      {
+        "name": "touching_edges",
+        "input": {"intervals": [[1, 4], [4, 5]]},
+        "expected": [[1, 5]]
+      }
+    ]
+  },
+  {
+    "id": "logistic-threshold-classifier",
+    "title": "Logistic Threshold Classifier",
+    "difficulty": "easy",
+    "category": "ml_fundamentals",
+    "prompt": "Implement solve(probabilities, threshold) and map to labels with p >= threshold.",
+    "starter": "def solve(probabilities, threshold):\n    pass\n",
+    "public_tests": [
+      {
+        "name": "default_threshold",
+        "input": {"probabilities": [0.2, 0.5, 0.51, 0.8], "threshold": 0.5},
+        "expected": [0, 1, 1, 1]
+      }
+    ]
   }
 ]

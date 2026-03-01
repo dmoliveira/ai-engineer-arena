@@ -1,0 +1,15 @@
+id: gradient-descent-step
+title: One Gradient Descent Step
+difficulty: medium
+category: ml_fundamentals
+tags:
+  - optimization
+  - linear-models
+  - regression
+constraints:
+  - "len(weights) == len(gradients)"
+  - "0.0 < learning_rate <= 1.0"
+languages:
+  - python
+recommended_approach: vector-update
+interview_recommended: true

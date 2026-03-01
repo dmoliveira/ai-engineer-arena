@@ -1,0 +1,63 @@
+[
+  {
+    "id": "two-sum-hash",
+    "title": "Two Sum (Hash Single Pass)",
+    "difficulty": "easy",
+    "category": "algorithms",
+    "prompt": "Implement solve(nums, target) and return [i, j] for the matching pair.",
+    "starter": "def solve(nums, target):\n    pass\n",
+    "public_tests": [
+      {
+        "name": "basic",
+        "input": {"nums": [2, 7, 11, 15], "target": 9},
+        "expected": [0, 1]
+      },
+      {
+        "name": "middle_pair",
+        "input": {"nums": [3, 2, 4], "target": 6},
+        "expected": [1, 2]
+      }
+    ]
+  },
+  {
+    "id": "valid-anagram",
+    "title": "Valid Anagram",
+    "difficulty": "easy",
+    "category": "algorithms",
+    "prompt": "Implement solve(s, t) and return true if t is an anagram of s.",
+    "starter": "def solve(s, t):\n    pass\n",
+    "public_tests": [
+      {
+        "name": "simple_true",
+        "input": {"s": "anagram", "t": "nagaram"},
+        "expected": true
+      },
+      {
+        "name": "simple_false",
+        "input": {"s": "rat", "t": "car"},
+        "expected": false
+      }
+    ]
+  },
+  {
+    "id": "clean-null-sales",
+    "title": "Clean Null Sales Rows",
+    "difficulty": "easy",
+    "category": "data_science",
+    "prompt": "Implement solve(rows) and return only rows where sales is numeric.",
+    "starter": "def solve(rows):\n    pass\n",
+    "public_tests": [
+      {
+        "name": "drop_null_and_text",
+        "input": {
+          "rows": [
+            {"id": 1, "region": "NA", "sales": 10.2},
+            {"id": 2, "region": "EU", "sales": null},
+            {"id": 3, "region": "APAC", "sales": "NA"}
+          ]
+        },
+        "expected": [{"id": 1, "region": "NA", "sales": 10.2}]
+      }
+    ]
+  }
+]

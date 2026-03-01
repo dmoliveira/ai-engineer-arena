@@ -6,6 +6,10 @@
 
 - Problem pack templates under `problems/_templates/`.
 - Problem pack contract spec in `docs/specs/problem-pack-contract.md`.
+- Python local runner MVP in `runner/run_problem.py`.
+- Runner documentation in `runner/README.md`.
+- Seed problem packs for algorithms, data science, and shell track.
+- Browser web MVP with problem list, filter, Pyodide run, and local progress.
 
 ## v0.1.0-planning (2026-03-01)
 

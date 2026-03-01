@@ -89,11 +89,36 @@ python3 --version
 mkdir -p problems runner web docs/plan docs/specs assets
 ```
 
+## Runner MVP
+
+Run local checks with public + hidden tests:
+
+```bash
+python3 runner/run_problem.py \
+  --problem-dir problems/algorithms/two-sum-hash \
+  --solution examples/solutions/two_sum_hash.py
+```
+
+## Web MVP (GitHub Pages-ready static app)
+
+Serve locally:
+
+```bash
+python3 -m http.server 8000
+```
+
+Then open:
+
+```text
+http://localhost:8000/web/
+```
+
 ## Documentation index
 
 - Product and delivery planning: `docs/plan/education-platform-roadmap.md`
 - Architecture and feature specs: `docs/specs/platform-architecture.md`
 - Problem package schema: `docs/specs/problem-pack-contract.md`
+- Runner usage: `runner/README.md`
 
 ## Support this project
 

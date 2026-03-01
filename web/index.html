@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AI Engineer Arena</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&family=JetBrains+Mono:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="https://cdn.jsdelivr.net/pyodide/v0.26.4/full/pyodide.js"></script>
+    <script defer src="app.js"></script>
+  </head>
+  <body>
+    <div class="backdrop"></div>
+    <main class="layout">
+      <section class="hero panel">
+        <p class="eyebrow">AI Engineer Arena</p>
+        <h1>Practice coding, data, and ML in one path.</h1>
+        <p>
+          Start with easy challenges, level up to advanced problem solving, and validate your ideas with public tests directly in browser.
+        </p>
+      </section>
+
+      <section class="panel list-panel">
+        <div class="row">
+          <h2>Problem List</h2>
+          <label>
+            Difficulty
+            <select id="difficultyFilter">
+              <option value="all">All</option>
+              <option value="easy">Easy</option>
+              <option value="medium">Medium</option>
+              <option value="hard">Hard</option>
+            </select>
+          </label>
+        </div>
+        <ul id="problemList"></ul>
+      </section>
+
+      <section class="panel run-panel">
+        <div class="row">
+          <h2 id="problemTitle">Run Public Tests</h2>
+          <span class="chip" id="problemMeta">loading...</span>
+        </div>
+        <p id="problemPrompt" class="prompt"></p>
+        <textarea id="codeInput" spellcheck="false"></textarea>
+        <div class="row">
+          <button id="runBtn">Run</button>
+          <span id="runtimeStatus">Pyodide not loaded yet</span>
+        </div>
+        <pre id="resultOutput"></pre>
+      </section>
+
+      <section class="panel stats-panel">
+        <h2>Local Progress</h2>
+        <p class="small">Stored in browser localStorage.</p>
+        <div id="progressStats"></div>
+      </section>
+    </main>
+  </body>
+</html>

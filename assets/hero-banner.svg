@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+  <title id="title">AI Engineer Arena</title>
+  <desc id="desc">Banner with gradient and skill-themed nodes</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b2c3d" />
+      <stop offset="50%" stop-color="#145b70" />
+      <stop offset="100%" stop-color="#1f8a70" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#f2c14e" />
+      <stop offset="100%" stop-color="#f78154" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="320" fill="url(#bg)" />
+  <circle cx="95" cy="90" r="8" fill="#ffffff" opacity="0.7" />
+  <circle cx="220" cy="60" r="5" fill="#ffffff" opacity="0.5" />
+  <circle cx="420" cy="110" r="6" fill="#ffffff" opacity="0.6" />
+  <circle cx="860" cy="80" r="9" fill="#ffffff" opacity="0.5" />
+  <circle cx="1100" cy="70" r="7" fill="#ffffff" opacity="0.6" />
+  <path d="M60 220 C220 140, 360 280, 540 200 S900 120, 1140 230" stroke="url(#accent)" stroke-width="4" fill="none" opacity="0.9" />
+  <text x="60" y="160" fill="#ffffff" font-size="54" font-family="Georgia, serif" font-weight="700">AI Engineer Arena</text>
+  <text x="62" y="205" fill="#dff6ff" font-size="24" font-family="Courier New, monospace">Code. Analyze. Model. Optimize.</text>
+</svg>

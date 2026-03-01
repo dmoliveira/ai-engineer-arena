@@ -1,3 +1,16 @@
 {
-  "tests": []
+  "tests": [
+    {
+      "name": "hidden_regression",
+      "input": {
+        "values": [
+          4,
+          5,
+          6
+        ]
+      },
+      "expected": 15,
+      "runtime_limit_ms": 700
+    }
+  ]
 }

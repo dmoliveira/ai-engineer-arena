@@ -6,11 +6,18 @@
 [![Python 3](https://img.shields.io/badge/Python-3.11%2B-blue.svg)](#supported-languages)
 [![GitHub Pages](https://img.shields.io/badge/Deployed%20on-GitHub%20Pages-222222.svg)](#github-pages-plan)
 [![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-brightgreen.svg)](CONTRIBUTING.md)
-[![Support Project](https://img.shields.io/badge/Support-Donate-orange.svg)](https://github.com/sponsors/)
+[![Support Project](https://img.shields.io/badge/Support-Donate-orange.svg)](https://buy.stripe.com/8x200i8bSgVe3Vl3g8bfO00)
+[![Buy me a coffee](https://img.shields.io/badge/Buy%20me%20a-Coffee-ff813f.svg)](https://buy.stripe.com/8x200i8bSgVe3Vl3g8bfO00)
 
 An educational challenge platform for AI/ML-focused software engineers, combining the best of coding interview prep, algorithm competitions, and data science practice.
 
 You progress through **Easy -> Medium -> Hard** tracks, solve coding and shell challenges, and learn through test feedback, performance constraints, and multi-approach editorial solutions.
+
+## Support this mission
+
+If this platform helps you grow as an engineer, you can directly support new challenges, better editorials, and faster feature delivery.
+
+👉 **Donate here:** https://buy.stripe.com/8x200i8bSgVe3Vl3g8bfO00
 
 ## Why this project
 
@@ -135,7 +142,7 @@ http://localhost:8000/web/
 
 If this repository helps you grow as an engineer, please consider supporting maintenance and new challenge development.
 
-- Donate: https://github.com/sponsors/
+- Donate: https://buy.stripe.com/8x200i8bSgVe3Vl3g8bfO00
 
 ## License
 

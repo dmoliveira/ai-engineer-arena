@@ -19,6 +19,9 @@
 - Search + pagination in web problem browser.
 - Curated learning paths in web UI (`Interview Path`, `ML Engineer Path`).
 - Generated full web catalog at `web/full-catalog.json`.
+- Quality scoring gate and report generation (`scripts/score_problem_quality.py`, `docs/specs/problem-quality-report.json`).
+- Makefile developer workflow commands and pre-commit configuration.
+- Future backend API contract draft in `docs/specs/backend-api-contracts.md`.
 
 ### Changed
 
@@ -27,6 +30,7 @@
 - Upgraded content validator with typed schema checks, enums, and web catalog integrity checks.
 - Added generation tooling to scale content (`scripts/generate_scale_batch.py`) and maintain author velocity.
 - Added `scripts/build_web_catalog.py` and CI check to keep catalog generation in sync.
+- Added CI enforcement for quality scoring gates and generated report freshness.
 
 ## v0.3.0-catalog-pages (2026-03-01)
 

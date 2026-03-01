@@ -1,0 +1,20 @@
+repos:
+  - repo: local
+    hooks:
+      - id: validate-content
+        name: validate-content
+        entry: python3 scripts/validate_content.py
+        language: system
+        pass_filenames: false
+
+      - id: score-quality
+        name: score-quality
+        entry: python3 scripts/score_problem_quality.py --min-score 70 --target-gold 10
+        language: system
+        pass_filenames: false
+
+      - id: build-catalog
+        name: build-catalog
+        entry: python3 scripts/build_web_catalog.py
+        language: system
+        pass_filenames: false

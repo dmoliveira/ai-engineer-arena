@@ -170,6 +170,21 @@ python3 scripts/build_web_catalog.py
 
 This rebuilds `web/full-catalog.json` from all `problems/**/problem.yaml` metadata.
 
+Quality gate note:
+
+```bash
+python3 scripts/score_problem_quality.py --min-score 70 --target-gold 10
+```
+
+Tooling shortcuts:
+
+```bash
+make help
+make validate
+make quality
+make build-catalog
+```
+
 ## Deployment
 
 - GitHub Pages is auto-deployed from `main` by `.github/workflows/pages.yml`.
@@ -179,8 +194,11 @@ This rebuilds `web/full-catalog.json` from all `problems/**/problem.yaml` metada
 ## Documentation index
 
 - Product and delivery planning: `docs/plan/education-platform-roadmap.md`
+- Community cadence: `docs/plan/community-cadence.md`
 - Architecture and feature specs: `docs/specs/platform-architecture.md`
 - Problem package schema: `docs/specs/problem-pack-contract.md`
+- Quality rubric: `docs/specs/problem-quality-rubric.md`
+- Backend API contracts: `docs/specs/backend-api-contracts.md`
 - Runner usage: `runner/README.md`
 
 ## Support this project

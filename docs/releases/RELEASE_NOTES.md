@@ -16,6 +16,9 @@
 - Recommendation card in web progress panel for next suggested challenge.
 - Topic-based filtering in the web problem list (`topic` + `difficulty`).
 - Catalog scaled to 100 problem packs (10x from initial 10).
+- Search + pagination in web problem browser.
+- Curated learning paths in web UI (`Interview Path`, `ML Engineer Path`).
+- Generated full web catalog at `web/full-catalog.json`.
 
 ### Changed
 
@@ -23,6 +26,7 @@
 - Added explicit benchmark tier labeling (`strict` vs `advisory`) in runner and browser outputs.
 - Upgraded content validator with typed schema checks, enums, and web catalog integrity checks.
 - Added generation tooling to scale content (`scripts/generate_scale_batch.py`) and maintain author velocity.
+- Added `scripts/build_web_catalog.py` and CI check to keep catalog generation in sync.
 
 ## v0.3.0-catalog-pages (2026-03-01)
 

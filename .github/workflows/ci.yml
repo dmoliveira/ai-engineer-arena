@@ -32,9 +32,15 @@ jobs:
           python -m py_compile scripts/new_problem.py
           python -m py_compile scripts/generate_seed_batch.py
           python -m py_compile scripts/generate_scale_batch.py
+          python -m py_compile scripts/build_web_catalog.py
 
       - name: Validate content contracts
         run: python scripts/validate_content.py
+
+      - name: Validate generated web catalog is up to date
+        run: |
+          python scripts/build_web_catalog.py
+          git diff --exit-code web/full-catalog.json
 
       - name: Runner smoke tests
         run: |

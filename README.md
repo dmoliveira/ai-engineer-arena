@@ -159,6 +159,16 @@ Benchmark note:
 Problem discovery note:
 
 - Users can filter available browser problems by `topic` and `difficulty`.
+- Users can search by title/id/tag and browse through paginated results.
+- Users can switch curated paths: `Interview Path` and `ML Engineer Path`.
+
+Catalog build note:
+
+```bash
+python3 scripts/build_web_catalog.py
+```
+
+This rebuilds `web/full-catalog.json` from all `problems/**/problem.yaml` metadata.
 
 ## Deployment
 

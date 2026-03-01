@@ -8,6 +8,7 @@
 - Lightweight content validator script at `scripts/validate_content.py`.
 - Prominent donation/support CTA in web hero and README badges.
 - New web "Support Progress" panel with transparent funding goals and donate link.
+- Smart post-success donation ribbon in the web app with cooldown and dismiss behavior to avoid user fatigue.
 
 ## v0.3.0-catalog-pages (2026-03-01)
 

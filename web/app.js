@@ -8,12 +8,61 @@ const resultOutput = document.getElementById("resultOutput");
 const runtimeStatus = document.getElementById("runtimeStatus");
 const progressStats = document.getElementById("progressStats");
 const difficultyFilter = document.getElementById("difficultyFilter");
+const supportNudge = document.getElementById("supportNudge");
+const supportNudgeText = document.getElementById("supportNudgeText");
+const supportNudgeDismiss = document.getElementById("supportNudgeDismiss");
 
 let pyodide;
 let problems = [];
 let activeProblem;
 
 const STORAGE_KEY = "aiea-progress-v1";
+const SUPPORT_NUDGE_KEY = "aiea-support-nudge-v1";
+const ONE_DAY_MS = 24 * 60 * 60 * 1000;
+
+function loadNudgeState() {
+  const raw = localStorage.getItem(SUPPORT_NUDGE_KEY);
+  if (!raw) {
+    return { dismissedUntil: 0, lastShownAt: 0 };
+  }
+  try {
+    return JSON.parse(raw);
+  } catch {
+    return { dismissedUntil: 0, lastShownAt: 0 };
+  }
+}
+
+function saveNudgeState(state) {
+  localStorage.setItem(SUPPORT_NUDGE_KEY, JSON.stringify(state));
+}
+
+function hideSupportNudge() {
+  supportNudge.hidden = true;
+}
+
+function showSupportNudge(message) {
+  supportNudgeText.textContent = message;
+  supportNudge.hidden = false;
+}
+
+function maybeShowSupportNudge(solvedCount, solvedProblemTitle) {
+  const now = Date.now();
+  const nudgeState = loadNudgeState();
+  const inCooldown = now - nudgeState.lastShownAt < 3 * ONE_DAY_MS;
+  const dismissed = now < (nudgeState.dismissedUntil || 0);
+
+  if (solvedCount < 2 || inCooldown || dismissed) {
+    return;
+  }
+
+  showSupportNudge(
+    `${solvedProblemTitle} completed. You're now at ${solvedCount} solved. If this helps, a small donation keeps new challenges coming.`,
+  );
+  saveNudgeState({
+    ...nudgeState,
+    lastShownAt: now,
+  });
+}
 
 function loadProgress() {
   const raw = localStorage.getItem(STORAGE_KEY);
@@ -42,6 +91,7 @@ function setActive(problem) {
   promptNode.textContent = problem.prompt;
   codeInput.value = problem.starter;
   resultOutput.textContent = "Ready. Click Run to execute public tests.";
+  hideSupportNudge();
 
   [...listNode.querySelectorAll("button")].forEach((button) => {
     button.classList.toggle("active", button.dataset.problemId === problem.id);
@@ -128,6 +178,10 @@ json.dumps(results)
       progress[activeProblem.id] = true;
       saveProgress(progress);
       renderProgress();
+      const solvedCount = Object.values(progress).filter(Boolean).length;
+      maybeShowSupportNudge(solvedCount, activeProblem.title);
+    } else {
+      hideSupportNudge();
     }
   } catch (error) {
     runtimeStatus.classList.remove("ok");
@@ -160,3 +214,13 @@ difficultyFilter.addEventListener("change", () => {
 
 runBtn.addEventListener("click", runTests);
 bootstrap();
+
+supportNudgeDismiss.addEventListener("click", () => {
+  const now = Date.now();
+  const nudgeState = loadNudgeState();
+  saveNudgeState({
+    ...nudgeState,
+    dismissedUntil: now + 14 * ONE_DAY_MS,
+  });
+  hideSupportNudge();
+});

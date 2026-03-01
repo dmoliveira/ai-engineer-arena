@@ -19,6 +19,12 @@ If this platform helps you grow as an engineer, you can directly support new cha
 
 👉 **Donate here:** https://buy.stripe.com/8x200i8bSgVe3Vl3g8bfO00
 
+What support funds:
+
+- New medium/hard challenge authoring across algorithms, data science, and ML.
+- Better hidden-test coverage and stronger anti-bruteforce validation.
+- Faster platform improvements (language support, analytics, UX polish).
+
 ## Why this project
 
 - Build practical engineering skill depth across software engineering, data science, and machine learning foundations.

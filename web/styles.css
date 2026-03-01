@@ -97,6 +97,31 @@ body {
   grid-column: span 12;
 }
 
+.support-panel {
+  grid-column: span 12;
+}
+
+.support-list {
+  margin: 0.7rem 0 0.65rem;
+  padding-left: 1rem;
+  color: var(--muted);
+  line-height: 1.45;
+}
+
+.support-list li {
+  margin: 0.28rem 0;
+}
+
+.support-inline-link {
+  color: var(--accent);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.support-inline-link:hover {
+  text-decoration: underline;
+}
+
 h1,
 h2,
 p {

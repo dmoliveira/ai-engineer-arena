@@ -7,6 +7,7 @@
 - CI workflow in `.github/workflows/ci.yml` with compile checks, content validation, and runner smoke tests.
 - Lightweight content validator script at `scripts/validate_content.py`.
 - Prominent donation/support CTA in web hero and README badges.
+- New web "Support Progress" panel with transparent funding goals and donate link.
 
 ## v0.3.0-catalog-pages (2026-03-01)
 

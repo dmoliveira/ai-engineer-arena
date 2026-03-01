@@ -35,34 +35,49 @@
         <p>
           Start with easy challenges, level up to advanced problem solving, and validate your ideas with public tests directly in browser.
         </p>
-        <a class="donate-btn" href="https://buy.stripe.com/8x200i8bSgVe3Vl3g8bfO00" target="_blank" rel="noopener noreferrer">
-          Support the project ❤
-        </a>
+        <div class="hero-actions">
+          <a class="contribute-btn" href="https://github.com/dmoliveira/ai-engineer-arena/blob/main/CONTRIBUTING.md" target="_blank" rel="noopener noreferrer">
+            Contribute to Arena
+          </a>
+          <a class="donate-btn" href="https://buy.stripe.com/8x200i8bSgVe3Vl3g8bfO00" target="_blank" rel="noopener noreferrer">
+            Support the project ❤
+          </a>
+        </div>
       </section>
 
       <section class="panel list-panel">
         <div class="row">
           <h2>Problem List</h2>
-          <div class="filters">
-            <label>
-              Topic
-              <select id="topicFilter">
-                <option value="all">All</option>
-              </select>
-            </label>
+          <span class="chip" id="resultsCount">0 results</span>
+        </div>
+        <div class="row search-row">
+          <label class="search-label" for="searchInput">Search</label>
+          <input id="searchInput" type="search" placeholder="title, id, tag" />
+        </div>
+        <div class="filters controls-grid">
+          <label>
+            Topic
+            <select id="topicFilter">
+              <option value="all">All</option>
+            </select>
+          </label>
+          <label>
+            Difficulty
+            <select id="difficultyFilter">
+              <option value="all">All</option>
+              <option value="easy">Easy</option>
+              <option value="medium">Medium</option>
+              <option value="hard">Hard</option>
+            </select>
+          </label>
+        </div>
+        <details class="advanced-filters">
+          <summary>More Filters</summary>
+          <div class="filters controls-grid">
             <label>
               Tag
               <select id="tagFilter">
                 <option value="all">All</option>
-              </select>
-            </label>
-            <label>
-              Difficulty
-              <select id="difficultyFilter">
-                <option value="all">All</option>
-                <option value="easy">Easy</option>
-                <option value="medium">Medium</option>
-                <option value="hard">Hard</option>
               </select>
             </label>
             <label>
@@ -75,11 +90,7 @@
               </select>
             </label>
           </div>
-        </div>
-        <div class="row search-row">
-          <label class="search-label" for="searchInput">Search</label>
-          <input id="searchInput" type="search" placeholder="title, id, tag" />
-        </div>
+        </details>
         <ul id="problemList"></ul>
         <div class="row pagination-row">
           <button id="prevPageBtn" type="button">Prev</button>

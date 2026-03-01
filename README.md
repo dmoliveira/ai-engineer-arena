@@ -13,6 +13,12 @@ An educational challenge platform for AI/ML-focused software engineers, combinin
 
 You progress through **Easy -> Medium -> Hard** tracks, solve coding and shell challenges, and learn through test feedback, performance constraints, and multi-approach editorial solutions.
 
+## Contribute early
+
+Want to help shape the curriculum and platform quality? Start here:
+
+👉 **Contribution guide:** `CONTRIBUTING.md`
+
 ## Support this mission
 
 If this platform helps you grow as an engineer, you can directly support new challenges, better editorials, and faster feature delivery.

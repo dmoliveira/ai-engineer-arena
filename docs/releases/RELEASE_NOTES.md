@@ -23,6 +23,8 @@
 - Makefile developer workflow commands and pre-commit configuration.
 - Future backend API contract draft in `docs/specs/backend-api-contracts.md`.
 - Gold-tier baseline raised to 30 with promoted hidden-test coverage.
+- Decluttered web filters UI with progressive disclosure and visible result count.
+- Added top-level contribution CTA in web hero and README for higher visibility.
 
 ### Changed
 

@@ -15,6 +15,7 @@ const searchInput = document.getElementById("searchInput");
 const prevPageBtn = document.getElementById("prevPageBtn");
 const nextPageBtn = document.getElementById("nextPageBtn");
 const pageStatus = document.getElementById("pageStatus");
+const resultsCount = document.getElementById("resultsCount");
 const recommendationCard = document.getElementById("recommendationCard");
 const trackAllBtn = document.getElementById("trackAllBtn");
 const trackInterviewBtn = document.getElementById("trackInterviewBtn");
@@ -257,6 +258,7 @@ function renderProblemList() {
   if (currentPage > totalPages) currentPage = totalPages;
   const start = (currentPage - 1) * PAGE_SIZE;
   const pageItems = visible.slice(start, start + PAGE_SIZE);
+  resultsCount.textContent = `${visible.length} results`;
 
   listNode.innerHTML = "";
   for (const problem of pageItems) {

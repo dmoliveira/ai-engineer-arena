@@ -19,7 +19,7 @@ This rubric defines baseline quality scoring for all problem packs.
 ## CI gates
 
 - No problem can be below minimum score (`--min-score`, default 70).
-- Gold-count target must be met (`--target-gold`, baseline 10 in CI, planned ramp to 30).
+- Gold-count target must be met (`--target-gold`, current 30).
 - The report is generated at `docs/specs/problem-quality-report.json`.
 
 ## Usage

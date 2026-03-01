@@ -1,5 +1,239 @@
 [
   {
+    "id": "algorithms-practice-001",
+    "category": "algorithms",
+    "score": 90,
+    "tier": "gold",
+    "breakdown": {
+      "metadata": 20,
+      "statement_depth": 15,
+      "editorial_depth": 15,
+      "public_tests": 25,
+      "hidden_tests": 15
+    }
+  },
+  {
+    "id": "algorithms-practice-005",
+    "category": "algorithms",
+    "score": 90,
+    "tier": "gold",
+    "breakdown": {
+      "metadata": 20,
+      "statement_depth": 15,
+      "editorial_depth": 15,
+      "public_tests": 25,
+      "hidden_tests": 15
+    }
+  },
+  {
+    "id": "algorithms-practice-009",
+    "category": "algorithms",
+    "score": 90,
+    "tier": "gold",
+    "breakdown": {
+      "metadata": 20,
+      "statement_depth": 15,
+      "editorial_depth": 15,
+      "public_tests": 25,
+      "hidden_tests": 15
+    }
+  },
+  {
+    "id": "algorithms-practice-013",
+    "category": "algorithms",
+    "score": 90,
+    "tier": "gold",
+    "breakdown": {
+      "metadata": 20,
+      "statement_depth": 15,
+      "editorial_depth": 15,
+      "public_tests": 25,
+      "hidden_tests": 15
+    }
+  },
+  {
+    "id": "algorithms-practice-017",
+    "category": "algorithms",
+    "score": 90,
+    "tier": "gold",
+    "breakdown": {
+      "metadata": 20,
+      "statement_depth": 15,
+      "editorial_depth": 15,
+      "public_tests": 25,
+      "hidden_tests": 15
+    }
+  },
+  {
+    "id": "algorithms-practice-021",
+    "category": "algorithms",
+    "score": 90,
+    "tier": "gold",
+    "breakdown": {
+      "metadata": 20,
+      "statement_depth": 15,
+      "editorial_depth": 15,
+      "public_tests": 25,
+      "hidden_tests": 15
+    }
+  },
+  {
+    "id": "algorithms-practice-025",
+    "category": "algorithms",
+    "score": 90,
+    "tier": "gold",
+    "breakdown": {
+      "metadata": 20,
+      "statement_depth": 15,
+      "editorial_depth": 15,
+      "public_tests": 25,
+      "hidden_tests": 15
+    }
+  },
+  {
+    "id": "algorithms-practice-029",
+    "category": "algorithms",
+    "score": 90,
+    "tier": "gold",
+    "breakdown": {
+      "metadata": 20,
+      "statement_depth": 15,
+      "editorial_depth": 15,
+      "public_tests": 25,
+      "hidden_tests": 15
+    }
+  },
+  {
+    "id": "algorithms-practice-033",
+    "category": "algorithms",
+    "score": 90,
+    "tier": "gold",
+    "breakdown": {
+      "metadata": 20,
+      "statement_depth": 15,
+      "editorial_depth": 15,
+      "public_tests": 25,
+      "hidden_tests": 15
+    }
+  },
+  {
+    "id": "algorithms-practice-037",
+    "category": "algorithms",
+    "score": 90,
+    "tier": "gold",
+    "breakdown": {
+      "metadata": 20,
+      "statement_depth": 15,
+      "editorial_depth": 15,
+      "public_tests": 25,
+      "hidden_tests": 15
+    }
+  },
+  {
+    "id": "algorithms-practice-041",
+    "category": "algorithms",
+    "score": 90,
+    "tier": "gold",
+    "breakdown": {
+      "metadata": 20,
+      "statement_depth": 15,
+      "editorial_depth": 15,
+      "public_tests": 25,
+      "hidden_tests": 15
+    }
+  },
+  {
+    "id": "algorithms-practice-045",
+    "category": "algorithms",
+    "score": 90,
+    "tier": "gold",
+    "breakdown": {
+      "metadata": 20,
+      "statement_depth": 15,
+      "editorial_depth": 15,
+      "public_tests": 25,
+      "hidden_tests": 15
+    }
+  },
+  {
+    "id": "algorithms-practice-049",
+    "category": "algorithms",
+    "score": 90,
+    "tier": "gold",
+    "breakdown": {
+      "metadata": 20,
+      "statement_depth": 15,
+      "editorial_depth": 15,
+      "public_tests": 25,
+      "hidden_tests": 15
+    }
+  },
+  {
+    "id": "algorithms-practice-053",
+    "category": "algorithms",
+    "score": 90,
+    "tier": "gold",
+    "breakdown": {
+      "metadata": 20,
+      "statement_depth": 15,
+      "editorial_depth": 15,
+      "public_tests": 25,
+      "hidden_tests": 15
+    }
+  },
+  {
+    "id": "algorithms-practice-057",
+    "category": "algorithms",
+    "score": 90,
+    "tier": "gold",
+    "breakdown": {
+      "metadata": 20,
+      "statement_depth": 15,
+      "editorial_depth": 15,
+      "public_tests": 25,
+      "hidden_tests": 15
+    }
+  },
+  {
+    "id": "algorithms-practice-061",
+    "category": "algorithms",
+    "score": 90,
+    "tier": "gold",
+    "breakdown": {
+      "metadata": 20,
+      "statement_depth": 15,
+      "editorial_depth": 15,
+      "public_tests": 25,
+      "hidden_tests": 15
+    }
+  },
+  {
+    "id": "algorithms-practice-065",
+    "category": "algorithms",
+    "score": 90,
+    "tier": "gold",
+    "breakdown": {
+      "metadata": 20,
+      "statement_depth": 15,
+      "editorial_depth": 15,
+      "public_tests": 25,
+      "hidden_tests": 15
+    }
+  },
+  {
+    "id": "algorithms-practice-069",
+    "category": "algorithms",
+    "score": 90,
+    "tier": "gold",
+    "breakdown": {
+      "metadata": 20,
+      "statement_depth": 15,
+      "editorial_depth": 15,
+      "public_tests": 25,
+      "hidden_tests": 15
+    }
+  },
+  {
     "id": "binary-tree-level-order",
     "category": "algorithms",
     "score": 90,
@@ -14,6 +248,97 @@
   },
   {
     "id": "clean-null-sales",
+    "category": "data_science",
+    "score": 90,
+    "tier": "gold",
+    "breakdown": {
+      "metadata": 20,
+      "statement_depth": 15,
+      "editorial_depth": 15,
+      "public_tests": 25,
+      "hidden_tests": 15
+    }
+  },
+  {
+    "id": "data-science-practice-002",
+    "category": "data_science",
+    "score": 90,
+    "tier": "gold",
+    "breakdown": {
+      "metadata": 20,
+      "statement_depth": 15,
+      "editorial_depth": 15,
+      "public_tests": 25,
+      "hidden_tests": 15
+    }
+  },
+  {
+    "id": "data-science-practice-006",
+    "category": "data_science",
+    "score": 90,
+    "tier": "gold",
+    "breakdown": {
+      "metadata": 20,
+      "statement_depth": 15,
+      "editorial_depth": 15,
+      "public_tests": 25,
+      "hidden_tests": 15
+    }
+  },
+  {
+    "id": "data-science-practice-010",
+    "category": "data_science",
+    "score": 90,
+    "tier": "gold",
+    "breakdown": {
+      "metadata": 20,
+      "statement_depth": 15,
+      "editorial_depth": 15,
+      "public_tests": 25,
+      "hidden_tests": 15
+    }
+  },
+  {
+    "id": "data-science-practice-014",
+    "category": "data_science",
+    "score": 90,
+    "tier": "gold",
+    "breakdown": {
+      "metadata": 20,
+      "statement_depth": 15,
+      "editorial_depth": 15,
+      "public_tests": 25,
+      "hidden_tests": 15
+    }
+  },
+  {
+    "id": "data-science-practice-018",
+    "category": "data_science",
+    "score": 90,
+    "tier": "gold",
+    "breakdown": {
+      "metadata": 20,
+      "statement_depth": 15,
+      "editorial_depth": 15,
+      "public_tests": 25,
+      "hidden_tests": 15
+    }
+  },
+  {
+    "id": "data-science-practice-022",
+    "category": "data_science",
+    "score": 90,
+    "tier": "gold",
+    "breakdown": {
+      "metadata": 20,
+      "statement_depth": 15,
+      "editorial_depth": 15,
+      "public_tests": 25,
+      "hidden_tests": 15
+    }
+  },
+  {
+    "id": "data-science-practice-026",
     "category": "data_science",
     "score": 90,
     "tier": "gold",
@@ -130,240 +455,6 @@
     }
   },
   {
-    "id": "algorithms-practice-001",
-    "category": "algorithms",
-    "score": 85,
-    "tier": "silver",
-    "breakdown": {
-      "metadata": 20,
-      "statement_depth": 15,
-      "editorial_depth": 15,
-      "public_tests": 25,
-      "hidden_tests": 10
-    }
-  },
-  {
-    "id": "algorithms-practice-005",
-    "category": "algorithms",
-    "score": 85,
-    "tier": "silver",
-    "breakdown": {
-      "metadata": 20,
-      "statement_depth": 15,
-      "editorial_depth": 15,
-      "public_tests": 25,
-      "hidden_tests": 10
-    }
-  },
-  {
-    "id": "algorithms-practice-009",
-    "category": "algorithms",
-    "score": 85,
-    "tier": "silver",
-    "breakdown": {
-      "metadata": 20,
-      "statement_depth": 15,
-      "editorial_depth": 15,
-      "public_tests": 25,
-      "hidden_tests": 10
-    }
-  },
-  {
-    "id": "algorithms-practice-013",
-    "category": "algorithms",
-    "score": 85,
-    "tier": "silver",
-    "breakdown": {
-      "metadata": 20,
-      "statement_depth": 15,
-      "editorial_depth": 15,
-      "public_tests": 25,
-      "hidden_tests": 10
-    }
-  },
-  {
-    "id": "algorithms-practice-017",
-    "category": "algorithms",
-    "score": 85,
-    "tier": "silver",
-    "breakdown": {
-      "metadata": 20,
-      "statement_depth": 15,
-      "editorial_depth": 15,
-      "public_tests": 25,
-      "hidden_tests": 10
-    }
-  },
-  {
-    "id": "algorithms-practice-021",
-    "category": "algorithms",
-    "score": 85,
-    "tier": "silver",
-    "breakdown": {
-      "metadata": 20,
-      "statement_depth": 15,
-      "editorial_depth": 15,
-      "public_tests": 25,
-      "hidden_tests": 10
-    }
-  },
-  {
-    "id": "algorithms-practice-025",
-    "category": "algorithms",
-    "score": 85,
-    "tier": "silver",
-    "breakdown": {
-      "metadata": 20,
-      "statement_depth": 15,
-      "editorial_depth": 15,
-      "public_tests": 25,
-      "hidden_tests": 10
-    }
-  },
-  {
-    "id": "algorithms-practice-029",
-    "category": "algorithms",
-    "score": 85,
-    "tier": "silver",
-    "breakdown": {
-      "metadata": 20,
-      "statement_depth": 15,
-      "editorial_depth": 15,
-      "public_tests": 25,
-      "hidden_tests": 10
-    }
-  },
-  {
-    "id": "algorithms-practice-033",
-    "category": "algorithms",
-    "score": 85,
-    "tier": "silver",
-    "breakdown": {
-      "metadata": 20,
-      "statement_depth": 15,
-      "editorial_depth": 15,
-      "public_tests": 25,
-      "hidden_tests": 10
-    }
-  },
-  {
-    "id": "algorithms-practice-037",
-    "category": "algorithms",
-    "score": 85,
-    "tier": "silver",
-    "breakdown": {
-      "metadata": 20,
-      "statement_depth": 15,
-      "editorial_depth": 15,
-      "public_tests": 25,
-      "hidden_tests": 10
-    }
-  },
-  {
-    "id": "algorithms-practice-041",
-    "category": "algorithms",
-    "score": 85,
-    "tier": "silver",
-    "breakdown": {
-      "metadata": 20,
-      "statement_depth": 15,
-      "editorial_depth": 15,
-      "public_tests": 25,
-      "hidden_tests": 10
-    }
-  },
-  {
-    "id": "algorithms-practice-045",
-    "category": "algorithms",
-    "score": 85,
-    "tier": "silver",
-    "breakdown": {
-      "metadata": 20,
-      "statement_depth": 15,
-      "editorial_depth": 15,
-      "public_tests": 25,
-      "hidden_tests": 10
-    }
-  },
-  {
-    "id": "algorithms-practice-049",
-    "category": "algorithms",
-    "score": 85,
-    "tier": "silver",
-    "breakdown": {
-      "metadata": 20,
-      "statement_depth": 15,
-      "editorial_depth": 15,
-      "public_tests": 25,
-      "hidden_tests": 10
-    }
-  },
-  {
-    "id": "algorithms-practice-053",
-    "category": "algorithms",
-    "score": 85,
-    "tier": "silver",
-    "breakdown": {
-      "metadata": 20,
-      "statement_depth": 15,
-      "editorial_depth": 15,
-      "public_tests": 25,
-      "hidden_tests": 10
-    }
-  },
-  {
-    "id": "algorithms-practice-057",
-    "category": "algorithms",
-    "score": 85,
-    "tier": "silver",
-    "breakdown": {
-      "metadata": 20,
-      "statement_depth": 15,
-      "editorial_depth": 15,
-      "public_tests": 25,
-      "hidden_tests": 10
-    }
-  },
-  {
-    "id": "algorithms-practice-061",
-    "category": "algorithms",
-    "score": 85,
-    "tier": "silver",
-    "breakdown": {
-      "metadata": 20,
-      "statement_depth": 15,
-      "editorial_depth": 15,
-      "public_tests": 25,
-      "hidden_tests": 10
-    }
-  },
-  {
-    "id": "algorithms-practice-065",
-    "category": "algorithms",
-    "score": 85,
-    "tier": "silver",
-    "breakdown": {
-      "metadata": 20,
-      "statement_depth": 15,
-      "editorial_depth": 15,
-      "public_tests": 25,
-      "hidden_tests": 10
-    }
-  },
-  {
-    "id": "algorithms-practice-069",
-    "category": "algorithms",
-    "score": 85,
-    "tier": "silver",
-    "breakdown": {
-      "metadata": 20,
-      "statement_depth": 15,
-      "editorial_depth": 15,
-      "public_tests": 25,
-      "hidden_tests": 10
-    }
-  },
-  {
     "id": "binary-confusion-metrics",
     "category": "ml_fundamentals",
     "score": 85,
@@ -379,97 +470,6 @@
   {
     "id": "csv-column-extract",
     "category": "shell_lab",
-    "score": 85,
-    "tier": "silver",
-    "breakdown": {
-      "metadata": 20,
-      "statement_depth": 15,
-      "editorial_depth": 15,
-      "public_tests": 25,
-      "hidden_tests": 10
-    }
-  },
-  {
-    "id": "data-science-practice-002",
-    "category": "data_science",
-    "score": 85,
-    "tier": "silver",
-    "breakdown": {
-      "metadata": 20,
-      "statement_depth": 15,
-      "editorial_depth": 15,
-      "public_tests": 25,
-      "hidden_tests": 10
-    }
-  },
-  {
-    "id": "data-science-practice-006",
-    "category": "data_science",
-    "score": 85,
-    "tier": "silver",
-    "breakdown": {
-      "metadata": 20,
-      "statement_depth": 15,
-      "editorial_depth": 15,
-      "public_tests": 25,
-      "hidden_tests": 10
-    }
-  },
-  {
-    "id": "data-science-practice-010",
-    "category": "data_science",
-    "score": 85,
-    "tier": "silver",
-    "breakdown": {
-      "metadata": 20,
-      "statement_depth": 15,
-      "editorial_depth": 15,
-      "public_tests": 25,
-      "hidden_tests": 10
-    }
-  },
-  {
-    "id": "data-science-practice-014",
-    "category": "data_science",
-    "score": 85,
-    "tier": "silver",
-    "breakdown": {
-      "metadata": 20,
-      "statement_depth": 15,
-      "editorial_depth": 15,
-      "public_tests": 25,
-      "hidden_tests": 10
-    }
-  },
-  {
-    "id": "data-science-practice-018",
-    "category": "data_science",
-    "score": 85,
-    "tier": "silver",
-    "breakdown": {
-      "metadata": 20,
-      "statement_depth": 15,
-      "editorial_depth": 15,
-      "public_tests": 25,
-      "hidden_tests": 10
-    }
-  },
-  {
-    "id": "data-science-practice-022",
-    "category": "data_science",
-    "score": 85,
-    "tier": "silver",
-    "breakdown": {
-      "metadata": 20,
-      "statement_depth": 15,
-      "editorial_depth": 15,
-      "public_tests": 25,
-      "hidden_tests": 10
-    }
-  },
-  {
-    "id": "data-science-practice-026",
-    "category": "data_science",
     "score": 85,
     "tier": "silver",
     "breakdown": {

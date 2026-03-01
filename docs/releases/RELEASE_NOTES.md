@@ -22,6 +22,7 @@
 - Quality scoring gate and report generation (`scripts/score_problem_quality.py`, `docs/specs/problem-quality-report.json`).
 - Makefile developer workflow commands and pre-commit configuration.
 - Future backend API contract draft in `docs/specs/backend-api-contracts.md`.
+- Gold-tier baseline raised to 30 with promoted hidden-test coverage.
 
 ### Changed
 

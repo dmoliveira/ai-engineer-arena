@@ -173,7 +173,7 @@ This rebuilds `web/full-catalog.json` from all `problems/**/problem.yaml` metada
 Quality gate note:
 
 ```bash
-python3 scripts/score_problem_quality.py --min-score 70 --target-gold 10
+python3 scripts/score_problem_quality.py --min-score 70 --target-gold 30
 ```
 
 Tooling shortcuts:

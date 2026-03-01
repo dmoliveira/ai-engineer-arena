@@ -1,0 +1,6 @@
+2026-01-01T10:00:00Z INFO service started
+2026-01-01T10:01:12Z ERROR db timeout
+2026-01-01T10:03:18Z INFO worker ready
+2026-01-01T10:04:22Z WARN cache stale
+2026-01-01T10:05:27Z ERROR retry failed
+2026-01-01T10:06:01Z INFO finished

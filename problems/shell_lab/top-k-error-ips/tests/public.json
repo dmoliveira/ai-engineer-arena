@@ -3,7 +3,7 @@
     {
       "name": "basic_rank",
       "input": "example-app.log",
-      "k": 2,
+      "args": {"k": 2},
       "expected": ["10.0.0.1 3", "10.0.0.3 2"]
     }
   ]

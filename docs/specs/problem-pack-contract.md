@@ -36,7 +36,8 @@ Required fields:
     {
       "name": "string",
       "input": {},
-      "expected": {}
+      "expected": {},
+      "runtime_limit_ms": 600
     }
   ]
 }
@@ -46,6 +47,23 @@ Guidelines:
 
 - include simple and edge-case examples
 - keep these visible to users
+
+Shell-track variant example:
+
+```json
+{
+  "tests": [
+    {
+      "name": "example",
+      "input": "example-app.log",
+      "args": {"k": 2},
+      "expected": ["10.0.0.1 3", "10.0.0.3 2"]
+    }
+  ]
+}
+```
+
+For shell problems, fixtures should live in `tests/fixtures/`.
 
 ## `tests/hidden.json` schema
 

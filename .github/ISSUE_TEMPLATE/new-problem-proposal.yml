@@ -1,0 +1,53 @@
+name: New Problem Proposal
+description: Propose a new educational problem for the arena.
+title: "[problem-proposal]: "
+labels:
+  - content
+  - proposal
+body:
+  - type: input
+    id: title
+    attributes:
+      label: Proposed problem title
+      placeholder: e.g. Longest Subarray with Sum K
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - algorithms
+        - data_science
+        - ml_fundamentals
+        - shell_lab
+    validations:
+      required: true
+
+  - type: dropdown
+    id: difficulty
+    attributes:
+      label: Difficulty
+      options:
+        - easy
+        - medium
+        - hard
+    validations:
+      required: true
+
+  - type: textarea
+    id: statement
+    attributes:
+      label: Problem statement draft
+      placeholder: Include objective, input/output, and constraints
+    validations:
+      required: true
+
+  - type: textarea
+    id: why
+    attributes:
+      label: Why this problem matters
+      placeholder: What concept does this teach and where is it useful?
+    validations:
+      required: true

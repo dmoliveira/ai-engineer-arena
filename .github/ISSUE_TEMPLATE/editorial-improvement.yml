@@ -1,0 +1,30 @@
+name: Editorial Improvement
+description: Suggest improvements for an existing solution editorial.
+title: "[editorial]: "
+labels:
+  - docs
+  - editorial
+body:
+  - type: input
+    id: problem_id
+    attributes:
+      label: Problem id
+      placeholder: e.g. two-sum-hash
+    validations:
+      required: true
+
+  - type: textarea
+    id: gap
+    attributes:
+      label: What is unclear or missing?
+      placeholder: Explain missing trade-offs, complexity details, or approach quality.
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed improvement
+      placeholder: Add your recommended explanation/snippet.
+    validations:
+      required: true

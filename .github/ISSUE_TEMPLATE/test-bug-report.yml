@@ -1,0 +1,38 @@
+name: Test or Validation Bug
+description: Report a failing test, flaky check, or incorrect expected output.
+title: "[test-bug]: "
+labels:
+  - bug
+  - tests
+body:
+  - type: input
+    id: problem_id
+    attributes:
+      label: Problem id or path
+      placeholder: e.g. problems/algorithms/merge-intervals
+    validations:
+      required: true
+
+  - type: textarea
+    id: observed
+    attributes:
+      label: Observed behavior
+      placeholder: What happened?
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      placeholder: What should happen?
+    validations:
+      required: true
+
+  - type: textarea
+    id: repro
+    attributes:
+      label: Reproduction steps
+      placeholder: Include command and relevant output snippets.
+    validations:
+      required: true

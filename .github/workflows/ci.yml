@@ -26,8 +26,12 @@ jobs:
       - name: Compile Python files
         run: |
           python -m py_compile runner/run_problem.py
+          python -m py_compile runner/run_shell_problem.py
           python -m py_compile examples/solutions/*.py
           python -m py_compile scripts/validate_content.py
+          python -m py_compile scripts/new_problem.py
+          python -m py_compile scripts/generate_seed_batch.py
+          python -m py_compile scripts/generate_scale_batch.py
 
       - name: Validate content contracts
         run: python scripts/validate_content.py
@@ -39,3 +43,4 @@ jobs:
           python runner/run_problem.py --problem-dir problems/algorithms/merge-intervals --solution examples/solutions/merge_intervals.py
           python runner/run_problem.py --problem-dir problems/algorithms/number-of-islands --solution examples/solutions/number_of_islands.py
           python runner/run_problem.py --problem-dir problems/ml_fundamentals/logistic-threshold-classifier --solution examples/solutions/logistic_threshold_classifier.py
+          python runner/run_shell_problem.py --problem-dir problems/shell_lab/log-level-counter --command "cut -d' ' -f2 {input_file} | sort | uniq -c | awk '{print \$2, \$1}'"

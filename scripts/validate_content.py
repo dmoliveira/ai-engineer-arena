@@ -1,12 +1,15 @@
 #!/usr/bin/env python3
-"""Validate challenge content contracts with zero external dependencies."""
+"""Validate challenge content contracts with typed checks."""
 
 from __future__ import annotations
 
 import json
-import sys
+import re
 from pathlib import Path
+from typing import Any
 
+DIFFICULTIES = {"easy", "medium", "hard"}
+VALID_CATEGORIES = {"algorithms", "data_science", "ml_fundamentals", "shell_lab"}
 REQUIRED_YAML_KEYS = {
     "id",
     "title",
@@ -20,18 +23,122 @@ REQUIRED_YAML_KEYS = {
 }
 
 
-def parse_top_level_yaml_keys(path: Path) -> set[str]:
-    keys: set[str] = set()
+def parse_simple_yaml(path: Path) -> dict[str, Any]:
+    data: dict[str, Any] = {}
+    current_key: str | None = None
+
     for raw_line in path.read_text(encoding="utf-8").splitlines():
-        line = raw_line.strip()
-        if not line or line.startswith("#"):
+        line = raw_line.rstrip()
+        stripped = line.strip()
+
+        if not stripped or stripped.startswith("#"):
             continue
+
+        if line.startswith("  - ") and current_key:
+            if not isinstance(data.get(current_key), list):
+                data[current_key] = []
+            data[current_key].append(stripped[2:].strip())
+            continue
+
+        if line.startswith(" "):
+            continue
+
         if ":" not in line:
             continue
-        if raw_line.startswith(" ") or raw_line.startswith("\t"):
+
+        key, raw_value = line.split(":", 1)
+        key = key.strip()
+        value = raw_value.strip()
+        current_key = key
+
+        if value == "":
+            data[key] = []
             continue
-        keys.add(line.split(":", 1)[0].strip())
-    return keys
+
+        if value.lower() in {"true", "false"}:
+            data[key] = value.lower() == "true"
+            continue
+
+        data[key] = value.strip('"')
+
+    return data
+
+
+def validate_problem_yaml(problem_dir: Path, payload: dict[str, Any]) -> list[str]:
+    errors: list[str] = []
+
+    missing = sorted(REQUIRED_YAML_KEYS - set(payload.keys()))
+    if missing:
+        errors.append(
+            f"missing yaml keys in {problem_dir / 'problem.yaml'}: {', '.join(missing)}"
+        )
+        return errors
+
+    if not re.fullmatch(r"[a-z0-9]+(?:-[a-z0-9]+)*", str(payload["id"])):
+        errors.append(f"invalid id format in {problem_dir / 'problem.yaml'}")
+
+    if payload["id"] != problem_dir.name:
+        errors.append(
+            f"id must match folder name for {problem_dir}: {payload['id']} != {problem_dir.name}"
+        )
+
+    if payload["difficulty"] not in DIFFICULTIES:
+        errors.append(f"invalid difficulty in {problem_dir / 'problem.yaml'}")
+
+    category = payload["category"]
+    if category not in VALID_CATEGORIES:
+        errors.append(f"invalid category in {problem_dir / 'problem.yaml'}")
+    elif category != problem_dir.parent.name:
+        errors.append(
+            f"category mismatch in {problem_dir / 'problem.yaml'}: {category} != {problem_dir.parent.name}"
+        )
+
+    for key in ("tags", "constraints", "languages"):
+        value = payload.get(key)
+        if not isinstance(value, list) or not value:
+            errors.append(
+                f"{key} must be a non-empty list in {problem_dir / 'problem.yaml'}"
+            )
+
+    if not isinstance(payload.get("interview_recommended"), bool):
+        errors.append(
+            f"interview_recommended must be boolean in {problem_dir / 'problem.yaml'}"
+        )
+
+    if not str(payload["title"]).strip():
+        errors.append(f"title must be non-empty in {problem_dir / 'problem.yaml'}")
+    if not str(payload["recommended_approach"]).strip():
+        errors.append(
+            f"recommended_approach must be non-empty in {problem_dir / 'problem.yaml'}"
+        )
+
+    return errors
+
+
+def validate_test_payload(path: Path) -> list[str]:
+    errors: list[str] = []
+
+    try:
+        payload = json.loads(path.read_text(encoding="utf-8"))
+    except json.JSONDecodeError as exc:
+        return [f"invalid json at {path}: {exc}"]
+
+    tests = payload.get("tests")
+    if not isinstance(tests, list):
+        return [f"tests must be a list in {path}"]
+
+    for index, test in enumerate(tests):
+        if not isinstance(test, dict):
+            errors.append(f"test entry #{index} must be an object in {path}")
+            continue
+        if "name" not in test or not str(test["name"]).strip():
+            errors.append(f"test entry #{index} missing name in {path}")
+        if "expected" in test and "input" not in test:
+            errors.append(
+                f"test entry #{index} has expected but missing input in {path}"
+            )
+
+    return errors
 
 
 def validate_problem_pack(problem_dir: Path) -> list[str]:
@@ -50,24 +157,39 @@ def validate_problem_pack(problem_dir: Path) -> list[str]:
 
     yaml_path = problem_dir / "problem.yaml"
     if yaml_path.exists():
-        keys = parse_top_level_yaml_keys(yaml_path)
-        missing = sorted(REQUIRED_YAML_KEYS - keys)
-        if missing:
-            errors.append(f"missing yaml keys in {yaml_path}: {', '.join(missing)}")
+        payload = parse_simple_yaml(yaml_path)
+        errors.extend(validate_problem_yaml(problem_dir, payload))
 
     for json_relative in ("tests/public.json", "tests/hidden.json"):
-        json_path = problem_dir / json_relative
-        if not json_path.exists():
-            continue
-        try:
-            payload = json.loads(json_path.read_text(encoding="utf-8"))
-        except json.JSONDecodeError as exc:
-            errors.append(f"invalid json at {json_path}: {exc}")
-            continue
+        path = problem_dir / json_relative
+        if path.exists():
+            errors.extend(validate_test_payload(path))
 
-        tests = payload.get("tests")
-        if not isinstance(tests, list):
-            errors.append(f"tests must be a list in {json_path}")
+    return errors
+
+
+def validate_web_catalog(repo_root: Path, known_problem_ids: set[str]) -> list[str]:
+    errors: list[str] = []
+    web_catalog = repo_root / "web" / "problems.json"
+
+    try:
+        payload = json.loads(web_catalog.read_text(encoding="utf-8"))
+    except (FileNotFoundError, json.JSONDecodeError) as exc:
+        return [f"invalid web catalog {web_catalog}: {exc}"]
+
+    if not isinstance(payload, list):
+        return [f"web catalog must be a list in {web_catalog}"]
+
+    for index, item in enumerate(payload):
+        if not isinstance(item, dict):
+            errors.append(f"catalog entry #{index} must be object in {web_catalog}")
+            continue
+        problem_id = item.get("id")
+        if not isinstance(problem_id, str) or not problem_id:
+            errors.append(f"catalog entry #{index} missing id in {web_catalog}")
+            continue
+        if problem_id not in known_problem_ids:
+            errors.append(f"catalog entry references unknown problem id: {problem_id}")
 
     return errors
 
@@ -76,21 +198,20 @@ def main() -> int:
     repo_root = Path(__file__).resolve().parents[1]
     problems_root = repo_root / "problems"
 
-    problem_dirs = [
+    yaml_paths = [
         path
         for path in problems_root.rglob("problem.yaml")
         if "_templates" not in path.parts
     ]
 
     errors: list[str] = []
-    for yaml_file in problem_dirs:
+    problem_ids: set[str] = set()
+
+    for yaml_file in yaml_paths:
+        problem_ids.add(yaml_file.parent.name)
         errors.extend(validate_problem_pack(yaml_file.parent))
 
-    web_catalog = repo_root / "web" / "problems.json"
-    try:
-        json.loads(web_catalog.read_text(encoding="utf-8"))
-    except (FileNotFoundError, json.JSONDecodeError) as exc:
-        errors.append(f"invalid web catalog {web_catalog}: {exc}")
+    errors.extend(validate_web_catalog(repo_root, problem_ids))
 
     if errors:
         print("content validation failed")
@@ -98,7 +219,7 @@ def main() -> int:
             print(f"- {item}")
         return 1
 
-    print(f"content validation passed ({len(problem_dirs)} problem packs)")
+    print(f"content validation passed ({len(yaml_paths)} problem packs)")
     return 0
 
 

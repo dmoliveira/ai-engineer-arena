@@ -9,6 +9,8 @@ const runtimeStatus = document.getElementById("runtimeStatus");
 const progressStats = document.getElementById("progressStats");
 const difficultyFilter = document.getElementById("difficultyFilter");
 const topicFilter = document.getElementById("topicFilter");
+const tagFilter = document.getElementById("tagFilter");
+const sortFilter = document.getElementById("sortFilter");
 const searchInput = document.getElementById("searchInput");
 const prevPageBtn = document.getElementById("prevPageBtn");
 const nextPageBtn = document.getElementById("nextPageBtn");
@@ -162,16 +164,35 @@ function isInActiveTrack(problem) {
 function getVisibleProblems() {
   const selectedDifficulty = difficultyFilter.value;
   const selectedTopic = topicFilter.value;
+  const selectedTag = tagFilter.value;
+  const selectedSort = sortFilter.value;
   const query = searchInput.value.trim().toLowerCase();
 
-  return problems.filter((problem) => {
+  const filtered = problems.filter((problem) => {
     const topicMatch = selectedTopic === "all" || problem.category === selectedTopic;
     const difficultyMatch = selectedDifficulty === "all" || problem.difficulty === selectedDifficulty;
+    const tagMatch = selectedTag === "all" || (problem.tags || []).includes(selectedTag);
     const trackMatch = isInActiveTrack(problem);
     const searchSpace = [problem.id, problem.title, ...(problem.tags || [])].join(" ").toLowerCase();
     const queryMatch = !query || searchSpace.includes(query);
-    return topicMatch && difficultyMatch && trackMatch && queryMatch;
+    return topicMatch && difficultyMatch && tagMatch && trackMatch && queryMatch;
   });
+
+  const rank = { easy: 0, medium: 1, hard: 2 };
+  if (selectedSort === "title_asc") {
+    filtered.sort((a, b) => a.title.localeCompare(b.title));
+  } else if (selectedSort === "difficulty_asc") {
+    filtered.sort((a, b) => rank[a.difficulty] - rank[b.difficulty]);
+  } else if (selectedSort === "difficulty_desc") {
+    filtered.sort((a, b) => rank[b.difficulty] - rank[a.difficulty]);
+  } else {
+    filtered.sort((a, b) => {
+      if (a.category !== b.category) return a.category.localeCompare(b.category);
+      return rank[a.difficulty] - rank[b.difficulty];
+    });
+  }
+
+  return filtered;
 }
 
 function setActive(problem) {
@@ -204,6 +225,17 @@ function renderTopicFilter() {
     option.value = topic;
     option.textContent = topic;
     topicFilter.appendChild(option);
+  }
+}
+
+function renderTagFilter() {
+  const tags = [...new Set(problems.flatMap((problem) => problem.tags || []))].sort();
+  tagFilter.innerHTML = '<option value="all">All</option>';
+  for (const tag of tags) {
+    const option = document.createElement("option");
+    option.value = tag;
+    option.textContent = tag;
+    tagFilter.appendChild(option);
   }
 }
 
@@ -357,6 +389,7 @@ async function loadCatalog() {
 async function bootstrap() {
   problems = await loadCatalog();
   renderTopicFilter();
+  renderTagFilter();
   setTrack("all");
   renderProblemList();
   renderProgress();
@@ -373,6 +406,8 @@ function onFilterChange() {
 
 difficultyFilter.addEventListener("change", onFilterChange);
 topicFilter.addEventListener("change", onFilterChange);
+tagFilter.addEventListener("change", onFilterChange);
+sortFilter.addEventListener("change", onFilterChange);
 searchInput.addEventListener("input", onFilterChange);
 
 prevPageBtn.addEventListener("click", () => {

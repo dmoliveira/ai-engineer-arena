@@ -33,9 +33,13 @@ jobs:
           python -m py_compile scripts/generate_seed_batch.py
           python -m py_compile scripts/generate_scale_batch.py
           python -m py_compile scripts/build_web_catalog.py
+          python -m py_compile scripts/score_problem_quality.py
 
       - name: Validate content contracts
         run: python scripts/validate_content.py
+
+      - name: Enforce quality gate
+        run: python scripts/score_problem_quality.py --min-score 70 --target-gold 10
 
       - name: Validate generated web catalog is up to date
         run: |

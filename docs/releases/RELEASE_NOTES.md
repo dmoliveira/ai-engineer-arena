@@ -29,6 +29,8 @@
 - Converted problem list rows into compact metadata cards for a cleaner scan path.
 - Reduced panel visual weight and tightened typography for denser minimalist browsing.
 - Added keyboard shortcuts for discovery flow (`/` focus search, `Esc` clear search).
+- Added Focus Mode toggle to hide secondary panels while solving.
+- Collapsed non-essential panels (Learning Paths and Support Progress) by default.
 
 ### Changed
 

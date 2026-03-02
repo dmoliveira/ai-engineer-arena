@@ -167,6 +167,7 @@ Problem discovery note:
 - Users can filter available browser problems by `topic` and `difficulty`.
 - Users can search by title/id/tag and browse through paginated results.
 - Users can switch curated paths: `Interview Path` and `ML Engineer Path`.
+- Users can toggle `Focus Mode` to hide secondary panels while solving.
 - Keyboard shortcuts: press `/` to focus search, `Esc` to clear search.
 
 Catalog build note:

@@ -154,6 +154,25 @@ body {
   gap: 0.55rem;
 }
 
+.focus-btn {
+  display: inline-block;
+  text-decoration: none;
+  color: var(--text);
+  font-weight: 700;
+  background: rgba(255, 255, 255, 0.08);
+  padding: 0.56rem 0.9rem;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.28);
+  cursor: pointer;
+  transition: transform 160ms ease, box-shadow 160ms ease;
+}
+
+.focus-btn:hover,
+.focus-btn.active {
+  transform: translateY(-1px);
+  box-shadow: 0 10px 18px rgba(0, 0, 0, 0.22);
+}
+
 .contribute-btn {
   display: inline-block;
   text-decoration: none;
@@ -215,6 +234,26 @@ body {
 
 .support-inline-link:hover {
   text-decoration: underline;
+}
+
+.panel-details summary {
+  cursor: pointer;
+  font-weight: 700;
+  color: var(--text);
+}
+
+.panel-details p,
+.panel-details .track-actions,
+.panel-details .support-list,
+.panel-details .support-inline-link {
+  margin-top: 0.6rem;
+}
+
+body.focus-mode .hero,
+body.focus-mode .stats-panel,
+body.focus-mode .tracks-panel,
+body.focus-mode .support-panel {
+  display: none;
 }
 
 .recommendation-card {

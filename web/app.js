@@ -24,6 +24,7 @@ const trackAllBtn = document.getElementById("trackAllBtn");
 const trackInterviewBtn = document.getElementById("trackInterviewBtn");
 const trackMlBtn = document.getElementById("trackMlBtn");
 const trackStatus = document.getElementById("trackStatus");
+const focusModeBtn = document.getElementById("focusModeBtn");
 
 const supportNudge = document.getElementById("supportNudge");
 const supportNudgeText = document.getElementById("supportNudgeText");
@@ -38,6 +39,7 @@ let activeTrack = "all";
 const PAGE_SIZE = 12;
 const STORAGE_KEY = "aiea-progress-v1";
 const SUPPORT_NUDGE_KEY = "aiea-support-nudge-v1";
+const FOCUS_MODE_KEY = "aiea-focus-mode-v1";
 const ONE_DAY_MS = 24 * 60 * 60 * 1000;
 
 const TRACKS = {
@@ -74,6 +76,17 @@ function loadProgress() {
 
 function saveProgress(progress) {
   localStorage.setItem(STORAGE_KEY, JSON.stringify(progress));
+}
+
+function loadFocusMode() {
+  return localStorage.getItem(FOCUS_MODE_KEY) === "true";
+}
+
+function setFocusMode(enabled) {
+  document.body.classList.toggle("focus-mode", enabled);
+  focusModeBtn.classList.toggle("active", enabled);
+  focusModeBtn.textContent = enabled ? "Exit Focus" : "Focus Mode";
+  localStorage.setItem(FOCUS_MODE_KEY, String(enabled));
 }
 
 function loadNudgeState() {
@@ -418,6 +431,7 @@ async function loadCatalog() {
 
 async function bootstrap() {
   problems = await loadCatalog();
+  setFocusMode(loadFocusMode());
   renderTopicFilter();
   renderTagFilter();
   setTrack("all");
@@ -452,6 +466,9 @@ nextPageBtn.addEventListener("click", () => {
 trackAllBtn.addEventListener("click", () => setTrack("all"));
 trackInterviewBtn.addEventListener("click", () => setTrack("interview"));
 trackMlBtn.addEventListener("click", () => setTrack("ml_engineer"));
+focusModeBtn.addEventListener("click", () => {
+  setFocusMode(!document.body.classList.contains("focus-mode"));
+});
 
 clearFiltersBtn.addEventListener("click", () => {
   topicFilter.value = "all";

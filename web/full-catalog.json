@@ -14,7 +14,7 @@
     "track": "python",
     "prompt": "Generated practice problem in the algorithms topic.",
     "statement_path": "problems/algorithms/algorithms-practice-009/statement.md",
-    "public_test_path": "problems/algorithms/algorithms-practice-009/tests/public.json",
+    "public_test_path": "public-tests/algorithms-practice-009.json",
     "starter": "def solve(*args, **kwargs):\n    pass\n",
     "function": "solve"
   },
@@ -33,7 +33,7 @@
     "track": "python",
     "prompt": "Generated practice problem in the algorithms topic.",
     "statement_path": "problems/algorithms/algorithms-practice-021/statement.md",
-    "public_test_path": "problems/algorithms/algorithms-practice-021/tests/public.json",
+    "public_test_path": "public-tests/algorithms-practice-021.json",
     "starter": "def solve(*args, **kwargs):\n    pass\n",
     "function": "solve"
   },
@@ -52,7 +52,7 @@
     "track": "python",
     "prompt": "Generated practice problem in the algorithms topic.",
     "statement_path": "problems/algorithms/algorithms-practice-033/statement.md",
-    "public_test_path": "problems/algorithms/algorithms-practice-033/tests/public.json",
+    "public_test_path": "public-tests/algorithms-practice-033.json",
     "starter": "def solve(*args, **kwargs):\n    pass\n",
     "function": "solve"
   },
@@ -71,7 +71,7 @@
     "track": "python",
     "prompt": "Generated practice problem in the algorithms topic.",
     "statement_path": "problems/algorithms/algorithms-practice-045/statement.md",
-    "public_test_path": "problems/algorithms/algorithms-practice-045/tests/public.json",
+    "public_test_path": "public-tests/algorithms-practice-045.json",
     "starter": "def solve(*args, **kwargs):\n    pass\n",
     "function": "solve"
   },
@@ -90,7 +90,7 @@
     "track": "python",
     "prompt": "Generated practice problem in the algorithms topic.",
     "statement_path": "problems/algorithms/algorithms-practice-057/statement.md",
-    "public_test_path": "problems/algorithms/algorithms-practice-057/tests/public.json",
+    "public_test_path": "public-tests/algorithms-practice-057.json",
     "starter": "def solve(*args, **kwargs):\n    pass\n",
     "function": "solve"
   },
@@ -109,7 +109,7 @@
     "track": "python",
     "prompt": "Generated practice problem in the algorithms topic.",
     "statement_path": "problems/algorithms/algorithms-practice-069/statement.md",
-    "public_test_path": "problems/algorithms/algorithms-practice-069/tests/public.json",
+    "public_test_path": "public-tests/algorithms-practice-069.json",
     "starter": "def solve(*args, **kwargs):\n    pass\n",
     "function": "solve"
   },
@@ -127,7 +127,7 @@
     "track": "python",
     "prompt": "Seed practice problem for algorithms.",
     "statement_path": "problems/algorithms/first-unique-char/statement.md",
-    "public_test_path": "problems/algorithms/first-unique-char/tests/public.json",
+    "public_test_path": "public-tests/first-unique-char.json",
     "starter": "def solve(*args, **kwargs):\n    pass\n",
     "function": "solve"
   },
@@ -145,7 +145,7 @@
     "track": "python",
     "prompt": "Seed practice problem for algorithms.",
     "statement_path": "problems/algorithms/min-stack-ops/statement.md",
-    "public_test_path": "problems/algorithms/min-stack-ops/tests/public.json",
+    "public_test_path": "public-tests/min-stack-ops.json",
     "starter": "def solve(*args, **kwargs):\n    pass\n",
     "function": "solve"
   },
@@ -164,7 +164,7 @@
     "track": "python",
     "prompt": "Given an array of integers `nums` and an integer `target`, return indices of the two numbers such that they add up to `target`.",
     "statement_path": "problems/algorithms/two-sum-hash/statement.md",
-    "public_test_path": "problems/algorithms/two-sum-hash/tests/public.json",
+    "public_test_path": "public-tests/two-sum-hash.json",
     "starter": "def solve(*args, **kwargs):\n    pass\n",
     "function": "solve"
   },
@@ -183,7 +183,7 @@
     "track": "python",
     "prompt": "Given two strings `s` and `t`, return `true` if `t` is an anagram of `s`, and `false` otherwise.",
     "statement_path": "problems/algorithms/valid-anagram/statement.md",
-    "public_test_path": "problems/algorithms/valid-anagram/tests/public.json",
+    "public_test_path": "public-tests/valid-anagram.json",
     "starter": "def solve(*args, **kwargs):\n    pass\n",
     "function": "solve"
   },
@@ -202,7 +202,7 @@
     "track": "python",
     "prompt": "Generated practice problem in the algorithms topic.",
     "statement_path": "problems/algorithms/algorithms-practice-005/statement.md",
-    "public_test_path": "problems/algorithms/algorithms-practice-005/tests/public.json",
+    "public_test_path": "public-tests/algorithms-practice-005.json",
     "starter": "def solve(*args, **kwargs):\n    pass\n",
     "function": "solve"
   },
@@ -221,7 +221,7 @@
     "track": "python",
     "prompt": "Generated practice problem in the algorithms topic.",
     "statement_path": "problems/algorithms/algorithms-practice-017/statement.md",
-    "public_test_path": "problems/algorithms/algorithms-practice-017/tests/public.json",
+    "public_test_path": "public-tests/algorithms-practice-017.json",
     "starter": "def solve(*args, **kwargs):\n    pass\n",
     "function": "solve"
   },
@@ -240,7 +240,7 @@
     "track": "python",
     "prompt": "Generated practice problem in the algorithms topic.",
     "statement_path": "problems/algorithms/algorithms-practice-029/statement.md",
-    "public_test_path": "problems/algorithms/algorithms-practice-029/tests/public.json",
+    "public_test_path": "public-tests/algorithms-practice-029.json",
     "starter": "def solve(*args, **kwargs):\n    pass\n",
     "function": "solve"
   },
@@ -259,7 +259,7 @@
     "track": "python",
     "prompt": "Generated practice problem in the algorithms topic.",
     "statement_path": "problems/algorithms/algorithms-practice-041/statement.md",
-    "public_test_path": "problems/algorithms/algorithms-practice-041/tests/public.json",
+    "public_test_path": "public-tests/algorithms-practice-041.json",
     "starter": "def solve(*args, **kwargs):\n    pass\n",
     "function": "solve"
   },
@@ -278,7 +278,7 @@
     "track": "python",
     "prompt": "Generated practice problem in the algorithms topic.",
     "statement_path": "problems/algorithms/algorithms-practice-053/statement.md",
-    "public_test_path": "problems/algorithms/algorithms-practice-053/tests/public.json",
+    "public_test_path": "public-tests/algorithms-practice-053.json",
     "starter": "def solve(*args, **kwargs):\n    pass\n",
     "function": "solve"
   },
@@ -297,7 +297,7 @@
     "track": "python",
     "prompt": "Generated practice problem in the algorithms topic.",
     "statement_path": "problems/algorithms/algorithms-practice-065/statement.md",
-    "public_test_path": "problems/algorithms/algorithms-practice-065/tests/public.json",
+    "public_test_path": "public-tests/algorithms-practice-065.json",
     "starter": "def solve(*args, **kwargs):\n    pass\n",
     "function": "solve"
   },
@@ -315,7 +315,7 @@
     "track": "python",
     "prompt": "Seed practice problem for algorithms.",
     "statement_path": "problems/algorithms/kth-smallest-sorted-matrix/statement.md",
-    "public_test_path": "problems/algorithms/kth-smallest-sorted-matrix/tests/public.json",
+    "public_test_path": "public-tests/kth-smallest-sorted-matrix.json",
     "starter": "def solve(*args, **kwargs):\n    pass\n",
     "function": "solve"
   },
@@ -334,7 +334,7 @@
     "track": "python",
     "prompt": "Generated practice problem in the algorithms topic.",
     "statement_path": "problems/algorithms/algorithms-practice-001/statement.md",
-    "public_test_path": "problems/algorithms/algorithms-practice-001/tests/public.json",
+    "public_test_path": "public-tests/algorithms-practice-001.json",
     "starter": "def solve(*args, **kwargs):\n    pass\n",
     "function": "solve"
   },
@@ -353,7 +353,7 @@
     "track": "python",
     "prompt": "Generated practice problem in the algorithms topic.",
     "statement_path": "problems/algorithms/algorithms-practice-013/statement.md",
-    "public_test_path": "problems/algorithms/algorithms-practice-013/tests/public.json",
+    "public_test_path": "public-tests/algorithms-practice-013.json",
     "starter": "def solve(*args, **kwargs):\n    pass\n",
     "function": "solve"
   },
@@ -372,7 +372,7 @@
     "track": "python",
     "prompt": "Generated practice problem in the algorithms topic.",
     "statement_path": "problems/algorithms/algorithms-practice-025/statement.md",
-    "public_test_path": "problems/algorithms/algorithms-practice-025/tests/public.json",
+    "public_test_path": "public-tests/algorithms-practice-025.json",
     "starter": "def solve(*args, **kwargs):\n    pass\n",
     "function": "solve"
   },
@@ -391,7 +391,7 @@
     "track": "python",
     "prompt": "Generated practice problem in the algorithms topic.",
     "statement_path": "problems/algorithms/algorithms-practice-037/statement.md",
-    "public_test_path": "problems/algorithms/algorithms-practice-037/tests/public.json",
+    "public_test_path": "public-tests/algorithms-practice-037.json",
     "starter": "def solve(*args, **kwargs):\n    pass\n",
     "function": "solve"
   },
@@ -410,7 +410,7 @@
     "track": "python",
     "prompt": "Generated practice problem in the algorithms topic.",
     "statement_path": "problems/algorithms/algorithms-practice-049/statement.md",
-    "public_test_path": "problems/algorithms/algorithms-practice-049/tests/public.json",
+    "public_test_path": "public-tests/algorithms-practice-049.json",
     "starter": "def solve(*args, **kwargs):\n    pass\n",
     "function": "solve"
   },
@@ -429,7 +429,7 @@
     "track": "python",
     "prompt": "Generated practice problem in the algorithms topic.",
     "statement_path": "problems/algorithms/algorithms-practice-061/statement.md",
-    "public_test_path": "problems/algorithms/algorithms-practice-061/tests/public.json",
+    "public_test_path": "public-tests/algorithms-practice-061.json",
     "starter": "def solve(*args, **kwargs):\n    pass\n",
     "function": "solve"
   },
@@ -449,7 +449,7 @@
     "track": "python",
     "prompt": "Given a binary tree represented as an array in level-order form (using `null` for missing nodes), return the node values grouped by depth level.",
     "statement_path": "problems/algorithms/binary-tree-level-order/statement.md",
-    "public_test_path": "problems/algorithms/binary-tree-level-order/tests/public.json",
+    "public_test_path": "public-tests/binary-tree-level-order.json",
     "starter": "def solve(*args, **kwargs):\n    pass\n",
     "function": "solve"
   },
@@ -467,7 +467,7 @@
     "track": "python",
     "prompt": "Seed practice problem for algorithms.",
     "statement_path": "problems/algorithms/detect-cycle-directed-graph/statement.md",
-    "public_test_path": "problems/algorithms/detect-cycle-directed-graph/tests/public.json",
+    "public_test_path": "public-tests/detect-cycle-directed-graph.json",
     "starter": "def solve(*args, **kwargs):\n    pass\n",
     "function": "solve"
   },
@@ -486,7 +486,7 @@
     "track": "python",
     "prompt": "Given a list of intervals where each interval is `[start, end]`, merge all overlapping intervals and return a list of non-overlapping intervals that covers the same ranges.",
     "statement_path": "problems/algorithms/merge-intervals/statement.md",
-    "public_test_path": "problems/algorithms/merge-intervals/tests/public.json",
+    "public_test_path": "public-tests/merge-intervals.json",
     "starter": "def solve(*args, **kwargs):\n    pass\n",
     "function": "solve"
   },
@@ -506,7 +506,7 @@
     "track": "python",
     "prompt": "Given a 2D grid of `'1'` (land) and `'0'` (water), return the number of islands. An island is formed by connecting adjacent lands horizontally or vertically.",
     "statement_path": "problems/algorithms/number-of-islands/statement.md",
-    "public_test_path": "problems/algorithms/number-of-islands/tests/public.json",
+    "public_test_path": "public-tests/number-of-islands.json",
     "starter": "def solve(*args, **kwargs):\n    pass\n",
     "function": "solve"
   },
@@ -524,7 +524,7 @@
     "track": "python",
     "prompt": "Seed practice problem for algorithms.",
     "statement_path": "problems/algorithms/sliding-window-max-sum/statement.md",
-    "public_test_path": "problems/algorithms/sliding-window-max-sum/tests/public.json",
+    "public_test_path": "public-tests/sliding-window-max-sum.json",
     "starter": "def solve(*args, **kwargs):\n    pass\n",
     "function": "solve"
   },
@@ -543,7 +543,7 @@
     "track": "python",
     "prompt": "Given a list of row dictionaries, return only rows with a valid numeric `sales` value.",
     "statement_path": "problems/data_science/clean-null-sales/statement.md",
-    "public_test_path": "problems/data_science/clean-null-sales/tests/public.json",
+    "public_test_path": "public-tests/clean-null-sales.json",
     "starter": "def solve(*args, **kwargs):\n    pass\n",
     "function": "solve"
   },
@@ -562,7 +562,7 @@
     "track": "python",
     "prompt": "Generated practice problem in the data_science topic.",
     "statement_path": "problems/data_science/data-science-practice-006/statement.md",
-    "public_test_path": "problems/data_science/data-science-practice-006/tests/public.json",
+    "public_test_path": "public-tests/data-science-practice-006.json",
     "starter": "def solve(*args, **kwargs):\n    pass\n",
     "function": "solve"
   },
@@ -581,7 +581,7 @@
     "track": "python",
     "prompt": "Generated practice problem in the data_science topic.",
     "statement_path": "problems/data_science/data-science-practice-018/statement.md",
-    "public_test_path": "problems/data_science/data-science-practice-018/tests/public.json",
+    "public_test_path": "public-tests/data-science-practice-018.json",
     "starter": "def solve(*args, **kwargs):\n    pass\n",
     "function": "solve"
   },
@@ -600,7 +600,7 @@
     "track": "python",
     "prompt": "Generated practice problem in the data_science topic.",
     "statement_path": "problems/data_science/data-science-practice-030/statement.md",
-    "public_test_path": "problems/data_science/data-science-practice-030/tests/public.json",
+    "public_test_path": "public-tests/data-science-practice-030.json",
     "starter": "def solve(*args, **kwargs):\n    pass\n",
     "function": "solve"
   },
@@ -619,7 +619,7 @@
     "track": "python",
     "prompt": "Generated practice problem in the data_science topic.",
     "statement_path": "problems/data_science/data-science-practice-042/statement.md",
-    "public_test_path": "problems/data_science/data-science-practice-042/tests/public.json",
+    "public_test_path": "public-tests/data-science-practice-042.json",
     "starter": "def solve(*args, **kwargs):\n    pass\n",
     "function": "solve"
   },
@@ -638,7 +638,7 @@
     "track": "python",
     "prompt": "Generated practice problem in the data_science topic.",
     "statement_path": "problems/data_science/data-science-practice-054/statement.md",
-    "public_test_path": "problems/data_science/data-science-practice-054/tests/public.json",
+    "public_test_path": "public-tests/data-science-practice-054.json",
     "starter": "def solve(*args, **kwargs):\n    pass\n",
     "function": "solve"
   },
@@ -657,7 +657,7 @@
     "track": "python",
     "prompt": "Generated practice problem in the data_science topic.",
     "statement_path": "problems/data_science/data-science-practice-066/statement.md",
-    "public_test_path": "problems/data_science/data-science-practice-066/tests/public.json",
+    "public_test_path": "public-tests/data-science-practice-066.json",
     "starter": "def solve(*args, **kwargs):\n    pass\n",
     "function": "solve"
   },
@@ -675,7 +675,7 @@
     "track": "python",
     "prompt": "Seed practice problem for data_science.",
     "statement_path": "problems/data_science/normalize-min-max-column/statement.md",
-    "public_test_path": "problems/data_science/normalize-min-max-column/tests/public.json",
+    "public_test_path": "public-tests/normalize-min-max-column.json",
     "starter": "def solve(*args, **kwargs):\n    pass\n",
     "function": "solve"
   },
@@ -693,7 +693,7 @@
     "track": "python",
     "prompt": "Seed practice problem for data_science.",
     "statement_path": "problems/data_science/rolling-average-window/statement.md",
-    "public_test_path": "problems/data_science/rolling-average-window/tests/public.json",
+    "public_test_path": "public-tests/rolling-average-window.json",
     "starter": "def solve(*args, **kwargs):\n    pass\n",
     "function": "solve"
   },
@@ -712,7 +712,7 @@
     "track": "python",
     "prompt": "Generated practice problem in the data_science topic.",
     "statement_path": "problems/data_science/data-science-practice-002/statement.md",
-    "public_test_path": "problems/data_science/data-science-practice-002/tests/public.json",
+    "public_test_path": "public-tests/data-science-practice-002.json",
     "starter": "def solve(*args, **kwargs):\n    pass\n",
     "function": "solve"
   },
@@ -731,7 +731,7 @@
     "track": "python",
     "prompt": "Generated practice problem in the data_science topic.",
     "statement_path": "problems/data_science/data-science-practice-014/statement.md",
-    "public_test_path": "problems/data_science/data-science-practice-014/tests/public.json",
+    "public_test_path": "public-tests/data-science-practice-014.json",
     "starter": "def solve(*args, **kwargs):\n    pass\n",
     "function": "solve"
   },
@@ -750,7 +750,7 @@
     "track": "python",
     "prompt": "Generated practice problem in the data_science topic.",
     "statement_path": "problems/data_science/data-science-practice-026/statement.md",
-    "public_test_path": "problems/data_science/data-science-practice-026/tests/public.json",
+    "public_test_path": "public-tests/data-science-practice-026.json",
     "starter": "def solve(*args, **kwargs):\n    pass\n",
     "function": "solve"
   },
@@ -769,7 +769,7 @@
     "track": "python",
     "prompt": "Generated practice problem in the data_science topic.",
     "statement_path": "problems/data_science/data-science-practice-038/statement.md",
-    "public_test_path": "problems/data_science/data-science-practice-038/tests/public.json",
+    "public_test_path": "public-tests/data-science-practice-038.json",
     "starter": "def solve(*args, **kwargs):\n    pass\n",
     "function": "solve"
   },
@@ -788,7 +788,7 @@
     "track": "python",
     "prompt": "Generated practice problem in the data_science topic.",
     "statement_path": "problems/data_science/data-science-practice-050/statement.md",
-    "public_test_path": "problems/data_science/data-science-practice-050/tests/public.json",
+    "public_test_path": "public-tests/data-science-practice-050.json",
     "starter": "def solve(*args, **kwargs):\n    pass\n",
     "function": "solve"
   },
@@ -807,7 +807,7 @@
     "track": "python",
     "prompt": "Generated practice problem in the data_science topic.",
     "statement_path": "problems/data_science/data-science-practice-062/statement.md",
-    "public_test_path": "problems/data_science/data-science-practice-062/tests/public.json",
+    "public_test_path": "public-tests/data-science-practice-062.json",
     "starter": "def solve(*args, **kwargs):\n    pass\n",
     "function": "solve"
   },
@@ -825,7 +825,7 @@
     "track": "python",
     "prompt": "Seed practice problem for data_science.",
     "statement_path": "problems/data_science/dedupe-latest-record/statement.md",
-    "public_test_path": "problems/data_science/dedupe-latest-record/tests/public.json",
+    "public_test_path": "public-tests/dedupe-latest-record.json",
     "starter": "def solve(*args, **kwargs):\n    pass\n",
     "function": "solve"
   },
@@ -844,7 +844,7 @@
     "track": "python",
     "prompt": "Generated practice problem in the data_science topic.",
     "statement_path": "problems/data_science/data-science-practice-010/statement.md",
-    "public_test_path": "problems/data_science/data-science-practice-010/tests/public.json",
+    "public_test_path": "public-tests/data-science-practice-010.json",
     "starter": "def solve(*args, **kwargs):\n    pass\n",
     "function": "solve"
   },
@@ -863,7 +863,7 @@
     "track": "python",
     "prompt": "Generated practice problem in the data_science topic.",
     "statement_path": "problems/data_science/data-science-practice-022/statement.md",
-    "public_test_path": "problems/data_science/data-science-practice-022/tests/public.json",
+    "public_test_path": "public-tests/data-science-practice-022.json",
     "starter": "def solve(*args, **kwargs):\n    pass\n",
     "function": "solve"
   },
@@ -882,7 +882,7 @@
     "track": "python",
     "prompt": "Generated practice problem in the data_science topic.",
     "statement_path": "problems/data_science/data-science-practice-034/statement.md",
-    "public_test_path": "problems/data_science/data-science-practice-034/tests/public.json",
+    "public_test_path": "public-tests/data-science-practice-034.json",
     "starter": "def solve(*args, **kwargs):\n    pass\n",
     "function": "solve"
   },
@@ -901,7 +901,7 @@
     "track": "python",
     "prompt": "Generated practice problem in the data_science topic.",
     "statement_path": "problems/data_science/data-science-practice-046/statement.md",
-    "public_test_path": "problems/data_science/data-science-practice-046/tests/public.json",
+    "public_test_path": "public-tests/data-science-practice-046.json",
     "starter": "def solve(*args, **kwargs):\n    pass\n",
     "function": "solve"
   },
@@ -920,7 +920,7 @@
     "track": "python",
     "prompt": "Generated practice problem in the data_science topic.",
     "statement_path": "problems/data_science/data-science-practice-058/statement.md",
-    "public_test_path": "problems/data_science/data-science-practice-058/tests/public.json",
+    "public_test_path": "public-tests/data-science-practice-058.json",
     "starter": "def solve(*args, **kwargs):\n    pass\n",
     "function": "solve"
   },
@@ -939,7 +939,7 @@
     "track": "python",
     "prompt": "Generated practice problem in the data_science topic.",
     "statement_path": "problems/data_science/data-science-practice-070/statement.md",
-    "public_test_path": "problems/data_science/data-science-practice-070/tests/public.json",
+    "public_test_path": "public-tests/data-science-practice-070.json",
     "starter": "def solve(*args, **kwargs):\n    pass\n",
     "function": "solve"
   },
@@ -957,7 +957,7 @@
     "track": "python",
     "prompt": "Seed practice problem for data_science.",
     "statement_path": "problems/data_science/group-mean-by-region/statement.md",
-    "public_test_path": "problems/data_science/group-mean-by-region/tests/public.json",
+    "public_test_path": "public-tests/group-mean-by-region.json",
     "starter": "def solve(*args, **kwargs):\n    pass\n",
     "function": "solve"
   },
@@ -975,7 +975,7 @@
     "track": "python",
     "prompt": "Seed practice problem for data_science.",
     "statement_path": "problems/data_science/iqr-outlier-flag/statement.md",
-    "public_test_path": "problems/data_science/iqr-outlier-flag/tests/public.json",
+    "public_test_path": "public-tests/iqr-outlier-flag.json",
     "starter": "def solve(*args, **kwargs):\n    pass\n",
     "function": "solve"
   },
@@ -993,7 +993,7 @@
     "track": "python",
     "prompt": "Seed practice problem for ml_fundamentals.",
     "statement_path": "problems/ml_fundamentals/binary-confusion-metrics/statement.md",
-    "public_test_path": "problems/ml_fundamentals/binary-confusion-metrics/tests/public.json",
+    "public_test_path": "public-tests/binary-confusion-metrics.json",
     "starter": "def solve(*args, **kwargs):\n    pass\n",
     "function": "solve"
   },
@@ -1013,7 +1013,7 @@
     "track": "python",
     "prompt": "Given a list of model probabilities and a threshold, convert each probability into class label `1` if `p >= threshold`, else `0`.",
     "statement_path": "problems/ml_fundamentals/logistic-threshold-classifier/statement.md",
-    "public_test_path": "problems/ml_fundamentals/logistic-threshold-classifier/tests/public.json",
+    "public_test_path": "public-tests/logistic-threshold-classifier.json",
     "starter": "def solve(*args, **kwargs):\n    pass\n",
     "function": "solve"
   },
@@ -1032,7 +1032,7 @@
     "track": "python",
     "prompt": "Generated practice problem in the ml_fundamentals topic.",
     "statement_path": "problems/ml_fundamentals/ml-fundamentals-practice-003/statement.md",
-    "public_test_path": "problems/ml_fundamentals/ml-fundamentals-practice-003/tests/public.json",
+    "public_test_path": "public-tests/ml-fundamentals-practice-003.json",
     "starter": "def solve(*args, **kwargs):\n    pass\n",
     "function": "solve"
   },
@@ -1051,7 +1051,7 @@
     "track": "python",
     "prompt": "Generated practice problem in the ml_fundamentals topic.",
     "statement_path": "problems/ml_fundamentals/ml-fundamentals-practice-015/statement.md",
-    "public_test_path": "problems/ml_fundamentals/ml-fundamentals-practice-015/tests/public.json",
+    "public_test_path": "public-tests/ml-fundamentals-practice-015.json",
     "starter": "def solve(*args, **kwargs):\n    pass\n",
     "function": "solve"
   },
@@ -1070,7 +1070,7 @@
     "track": "python",
     "prompt": "Generated practice problem in the ml_fundamentals topic.",
     "statement_path": "problems/ml_fundamentals/ml-fundamentals-practice-027/statement.md",
-    "public_test_path": "problems/ml_fundamentals/ml-fundamentals-practice-027/tests/public.json",
+    "public_test_path": "public-tests/ml-fundamentals-practice-027.json",
     "starter": "def solve(*args, **kwargs):\n    pass\n",
     "function": "solve"
   },
@@ -1089,7 +1089,7 @@
     "track": "python",
     "prompt": "Generated practice problem in the ml_fundamentals topic.",
     "statement_path": "problems/ml_fundamentals/ml-fundamentals-practice-039/statement.md",
-    "public_test_path": "problems/ml_fundamentals/ml-fundamentals-practice-039/tests/public.json",
+    "public_test_path": "public-tests/ml-fundamentals-practice-039.json",
     "starter": "def solve(*args, **kwargs):\n    pass\n",
     "function": "solve"
   },
@@ -1108,7 +1108,7 @@
     "track": "python",
     "prompt": "Generated practice problem in the ml_fundamentals topic.",
     "statement_path": "problems/ml_fundamentals/ml-fundamentals-practice-051/statement.md",
-    "public_test_path": "problems/ml_fundamentals/ml-fundamentals-practice-051/tests/public.json",
+    "public_test_path": "public-tests/ml-fundamentals-practice-051.json",
     "starter": "def solve(*args, **kwargs):\n    pass\n",
     "function": "solve"
   },
@@ -1127,7 +1127,7 @@
     "track": "python",
     "prompt": "Generated practice problem in the ml_fundamentals topic.",
     "statement_path": "problems/ml_fundamentals/ml-fundamentals-practice-063/statement.md",
-    "public_test_path": "problems/ml_fundamentals/ml-fundamentals-practice-063/tests/public.json",
+    "public_test_path": "public-tests/ml-fundamentals-practice-063.json",
     "starter": "def solve(*args, **kwargs):\n    pass\n",
     "function": "solve"
   },
@@ -1145,7 +1145,7 @@
     "track": "python",
     "prompt": "Seed practice problem for ml_fundamentals.",
     "statement_path": "problems/ml_fundamentals/train-val-split-index/statement.md",
-    "public_test_path": "problems/ml_fundamentals/train-val-split-index/tests/public.json",
+    "public_test_path": "public-tests/train-val-split-index.json",
     "starter": "def solve(*args, **kwargs):\n    pass\n",
     "function": "solve"
   },
@@ -1163,7 +1163,7 @@
     "track": "python",
     "prompt": "Seed practice problem for ml_fundamentals.",
     "statement_path": "problems/ml_fundamentals/early-stop-criteria/statement.md",
-    "public_test_path": "problems/ml_fundamentals/early-stop-criteria/tests/public.json",
+    "public_test_path": "public-tests/early-stop-criteria.json",
     "starter": "def solve(*args, **kwargs):\n    pass\n",
     "function": "solve"
   },
@@ -1182,7 +1182,7 @@
     "track": "python",
     "prompt": "Generated practice problem in the ml_fundamentals topic.",
     "statement_path": "problems/ml_fundamentals/ml-fundamentals-practice-011/statement.md",
-    "public_test_path": "problems/ml_fundamentals/ml-fundamentals-practice-011/tests/public.json",
+    "public_test_path": "public-tests/ml-fundamentals-practice-011.json",
     "starter": "def solve(*args, **kwargs):\n    pass\n",
     "function": "solve"
   },
@@ -1201,7 +1201,7 @@
     "track": "python",
     "prompt": "Generated practice problem in the ml_fundamentals topic.",
     "statement_path": "problems/ml_fundamentals/ml-fundamentals-practice-023/statement.md",
-    "public_test_path": "problems/ml_fundamentals/ml-fundamentals-practice-023/tests/public.json",
+    "public_test_path": "public-tests/ml-fundamentals-practice-023.json",
     "starter": "def solve(*args, **kwargs):\n    pass\n",
     "function": "solve"
   },
@@ -1220,7 +1220,7 @@
     "track": "python",
     "prompt": "Generated practice problem in the ml_fundamentals topic.",
     "statement_path": "problems/ml_fundamentals/ml-fundamentals-practice-035/statement.md",
-    "public_test_path": "problems/ml_fundamentals/ml-fundamentals-practice-035/tests/public.json",
+    "public_test_path": "public-tests/ml-fundamentals-practice-035.json",
     "starter": "def solve(*args, **kwargs):\n    pass\n",
     "function": "solve"
   },
@@ -1239,7 +1239,7 @@
     "track": "python",
     "prompt": "Generated practice problem in the ml_fundamentals topic.",
     "statement_path": "problems/ml_fundamentals/ml-fundamentals-practice-047/statement.md",
-    "public_test_path": "problems/ml_fundamentals/ml-fundamentals-practice-047/tests/public.json",
+    "public_test_path": "public-tests/ml-fundamentals-practice-047.json",
     "starter": "def solve(*args, **kwargs):\n    pass\n",
     "function": "solve"
   },
@@ -1258,7 +1258,7 @@
     "track": "python",
     "prompt": "Generated practice problem in the ml_fundamentals topic.",
     "statement_path": "problems/ml_fundamentals/ml-fundamentals-practice-059/statement.md",
-    "public_test_path": "problems/ml_fundamentals/ml-fundamentals-practice-059/tests/public.json",
+    "public_test_path": "public-tests/ml-fundamentals-practice-059.json",
     "starter": "def solve(*args, **kwargs):\n    pass\n",
     "function": "solve"
   },
@@ -1278,7 +1278,7 @@
     "track": "python",
     "prompt": "Given current `weights`, `gradients`, and `learning_rate`, compute updated weights after one gradient descent step.",
     "statement_path": "problems/ml_fundamentals/gradient-descent-step/statement.md",
-    "public_test_path": "problems/ml_fundamentals/gradient-descent-step/tests/public.json",
+    "public_test_path": "public-tests/gradient-descent-step.json",
     "starter": "def solve(*args, **kwargs):\n    pass\n",
     "function": "solve"
   },
@@ -1297,7 +1297,7 @@
     "track": "python",
     "prompt": "Generated practice problem in the ml_fundamentals topic.",
     "statement_path": "problems/ml_fundamentals/ml-fundamentals-practice-007/statement.md",
-    "public_test_path": "problems/ml_fundamentals/ml-fundamentals-practice-007/tests/public.json",
+    "public_test_path": "public-tests/ml-fundamentals-practice-007.json",
     "starter": "def solve(*args, **kwargs):\n    pass\n",
     "function": "solve"
   },
@@ -1316,7 +1316,7 @@
     "track": "python",
     "prompt": "Generated practice problem in the ml_fundamentals topic.",
     "statement_path": "problems/ml_fundamentals/ml-fundamentals-practice-019/statement.md",
-    "public_test_path": "problems/ml_fundamentals/ml-fundamentals-practice-019/tests/public.json",
+    "public_test_path": "public-tests/ml-fundamentals-practice-019.json",
     "starter": "def solve(*args, **kwargs):\n    pass\n",
     "function": "solve"
   },
@@ -1335,7 +1335,7 @@
     "track": "python",
     "prompt": "Generated practice problem in the ml_fundamentals topic.",
     "statement_path": "problems/ml_fundamentals/ml-fundamentals-practice-031/statement.md",
-    "public_test_path": "problems/ml_fundamentals/ml-fundamentals-practice-031/tests/public.json",
+    "public_test_path": "public-tests/ml-fundamentals-practice-031.json",
     "starter": "def solve(*args, **kwargs):\n    pass\n",
     "function": "solve"
   },
@@ -1354,7 +1354,7 @@
     "track": "python",
     "prompt": "Generated practice problem in the ml_fundamentals topic.",
     "statement_path": "problems/ml_fundamentals/ml-fundamentals-practice-043/statement.md",
-    "public_test_path": "problems/ml_fundamentals/ml-fundamentals-practice-043/tests/public.json",
+    "public_test_path": "public-tests/ml-fundamentals-practice-043.json",
     "starter": "def solve(*args, **kwargs):\n    pass\n",
     "function": "solve"
   },
@@ -1373,7 +1373,7 @@
     "track": "python",
     "prompt": "Generated practice problem in the ml_fundamentals topic.",
     "statement_path": "problems/ml_fundamentals/ml-fundamentals-practice-055/statement.md",
-    "public_test_path": "problems/ml_fundamentals/ml-fundamentals-practice-055/tests/public.json",
+    "public_test_path": "public-tests/ml-fundamentals-practice-055.json",
     "starter": "def solve(*args, **kwargs):\n    pass\n",
     "function": "solve"
   },
@@ -1392,7 +1392,7 @@
     "track": "python",
     "prompt": "Generated practice problem in the ml_fundamentals topic.",
     "statement_path": "problems/ml_fundamentals/ml-fundamentals-practice-067/statement.md",
-    "public_test_path": "problems/ml_fundamentals/ml-fundamentals-practice-067/tests/public.json",
+    "public_test_path": "public-tests/ml-fundamentals-practice-067.json",
     "starter": "def solve(*args, **kwargs):\n    pass\n",
     "function": "solve"
   },
@@ -1410,7 +1410,7 @@
     "track": "python",
     "prompt": "Seed practice problem for ml_fundamentals.",
     "statement_path": "problems/ml_fundamentals/precision-recall-threshold/statement.md",
-    "public_test_path": "problems/ml_fundamentals/precision-recall-threshold/tests/public.json",
+    "public_test_path": "public-tests/precision-recall-threshold.json",
     "starter": "def solve(*args, **kwargs):\n    pass\n",
     "function": "solve"
   },
@@ -1428,7 +1428,7 @@
     "track": "python",
     "prompt": "Seed practice problem for ml_fundamentals.",
     "statement_path": "problems/ml_fundamentals/sgd-mini-batch-step/statement.md",
-    "public_test_path": "problems/ml_fundamentals/sgd-mini-batch-step/tests/public.json",
+    "public_test_path": "public-tests/sgd-mini-batch-step.json",
     "starter": "def solve(*args, **kwargs):\n    pass\n",
     "function": "solve"
   },
@@ -1446,7 +1446,7 @@
     "track": "shell",
     "prompt": "Seed practice problem for shell_lab.",
     "statement_path": "problems/shell_lab/csv-column-extract/statement.md",
-    "public_test_path": "problems/shell_lab/csv-column-extract/tests/public.json",
+    "public_test_path": "public-tests/csv-column-extract.json",
     "starter": "# Shell challenge: run in your terminal"
   },
   {
@@ -1463,7 +1463,7 @@
     "track": "shell",
     "prompt": "Seed practice problem for shell_lab.",
     "statement_path": "problems/shell_lab/grep-count-unique-users/statement.md",
-    "public_test_path": "problems/shell_lab/grep-count-unique-users/tests/public.json",
+    "public_test_path": "public-tests/grep-count-unique-users.json",
     "starter": "# Shell challenge: run in your terminal"
   },
   {
@@ -1481,7 +1481,7 @@
     "track": "shell",
     "prompt": "Generated practice problem in the shell_lab topic.",
     "statement_path": "problems/shell_lab/shell-lab-practice-012/statement.md",
-    "public_test_path": "problems/shell_lab/shell-lab-practice-012/tests/public.json",
+    "public_test_path": "public-tests/shell-lab-practice-012.json",
     "starter": "# Shell challenge: run in your terminal"
   },
   {
@@ -1499,7 +1499,7 @@
     "track": "shell",
     "prompt": "Generated practice problem in the shell_lab topic.",
     "statement_path": "problems/shell_lab/shell-lab-practice-024/statement.md",
-    "public_test_path": "problems/shell_lab/shell-lab-practice-024/tests/public.json",
+    "public_test_path": "public-tests/shell-lab-practice-024.json",
     "starter": "# Shell challenge: run in your terminal"
   },
   {
@@ -1517,7 +1517,7 @@
     "track": "shell",
     "prompt": "Generated practice problem in the shell_lab topic.",
     "statement_path": "problems/shell_lab/shell-lab-practice-036/statement.md",
-    "public_test_path": "problems/shell_lab/shell-lab-practice-036/tests/public.json",
+    "public_test_path": "public-tests/shell-lab-practice-036.json",
     "starter": "# Shell challenge: run in your terminal"
   },
   {
@@ -1535,7 +1535,7 @@
     "track": "shell",
     "prompt": "Generated practice problem in the shell_lab topic.",
     "statement_path": "problems/shell_lab/shell-lab-practice-048/statement.md",
-    "public_test_path": "problems/shell_lab/shell-lab-practice-048/tests/public.json",
+    "public_test_path": "public-tests/shell-lab-practice-048.json",
     "starter": "# Shell challenge: run in your terminal"
   },
   {
@@ -1553,7 +1553,7 @@
     "track": "shell",
     "prompt": "Generated practice problem in the shell_lab topic.",
     "statement_path": "problems/shell_lab/shell-lab-practice-060/statement.md",
-    "public_test_path": "problems/shell_lab/shell-lab-practice-060/tests/public.json",
+    "public_test_path": "public-tests/shell-lab-practice-060.json",
     "starter": "# Shell challenge: run in your terminal"
   },
   {
@@ -1571,7 +1571,7 @@
     "track": "shell",
     "prompt": "Generated practice problem in the shell_lab topic.",
     "statement_path": "problems/shell_lab/shell-lab-practice-008/statement.md",
-    "public_test_path": "problems/shell_lab/shell-lab-practice-008/tests/public.json",
+    "public_test_path": "public-tests/shell-lab-practice-008.json",
     "starter": "# Shell challenge: run in your terminal"
   },
   {
@@ -1589,7 +1589,7 @@
     "track": "shell",
     "prompt": "Generated practice problem in the shell_lab topic.",
     "statement_path": "problems/shell_lab/shell-lab-practice-020/statement.md",
-    "public_test_path": "problems/shell_lab/shell-lab-practice-020/tests/public.json",
+    "public_test_path": "public-tests/shell-lab-practice-020.json",
     "starter": "# Shell challenge: run in your terminal"
   },
   {
@@ -1607,7 +1607,7 @@
     "track": "shell",
     "prompt": "Generated practice problem in the shell_lab topic.",
     "statement_path": "problems/shell_lab/shell-lab-practice-032/statement.md",
-    "public_test_path": "problems/shell_lab/shell-lab-practice-032/tests/public.json",
+    "public_test_path": "public-tests/shell-lab-practice-032.json",
     "starter": "# Shell challenge: run in your terminal"
   },
   {
@@ -1625,7 +1625,7 @@
     "track": "shell",
     "prompt": "Generated practice problem in the shell_lab topic.",
     "statement_path": "problems/shell_lab/shell-lab-practice-044/statement.md",
-    "public_test_path": "problems/shell_lab/shell-lab-practice-044/tests/public.json",
+    "public_test_path": "public-tests/shell-lab-practice-044.json",
     "starter": "# Shell challenge: run in your terminal"
   },
   {
@@ -1643,7 +1643,7 @@
     "track": "shell",
     "prompt": "Generated practice problem in the shell_lab topic.",
     "statement_path": "problems/shell_lab/shell-lab-practice-056/statement.md",
-    "public_test_path": "problems/shell_lab/shell-lab-practice-056/tests/public.json",
+    "public_test_path": "public-tests/shell-lab-practice-056.json",
     "starter": "# Shell challenge: run in your terminal"
   },
   {
@@ -1661,7 +1661,7 @@
     "track": "shell",
     "prompt": "Generated practice problem in the shell_lab topic.",
     "statement_path": "problems/shell_lab/shell-lab-practice-068/statement.md",
-    "public_test_path": "problems/shell_lab/shell-lab-practice-068/tests/public.json",
+    "public_test_path": "public-tests/shell-lab-practice-068.json",
     "starter": "# Shell challenge: run in your terminal"
   },
   {
@@ -1678,7 +1678,7 @@
     "track": "shell",
     "prompt": "Seed practice problem for shell_lab.",
     "statement_path": "problems/shell_lab/stream-anomaly-lines/statement.md",
-    "public_test_path": "problems/shell_lab/stream-anomaly-lines/tests/public.json",
+    "public_test_path": "public-tests/stream-anomaly-lines.json",
     "starter": "# Shell challenge: run in your terminal"
   },
   {
@@ -1699,7 +1699,7 @@
     "track": "shell",
     "prompt": "Given a log file where each line starts with an IP address and includes a log level token, print the top `k` IP addresses that generated `ERROR` logs.",
     "statement_path": "problems/shell_lab/top-k-error-ips/statement.md",
-    "public_test_path": "problems/shell_lab/top-k-error-ips/tests/public.json",
+    "public_test_path": "public-tests/top-k-error-ips.json",
     "starter": "# Shell challenge: run in your terminal"
   },
   {
@@ -1716,7 +1716,7 @@
     "track": "shell",
     "prompt": "Seed practice problem for shell_lab.",
     "statement_path": "problems/shell_lab/join-two-files-on-key/statement.md",
-    "public_test_path": "problems/shell_lab/join-two-files-on-key/tests/public.json",
+    "public_test_path": "public-tests/join-two-files-on-key.json",
     "starter": "# Shell challenge: run in your terminal"
   },
   {
@@ -1736,7 +1736,7 @@
     "track": "shell",
     "prompt": "Given a log file with entries like:",
     "statement_path": "problems/shell_lab/log-level-counter/statement.md",
-    "public_test_path": "problems/shell_lab/log-level-counter/tests/public.json",
+    "public_test_path": "public-tests/log-level-counter.json",
     "starter": "# Shell challenge: run in your terminal"
   },
   {
@@ -1754,7 +1754,7 @@
     "track": "shell",
     "prompt": "Generated practice problem in the shell_lab topic.",
     "statement_path": "problems/shell_lab/shell-lab-practice-004/statement.md",
-    "public_test_path": "problems/shell_lab/shell-lab-practice-004/tests/public.json",
+    "public_test_path": "public-tests/shell-lab-practice-004.json",
     "starter": "# Shell challenge: run in your terminal"
   },
   {
@@ -1772,7 +1772,7 @@
     "track": "shell",
     "prompt": "Generated practice problem in the shell_lab topic.",
     "statement_path": "problems/shell_lab/shell-lab-practice-016/statement.md",
-    "public_test_path": "problems/shell_lab/shell-lab-practice-016/tests/public.json",
+    "public_test_path": "public-tests/shell-lab-practice-016.json",
     "starter": "# Shell challenge: run in your terminal"
   },
   {
@@ -1790,7 +1790,7 @@
     "track": "shell",
     "prompt": "Generated practice problem in the shell_lab topic.",
     "statement_path": "problems/shell_lab/shell-lab-practice-028/statement.md",
-    "public_test_path": "problems/shell_lab/shell-lab-practice-028/tests/public.json",
+    "public_test_path": "public-tests/shell-lab-practice-028.json",
     "starter": "# Shell challenge: run in your terminal"
   },
   {
@@ -1808,7 +1808,7 @@
     "track": "shell",
     "prompt": "Generated practice problem in the shell_lab topic.",
     "statement_path": "problems/shell_lab/shell-lab-practice-040/statement.md",
-    "public_test_path": "problems/shell_lab/shell-lab-practice-040/tests/public.json",
+    "public_test_path": "public-tests/shell-lab-practice-040.json",
     "starter": "# Shell challenge: run in your terminal"
   },
   {
@@ -1826,7 +1826,7 @@
     "track": "shell",
     "prompt": "Generated practice problem in the shell_lab topic.",
     "statement_path": "problems/shell_lab/shell-lab-practice-052/statement.md",
-    "public_test_path": "problems/shell_lab/shell-lab-practice-052/tests/public.json",
+    "public_test_path": "public-tests/shell-lab-practice-052.json",
     "starter": "# Shell challenge: run in your terminal"
   },
   {
@@ -1844,7 +1844,7 @@
     "track": "shell",
     "prompt": "Generated practice problem in the shell_lab topic.",
     "statement_path": "problems/shell_lab/shell-lab-practice-064/statement.md",
-    "public_test_path": "problems/shell_lab/shell-lab-practice-064/tests/public.json",
+    "public_test_path": "public-tests/shell-lab-practice-064.json",
     "starter": "# Shell challenge: run in your terminal"
   },
   {
@@ -1861,7 +1861,7 @@
     "track": "shell",
     "prompt": "Seed practice problem for shell_lab.",
     "statement_path": "problems/shell_lab/top-response-codes/statement.md",
-    "public_test_path": "problems/shell_lab/top-response-codes/tests/public.json",
+    "public_test_path": "public-tests/top-response-codes.json",
     "starter": "# Shell challenge: run in your terminal"
   }
 ]

@@ -31,6 +31,7 @@
 - Added keyboard shortcuts for discovery flow (`/` focus search, `Esc` clear search).
 - Added Focus Mode toggle to hide secondary panels while solving.
 - Collapsed non-essential panels (Learning Paths and Support Progress) by default.
+- Bundled all public tests into `web/public-tests/` to make browser execution reliable on GitHub Pages.
 
 ### Changed
 

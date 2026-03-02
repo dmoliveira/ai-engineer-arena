@@ -328,7 +328,10 @@ async function initPyodideRuntime() {
 async function ensurePublicTests(problem) {
   if (problem.public_tests) return problem.public_tests;
   if (!problem.public_test_path) return [];
-  const response = await fetch(`../${problem.public_test_path}`);
+  const response = await fetch(problem.public_test_path);
+  if (!response.ok) {
+    throw new Error(`Unable to load public tests for ${problem.id} (${response.status})`);
+  }
   const payload = await response.json();
   problem.public_tests = payload.tests || [];
   problem.function = payload.function || "solve";

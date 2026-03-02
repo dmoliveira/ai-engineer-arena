@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import json
+import shutil
 from pathlib import Path
 from typing import Any
 
@@ -73,9 +74,7 @@ def build_entry(repo_root: Path, problem_dir: Path) -> dict[str, Any]:
         "track": track,
         "prompt": first_description_line(problem_dir / "statement.md"),
         "statement_path": str(problem_dir.relative_to(repo_root) / "statement.md"),
-        "public_test_path": str(
-            problem_dir.relative_to(repo_root) / "tests" / "public.json"
-        ),
+        "public_test_path": f"public-tests/{meta['id']}.json",
     }
 
     if track == "python":
@@ -100,9 +99,23 @@ def main() -> int:
     entries = [build_entry(repo_root, path.parent) for path in problem_yaml_paths]
     entries.sort(key=lambda item: (item["category"], item["difficulty"], item["id"]))
 
+    web_root = repo_root / "web"
+    tests_out_dir = web_root / "public-tests"
+    if tests_out_dir.exists():
+        shutil.rmtree(tests_out_dir)
+    tests_out_dir.mkdir(parents=True, exist_ok=True)
+
+    for path in problem_yaml_paths:
+        problem_dir = path.parent
+        meta = parse_simple_yaml(problem_dir / "problem.yaml")
+        source_test = problem_dir / "tests" / "public.json"
+        target_test = tests_out_dir / f"{meta['id']}.json"
+        shutil.copyfile(source_test, target_test)
+
     out_path = repo_root / "web" / "full-catalog.json"
     out_path.write_text(json.dumps(entries, indent=2) + "\n", encoding="utf-8")
     print(f"wrote {len(entries)} catalog entries to {out_path}")
+    print(f"wrote {len(entries)} public test payloads to {tests_out_dir}")
     return 0
 
 

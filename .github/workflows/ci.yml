@@ -46,6 +46,7 @@ jobs:
         run: |
           python scripts/build_web_catalog.py
           git diff --exit-code web/full-catalog.json
+          git diff --exit-code web/public-tests
 
       - name: Runner smoke tests
         run: |

@@ -177,6 +177,7 @@ python3 scripts/build_web_catalog.py
 ```
 
 This rebuilds `web/full-catalog.json` from all `problems/**/problem.yaml` metadata.
+It also bundles browser-runnable public tests into `web/public-tests/` for GitHub Pages reliability.
 
 Quality gate note:
 

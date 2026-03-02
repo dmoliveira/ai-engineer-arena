@@ -1,0 +1,17 @@
+{
+  "function": "solve",
+  "tests": [
+    {
+      "name": "example",
+      "input": {
+        "values": [
+          1,
+          2,
+          3
+        ]
+      },
+      "expected": 6,
+      "runtime_limit_ms": 600
+    }
+  ]
+}

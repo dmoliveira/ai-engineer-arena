@@ -1,0 +1,10 @@
+{
+  "function": "solve",
+  "tests": [
+    {
+      "name": "default_threshold",
+      "input": {"probabilities": [0.2, 0.5, 0.51, 0.8], "threshold": 0.5},
+      "expected": [0, 1, 1, 1]
+    }
+  ]
+}

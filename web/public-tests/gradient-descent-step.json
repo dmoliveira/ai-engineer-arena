@@ -1,0 +1,14 @@
+{
+  "function": "solve",
+  "tests": [
+    {
+      "name": "simple_update",
+      "input": {
+        "weights": [0.5, -1.0, 2.0],
+        "gradients": [0.2, -0.5, 0.1],
+        "learning_rate": 0.1
+      },
+      "expected": [0.48, -0.95, 1.99]
+    }
+  ]
+}

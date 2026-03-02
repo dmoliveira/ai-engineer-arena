@@ -1,0 +1,15 @@
+{
+  "function": "solve",
+  "tests": [
+    {
+      "name": "simple_true",
+      "input": {"s": "anagram", "t": "nagaram"},
+      "expected": true
+    },
+    {
+      "name": "simple_false",
+      "input": {"s": "rat", "t": "car"},
+      "expected": false
+    }
+  ]
+}

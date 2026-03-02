@@ -34,6 +34,7 @@
 - Bundled all public tests into `web/public-tests/` to make browser execution reliable on GitHub Pages.
 - Added sticky top navigation with section anchors for faster movement across Problems/Runner/Progress/Paths.
 - Added favorites workflow, solved-first ordering, and density toggle for list ergonomics.
+- Improved empty/error states with actionable recovery guidance for filtering and test loading.
 
 ### Changed
 

@@ -290,8 +290,10 @@ function renderTagFilter() {
 function syncActiveProblemWithFilters() {
   const visible = getVisibleProblems();
   if (visible.length === 0) {
-    listNode.innerHTML = "";
-    resultOutput.textContent = "No problems match the current filters.";
+    listNode.innerHTML = '<li class="empty-state">No matches. Try clearing filters or switching path.</li>';
+    resultsCount.textContent = "0 results";
+    activeFiltersBar.hidden = true;
+    resultOutput.textContent = "No problem selected. Tip: clear filters to repopulate the list.";
     return;
   }
   if (!activeProblem || !visible.some((problem) => problem.id === activeProblem.id)) {
@@ -395,9 +397,18 @@ async function runTests() {
     return;
   }
 
-  const tests = await ensurePublicTests(activeProblem);
+  let tests;
+  try {
+    tests = await ensurePublicTests(activeProblem);
+  } catch (error) {
+    runtimeStatus.classList.remove("ok");
+    runtimeStatus.classList.add("bad");
+    runtimeStatus.textContent = "Test load error";
+    resultOutput.textContent = `${String(error)}\n\nTry reloading the page or selecting another problem.`;
+    return;
+  }
   if (!tests.length) {
-    resultOutput.textContent = "No public tests available for this problem.";
+    resultOutput.textContent = "No public tests available for this problem yet. Try another challenge.";
     return;
   }
 
@@ -463,7 +474,7 @@ json.dumps(results)
     runtimeStatus.classList.remove("ok");
     runtimeStatus.classList.add("bad");
     runtimeStatus.textContent = "Execution error";
-    resultOutput.textContent = String(error);
+    resultOutput.textContent = `${String(error)}\n\nTip: confirm function signature and rerun.`;
   } finally {
     runBtn.disabled = activeProblem.track !== "python";
   }

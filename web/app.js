@@ -11,6 +11,9 @@ const difficultyFilter = document.getElementById("difficultyFilter");
 const topicFilter = document.getElementById("topicFilter");
 const tagFilter = document.getElementById("tagFilter");
 const sortFilter = document.getElementById("sortFilter");
+const densityFilter = document.getElementById("densityFilter");
+const favoritesOnlyToggle = document.getElementById("favoritesOnlyToggle");
+const solvedFirstToggle = document.getElementById("solvedFirstToggle");
 const searchInput = document.getElementById("searchInput");
 const prevPageBtn = document.getElementById("prevPageBtn");
 const nextPageBtn = document.getElementById("nextPageBtn");
@@ -40,6 +43,7 @@ const PAGE_SIZE = 12;
 const STORAGE_KEY = "aiea-progress-v1";
 const SUPPORT_NUDGE_KEY = "aiea-support-nudge-v1";
 const FOCUS_MODE_KEY = "aiea-focus-mode-v1";
+const FAVORITES_KEY = "aiea-favorites-v1";
 const ONE_DAY_MS = 24 * 60 * 60 * 1000;
 
 const TRACKS = {
@@ -76,6 +80,20 @@ function loadProgress() {
 
 function saveProgress(progress) {
   localStorage.setItem(STORAGE_KEY, JSON.stringify(progress));
+}
+
+function loadFavorites() {
+  const raw = localStorage.getItem(FAVORITES_KEY);
+  if (!raw) return {};
+  try {
+    return JSON.parse(raw);
+  } catch {
+    return {};
+  }
+}
+
+function saveFavorites(payload) {
+  localStorage.setItem(FAVORITES_KEY, JSON.stringify(payload));
 }
 
 function loadFocusMode() {
@@ -183,16 +201,20 @@ function getVisibleProblems() {
   const selectedTopic = topicFilter.value;
   const selectedTag = tagFilter.value;
   const selectedSort = sortFilter.value;
+  const favoritesOnly = favoritesOnlyToggle.checked;
   const query = searchInput.value.trim().toLowerCase();
+  const favorites = loadFavorites();
+  const progress = loadProgress();
 
   const filtered = problems.filter((problem) => {
     const topicMatch = selectedTopic === "all" || problem.category === selectedTopic;
     const difficultyMatch = selectedDifficulty === "all" || problem.difficulty === selectedDifficulty;
     const tagMatch = selectedTag === "all" || (problem.tags || []).includes(selectedTag);
     const trackMatch = isInActiveTrack(problem);
+    const favoriteMatch = !favoritesOnly || Boolean(favorites[problem.id]);
     const searchSpace = [problem.id, problem.title, ...(problem.tags || [])].join(" ").toLowerCase();
     const queryMatch = !query || searchSpace.includes(query);
-    return topicMatch && difficultyMatch && tagMatch && trackMatch && queryMatch;
+    return topicMatch && difficultyMatch && tagMatch && trackMatch && favoriteMatch && queryMatch;
   });
 
   const rank = { easy: 0, medium: 1, hard: 2 };
@@ -206,6 +228,15 @@ function getVisibleProblems() {
     filtered.sort((a, b) => {
       if (a.category !== b.category) return a.category.localeCompare(b.category);
       return rank[a.difficulty] - rank[b.difficulty];
+    });
+  }
+
+  if (solvedFirstToggle.checked) {
+    filtered.sort((a, b) => {
+      const solvedA = Boolean(progress[a.id]);
+      const solvedB = Boolean(progress[b.id]);
+      if (solvedA === solvedB) return 0;
+      return solvedA ? -1 : 1;
     });
   }
 
@@ -276,6 +307,8 @@ function renderProblemList() {
   const start = (currentPage - 1) * PAGE_SIZE;
   const pageItems = visible.slice(start, start + PAGE_SIZE);
   resultsCount.textContent = `${visible.length} results`;
+  listNode.dataset.density = densityFilter.value;
+  const favorites = loadFavorites();
 
   const activeTokens = [];
   if (topicFilter.value !== "all") activeTokens.push(`topic: ${topicFilter.value}`);
@@ -286,6 +319,8 @@ function renderProblemList() {
     activeTokens.push(activeTrack === "interview" ? "path: interview" : "path: ml engineer");
   }
   if (selectedSort !== "recommended") activeTokens.push(`sort: ${selectedSort}`);
+  if (favoritesOnlyToggle.checked) activeTokens.push("favorites");
+  if (solvedFirstToggle.checked) activeTokens.push("solved-first");
 
   if (activeTokens.length > 0) {
     activeFiltersText.textContent = activeTokens.join(" | ");
@@ -299,8 +334,12 @@ function renderProblemList() {
     const item = document.createElement("li");
     const button = document.createElement("button");
     button.dataset.problemId = problem.id;
+    const favoriteStar = favorites[problem.id] ? "★" : "☆";
     button.innerHTML = `
-      <span class="problem-card-title">${problem.title}</span>
+      <span class="problem-card-head">
+        <span class="problem-card-title">${problem.title}</span>
+        <span class="favorite-star" data-star="${problem.id}">${favoriteStar}</span>
+      </span>
       <span class="problem-meta-row">
         <span class="mini-badge ${problem.difficulty}">${problem.difficulty}</span>
         <span class="mini-badge">${problem.category}</span>
@@ -308,6 +347,13 @@ function renderProblemList() {
       </span>
     `;
     button.addEventListener("click", () => setActive(problem));
+    button.querySelector(".favorite-star")?.addEventListener("click", (event) => {
+      event.stopPropagation();
+      const next = loadFavorites();
+      next[problem.id] = !next[problem.id];
+      saveFavorites(next);
+      renderProblemList();
+    });
     item.appendChild(button);
     listNode.appendChild(item);
   }
@@ -455,6 +501,9 @@ difficultyFilter.addEventListener("change", onFilterChange);
 topicFilter.addEventListener("change", onFilterChange);
 tagFilter.addEventListener("change", onFilterChange);
 sortFilter.addEventListener("change", onFilterChange);
+densityFilter.addEventListener("change", onFilterChange);
+favoritesOnlyToggle.addEventListener("change", onFilterChange);
+solvedFirstToggle.addEventListener("change", onFilterChange);
 searchInput.addEventListener("input", onFilterChange);
 
 prevPageBtn.addEventListener("click", () => {
@@ -478,6 +527,9 @@ clearFiltersBtn.addEventListener("click", () => {
   difficultyFilter.value = "all";
   tagFilter.value = "all";
   sortFilter.value = "recommended";
+  densityFilter.value = "compact";
+  favoritesOnlyToggle.checked = false;
+  solvedFirstToggle.checked = false;
   searchInput.value = "";
   setTrack("all");
 });

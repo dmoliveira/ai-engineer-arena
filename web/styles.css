@@ -360,6 +360,12 @@ h2 {
   gap: 0.5rem;
 }
 
+.toggle-label {
+  justify-content: flex-start;
+  gap: 0.45rem;
+  color: var(--muted);
+}
+
 .controls-grid select {
   min-width: 130px;
 }
@@ -466,6 +472,28 @@ li button.active {
   font-size: 0.84rem;
   font-weight: 600;
   line-height: 1.25;
+}
+
+.problem-card-head {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  gap: 0.4rem;
+}
+
+.favorite-star {
+  font-size: 0.95rem;
+  line-height: 1;
+  color: #ffd166;
+}
+
+#problemList[data-density="comfortable"] li button {
+  padding: 0.75rem 0.78rem;
+  gap: 0.45rem;
+}
+
+#problemList[data-density="comfortable"] .problem-card-title {
+  font-size: 0.92rem;
 }
 
 .problem-meta-row {

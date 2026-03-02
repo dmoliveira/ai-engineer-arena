@@ -168,6 +168,8 @@ Problem discovery note:
 - Users can search by title/id/tag and browse through paginated results.
 - Users can switch curated paths: `Interview Path` and `ML Engineer Path`.
 - Users can toggle `Focus Mode` to hide secondary panels while solving.
+- Users can favorite problems, filter favorites only, and choose solved-first ordering.
+- Users can switch list density (`Compact` / `Comfortable`) for browsing preference.
 - Keyboard shortcuts: press `/` to focus search, `Esc` to clear search.
 
 Catalog build note:

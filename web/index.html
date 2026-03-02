@@ -17,6 +17,14 @@
   <body>
     <div class="backdrop"></div>
 
+    <nav class="top-nav" aria-label="Primary">
+      <a href="#problems">Problems</a>
+      <a href="#runner">Runner</a>
+      <a href="#progress">Progress</a>
+      <a href="#paths">Paths</a>
+      <a href="https://github.com/dmoliveira/ai-engineer-arena/blob/main/CONTRIBUTING.md" target="_blank" rel="noopener noreferrer">Contribute</a>
+    </nav>
+
     <aside id="supportNudge" class="support-nudge" aria-live="polite" hidden>
       <div class="support-nudge-copy">
         <p class="support-nudge-title">Nice solve! 🎉</p>
@@ -46,7 +54,7 @@
         </div>
       </section>
 
-      <section class="panel list-panel">
+      <section id="problems" class="panel list-panel">
         <div class="row">
           <h2>Problem List</h2>
           <span class="chip" id="resultsCount">0 results</span>
@@ -104,7 +112,7 @@
         </div>
       </section>
 
-      <section class="panel run-panel">
+      <section id="runner" class="panel run-panel">
         <div class="row">
           <h2 id="problemTitle">Run Public Tests</h2>
           <span class="chip" id="problemMeta">loading...</span>
@@ -118,14 +126,14 @@
         <pre id="resultOutput"></pre>
       </section>
 
-      <section class="panel stats-panel">
+      <section id="progress" class="panel stats-panel">
         <h2>Local Progress</h2>
         <p class="small">Stored in browser localStorage.</p>
         <div id="progressStats"></div>
         <div id="recommendationCard" class="recommendation-card"></div>
       </section>
 
-      <section class="panel tracks-panel">
+      <section id="paths" class="panel tracks-panel">
         <details class="panel-details">
           <summary>Learning Paths</summary>
           <p class="small">Curated tracks to guide practice focus.</p>

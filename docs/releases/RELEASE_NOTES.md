@@ -32,6 +32,7 @@
 - Added Focus Mode toggle to hide secondary panels while solving.
 - Collapsed non-essential panels (Learning Paths and Support Progress) by default.
 - Bundled all public tests into `web/public-tests/` to make browser execution reliable on GitHub Pages.
+- Added sticky top navigation with section anchors for faster movement across Problems/Runner/Progress/Paths.
 
 ### Changed
 

@@ -36,6 +36,8 @@
 - Added favorites workflow, solved-first ordering, and density toggle for list ergonomics.
 - Improved empty/error states with actionable recovery guidance for filtering and test loading.
 - Added first-visit onboarding coachmark with quick start steps.
+- Seeded wiki-ready documentation pages (Home, Learning Paths, Authoring, Runner, FAQ).
+- Added privacy-safe local insights card (strongest topic and suggested focus).
 
 ### Changed
 

@@ -71,18 +71,18 @@
         </div>
         <div class="row search-row">
           <label class="search-label" for="searchInput">Search</label>
-          <input id="searchInput" type="search" placeholder="title, id, tag" />
+          <input id="searchInput" type="search" placeholder="title, id, tag" aria-label="Search problems" />
         </div>
         <div class="filters controls-grid">
           <label>
             Topic
-            <select id="topicFilter">
+            <select id="topicFilter" aria-label="Filter by topic">
               <option value="all">All</option>
             </select>
           </label>
           <label>
             Difficulty
-            <select id="difficultyFilter">
+            <select id="difficultyFilter" aria-label="Filter by difficulty">
               <option value="all">All</option>
               <option value="easy">Easy</option>
               <option value="medium">Medium</option>
@@ -95,13 +95,13 @@
           <div class="filters controls-grid">
             <label>
               Tag
-              <select id="tagFilter">
+              <select id="tagFilter" aria-label="Filter by tag">
                 <option value="all">All</option>
               </select>
             </label>
             <label>
               Sort
-              <select id="sortFilter">
+              <select id="sortFilter" aria-label="Sort problems">
                 <option value="recommended">Recommended</option>
                 <option value="title_asc">Title A-Z</option>
                 <option value="difficulty_asc">Difficulty (Easy-Hard)</option>
@@ -110,7 +110,7 @@
             </label>
             <label>
               Density
-              <select id="densityFilter">
+              <select id="densityFilter" aria-label="List density">
                 <option value="compact">Compact</option>
                 <option value="comfortable">Comfortable</option>
               </select>
@@ -141,9 +141,9 @@
           <span class="chip" id="problemMeta">loading...</span>
         </div>
         <p id="problemPrompt" class="prompt"></p>
-        <textarea id="codeInput" spellcheck="false"></textarea>
+        <textarea id="codeInput" spellcheck="false" aria-label="Code editor"></textarea>
         <div class="row">
-          <button id="runBtn">Run</button>
+          <button id="runBtn" aria-label="Run public tests">Run</button>
           <span id="runtimeStatus">Pyodide not loaded yet</span>
         </div>
         <pre id="resultOutput"></pre>
@@ -154,6 +154,7 @@
         <p class="small">Stored in browser localStorage.</p>
         <div id="progressStats"></div>
         <div id="recommendationCard" class="recommendation-card"></div>
+        <div id="insightsCard" class="recommendation-card"></div>
       </section>
 
       <section id="paths" class="panel tracks-panel">

@@ -459,6 +459,16 @@ button {
   border: 1px solid rgba(255, 255, 255, 0.24);
 }
 
+a:focus-visible,
+button:focus-visible,
+select:focus-visible,
+input:focus-visible,
+textarea:focus-visible,
+summary:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
 input[type="search"] {
   font-family: "JetBrains Mono", monospace;
   border-radius: 10px;

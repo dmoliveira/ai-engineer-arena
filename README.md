@@ -13,6 +13,16 @@ An educational challenge platform for AI/ML-focused software engineers, combinin
 
 You progress through **Easy -> Medium -> Hard** tracks, solve coding and shell challenges, and learn through test feedback, performance constraints, and multi-approach editorial solutions.
 
+## Start in 60 seconds
+
+1. Open the live app: https://dmoliveira.github.io/ai-engineer-arena/
+2. Pick a topic/path and run a public test in browser.
+3. Optional local run:
+
+```bash
+python3 runner/run_problem.py --problem-dir problems/algorithms/two-sum-hash --solution examples/solutions/two_sum_hash.py
+```
+
 ## Contribute early
 
 Want to help shape the curriculum and platform quality? Start here:
@@ -171,6 +181,7 @@ Problem discovery note:
 - Users can favorite problems, filter favorites only, and choose solved-first ordering.
 - Users can switch list density (`Compact` / `Comfortable`) for browsing preference.
 - First-time visitors get a lightweight 3-step onboarding nudge.
+- Local privacy-safe insights highlight strongest topic and suggested focus area.
 - Keyboard shortcuts: press `/` to focus search, `Esc` to clear search.
 
 Catalog build note:
@@ -205,6 +216,8 @@ make build-catalog
 
 ## Documentation index
 
+- Wiki (live): https://github.com/dmoliveira/ai-engineer-arena/wiki
+- Wiki source drafts: `docs/wiki/Home.md`
 - Product and delivery planning: `docs/plan/education-platform-roadmap.md`
 - Community cadence: `docs/plan/community-cadence.md`
 - Architecture and feature specs: `docs/specs/platform-architecture.md`

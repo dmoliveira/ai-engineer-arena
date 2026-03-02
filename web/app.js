@@ -23,6 +23,7 @@ const activeFiltersBar = document.getElementById("activeFiltersBar");
 const activeFiltersText = document.getElementById("activeFiltersText");
 const clearFiltersBtn = document.getElementById("clearFiltersBtn");
 const recommendationCard = document.getElementById("recommendationCard");
+const insightsCard = document.getElementById("insightsCard");
 const trackAllBtn = document.getElementById("trackAllBtn");
 const trackInterviewBtn = document.getElementById("trackInterviewBtn");
 const trackMlBtn = document.getElementById("trackMlBtn");
@@ -160,6 +161,35 @@ function renderProgress() {
   const solved = Object.values(progress).filter(Boolean).length;
   progressStats.textContent = `${solved} solved of ${problems.length} loaded`;
   renderRecommendation(progress);
+  renderInsights(progress);
+}
+
+function renderInsights(progress) {
+  const solvedIds = new Set(
+    Object.entries(progress)
+      .filter(([, done]) => Boolean(done))
+      .map(([id]) => id),
+  );
+
+  if (!solvedIds.size) {
+    insightsCard.innerHTML = "<strong>Insights:</strong> Solve a few problems to unlock local learning insights.";
+    return;
+  }
+
+  const counts = {};
+  for (const problem of problems) {
+    if (!solvedIds.has(problem.id)) continue;
+    counts[problem.category] = (counts[problem.category] || 0) + 1;
+  }
+  const ranked = Object.entries(counts).sort((a, b) => b[1] - a[1]);
+  const strongest = ranked[0];
+
+  const allCategories = [...new Set(problems.map((problem) => problem.category))];
+  const weakest = allCategories
+    .map((category) => [category, counts[category] || 0])
+    .sort((a, b) => a[1] - b[1])[0];
+
+  insightsCard.innerHTML = `<strong>Insights:</strong> Strongest topic: ${strongest[0]} (${strongest[1]} solved). Suggested practice focus: ${weakest[0]} (${weakest[1]} solved).`;
 }
 
 function renderRecommendation(progress) {

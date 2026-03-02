@@ -170,6 +170,7 @@ Problem discovery note:
 - Users can toggle `Focus Mode` to hide secondary panels while solving.
 - Users can favorite problems, filter favorites only, and choose solved-first ordering.
 - Users can switch list density (`Compact` / `Comfortable`) for browsing preference.
+- First-time visitors get a lightweight 3-step onboarding nudge.
 - Keyboard shortcuts: press `/` to focus search, `Esc` to clear search.
 
 Catalog build note:

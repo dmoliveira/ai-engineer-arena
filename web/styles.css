@@ -128,6 +128,39 @@ body {
   cursor: pointer;
 }
 
+.onboarding-nudge {
+  position: fixed;
+  left: 1rem;
+  bottom: 1rem;
+  width: min(340px, calc(100vw - 2rem));
+  z-index: 21;
+  background: rgba(6, 23, 34, 0.95);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 12px;
+  padding: 0.7rem;
+  box-shadow: 0 12px 22px rgba(0, 0, 0, 0.28);
+}
+
+.onboarding-nudge h3 {
+  margin: 0 0 0.45rem;
+  font-size: 0.95rem;
+}
+
+.onboarding-nudge ol {
+  margin: 0 0 0.65rem;
+  padding-left: 1.1rem;
+  color: var(--muted);
+  font-size: 0.84rem;
+}
+
+#onboardingDoneBtn {
+  background: rgba(255, 255, 255, 0.08);
+  color: var(--text);
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  padding: 0.32rem 0.56rem;
+  cursor: pointer;
+}
+
 .layout {
   width: min(1120px, 92vw);
   margin: 2rem auto 3rem;
@@ -641,6 +674,13 @@ pre {
     left: 0.65rem;
     width: auto;
     bottom: 0.65rem;
+  }
+
+  .onboarding-nudge {
+    left: 0.65rem;
+    right: 0.65rem;
+    width: auto;
+    bottom: 4.4rem;
   }
 
   .controls-grid {

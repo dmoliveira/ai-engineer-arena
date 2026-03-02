@@ -35,6 +35,7 @@
 - Added sticky top navigation with section anchors for faster movement across Problems/Runner/Progress/Paths.
 - Added favorites workflow, solved-first ordering, and density toggle for list ergonomics.
 - Improved empty/error states with actionable recovery guidance for filtering and test loading.
+- Added first-visit onboarding coachmark with quick start steps.
 
 ### Changed
 

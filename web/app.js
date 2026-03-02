@@ -32,6 +32,8 @@ const focusModeBtn = document.getElementById("focusModeBtn");
 const supportNudge = document.getElementById("supportNudge");
 const supportNudgeText = document.getElementById("supportNudgeText");
 const supportNudgeDismiss = document.getElementById("supportNudgeDismiss");
+const onboardingNudge = document.getElementById("onboardingNudge");
+const onboardingDoneBtn = document.getElementById("onboardingDoneBtn");
 
 let pyodide;
 let problems = [];
@@ -44,6 +46,7 @@ const STORAGE_KEY = "aiea-progress-v1";
 const SUPPORT_NUDGE_KEY = "aiea-support-nudge-v1";
 const FOCUS_MODE_KEY = "aiea-focus-mode-v1";
 const FAVORITES_KEY = "aiea-favorites-v1";
+const ONBOARDING_KEY = "aiea-onboarding-v1";
 const ONE_DAY_MS = 24 * 60 * 60 * 1000;
 
 const TRACKS = {
@@ -105,6 +108,14 @@ function setFocusMode(enabled) {
   focusModeBtn.classList.toggle("active", enabled);
   focusModeBtn.textContent = enabled ? "Exit Focus" : "Focus Mode";
   localStorage.setItem(FOCUS_MODE_KEY, String(enabled));
+}
+
+function maybeShowOnboarding() {
+  if (localStorage.getItem(ONBOARDING_KEY) === "done") {
+    onboardingNudge.hidden = true;
+    return;
+  }
+  onboardingNudge.hidden = false;
 }
 
 function loadNudgeState() {
@@ -492,6 +503,7 @@ async function loadCatalog() {
 async function bootstrap() {
   problems = await loadCatalog();
   setFocusMode(loadFocusMode());
+  maybeShowOnboarding();
   renderTopicFilter();
   renderTagFilter();
   setTrack("all");
@@ -550,6 +562,11 @@ supportNudgeDismiss.addEventListener("click", () => {
   const nudgeState = loadNudgeState();
   saveNudgeState({ ...nudgeState, dismissedUntil: now + 14 * ONE_DAY_MS });
   hideSupportNudge();
+});
+
+onboardingDoneBtn.addEventListener("click", () => {
+  localStorage.setItem(ONBOARDING_KEY, "done");
+  onboardingNudge.hidden = true;
 });
 
 runBtn.addEventListener("click", runTests);

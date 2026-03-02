@@ -470,4 +470,25 @@ supportNudgeDismiss.addEventListener("click", () => {
 });
 
 runBtn.addEventListener("click", runTests);
+
+document.addEventListener("keydown", (event) => {
+  const target = event.target;
+  const isTypingField =
+    target instanceof HTMLInputElement ||
+    target instanceof HTMLTextAreaElement ||
+    target instanceof HTMLSelectElement;
+
+  if (event.key === "/" && !isTypingField) {
+    event.preventDefault();
+    searchInput.focus();
+    searchInput.select();
+    return;
+  }
+
+  if (event.key === "Escape" && document.activeElement === searchInput && searchInput.value) {
+    searchInput.value = "";
+    onFilterChange();
+  }
+});
+
 bootstrap();

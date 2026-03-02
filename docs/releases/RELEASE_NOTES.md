@@ -27,6 +27,8 @@
 - Added top-level contribution CTA in web hero and README for higher visibility.
 - Added sticky active-filter summary bar with one-click clear action.
 - Converted problem list rows into compact metadata cards for a cleaner scan path.
+- Reduced panel visual weight and tightened typography for denser minimalist browsing.
+- Added keyboard shortcuts for discovery flow (`/` focus search, `Esc` clear search).
 
 ### Changed
 

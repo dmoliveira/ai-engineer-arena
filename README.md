@@ -216,7 +216,7 @@ make build-catalog
 
 ## Documentation index
 
-- Wiki (live): https://github.com/dmoliveira/ai-engineer-arena/wiki
+- Wiki (live on Pages): https://dmoliveira.github.io/ai-engineer-arena/wiki/
 - Wiki source drafts: `docs/wiki/Home.md`
 - Product and delivery planning: `docs/plan/education-platform-roadmap.md`
 - Community cadence: `docs/plan/community-cadence.md`

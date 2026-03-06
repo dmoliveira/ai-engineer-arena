@@ -37,6 +37,7 @@
 - Improved empty/error states with actionable recovery guidance for filtering and test loading.
 - Added first-visit onboarding coachmark with quick start steps.
 - Seeded wiki-ready documentation pages (Home, Learning Paths, Authoring, Runner, FAQ).
+- Published docs hub directly on GitHub Pages under `web/wiki/`.
 - Added privacy-safe local insights card (strongest topic and suggested focus).
 
 ### Changed

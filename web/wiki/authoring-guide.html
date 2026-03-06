@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Authoring Guide</title>
+    <link rel="stylesheet" href="wiki.css" />
+  </head>
+  <body>
+    <div class="wrap">
+      <nav class="top">
+        <a href="./">Wiki Home</a>
+      </nav>
+      <section class="card">
+        <h1>Authoring Guide</h1>
+        <h2>Create a new problem</h2>
+        <pre><code>python3 scripts/new_problem.py --id sample-problem --title "Sample Problem" --category algorithms --difficulty easy</code></pre>
+        <h2>Validate before commit</h2>
+        <pre><code>make validate
+make quality
+make build-catalog</code></pre>
+      </section>
+    </div>
+  </body>
+</html>

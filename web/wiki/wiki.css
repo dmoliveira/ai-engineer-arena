@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  font-family: "Space Grotesk", sans-serif;
+  color: #e9f8ff;
+  background: linear-gradient(140deg, #082133, #12455e);
+}
+
+.wrap {
+  width: min(900px, 92vw);
+  margin: 1.2rem auto 2rem;
+}
+
+.top {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  margin-bottom: 0.8rem;
+}
+
+.top a {
+  text-decoration: none;
+  color: #cdebf6;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 999px;
+  padding: 0.2rem 0.55rem;
+  font-size: 0.78rem;
+}
+
+.card {
+  background: rgba(6, 24, 35, 0.72);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 14px;
+  padding: 0.9rem;
+}
+
+h1 {
+  margin: 0 0 0.5rem;
+  font-size: 1.45rem;
+}
+
+h2 {
+  margin: 0.9rem 0 0.35rem;
+  font-size: 1.05rem;
+}
+
+p,
+li {
+  color: #c7e4ef;
+  line-height: 1.45;
+}
+
+a.inline {
+  color: #ffd166;
+}
+
+code {
+  font-family: "JetBrains Mono", monospace;
+  background: rgba(255, 255, 255, 0.08);
+  padding: 0.1rem 0.32rem;
+  border-radius: 6px;
+}
+
+pre {
+  background: #041925;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  padding: 0.65rem;
+  overflow-x: auto;
+}

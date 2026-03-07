@@ -33,6 +33,12 @@ body {
   padding: 0.9rem;
 }
 
+.subtle {
+  margin: 0;
+  color: #9fc7d4;
+  font-size: 0.86rem;
+}
+
 h1 {
   margin: 0 0 0.5rem;
   font-size: 1.45rem;
@@ -47,6 +53,11 @@ p,
 li {
   color: #c7e4ef;
   line-height: 1.45;
+}
+
+ul,
+ol {
+  margin-top: 0.35rem;
 }
 
 a.inline {
@@ -66,4 +77,13 @@ pre {
   border-radius: 10px;
   padding: 0.65rem;
   overflow-x: auto;
+}
+
+.callout {
+  border: 1px solid rgba(255, 209, 102, 0.4);
+  background: rgba(255, 209, 102, 0.07);
+  border-radius: 10px;
+  padding: 0.55rem 0.65rem;
+  color: #ffe4a8;
+  font-size: 0.86rem;
 }

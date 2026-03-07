@@ -13,12 +13,21 @@
       </nav>
       <section class="card">
         <h1>Authoring Guide</h1>
+        <p class="subtle">Create educational problems that teach, not just test.</p>
         <h2>Create a new problem</h2>
         <pre><code>python3 scripts/new_problem.py --id sample-problem --title "Sample Problem" --category algorithms --difficulty easy</code></pre>
+        <h2>Authoring checklist</h2>
+        <ul>
+          <li>Write a clear statement with realistic constraints.</li>
+          <li>Include at least 1 public test and hidden regression/stress tests.</li>
+          <li>Add editorial trade-offs and complexity notes.</li>
+          <li>Tag interview relevance and recommended approach.</li>
+        </ul>
         <h2>Validate before commit</h2>
         <pre><code>make validate
 make quality
 make build-catalog</code></pre>
+        <div class="callout">Quality gate target: minimum score 70 and gold-tier baseline enforced in CI.</div>
       </section>
     </div>
   </body>

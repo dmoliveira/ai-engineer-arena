@@ -13,12 +13,17 @@
       </nav>
       <section class="card">
         <h1>Runner and Benchmarking</h1>
+        <p class="subtle">Use local runners for trusted validation before publishing or submitting.</p>
         <p>Use <code>runner/run_problem.py</code> for Python and <code>runner/run_shell_problem.py</code> for shell tracks.</p>
+        <h2>Quick commands</h2>
+        <pre><code>python3 runner/run_problem.py --problem-dir problems/algorithms/two-sum-hash --solution examples/solutions/two_sum_hash.py
+python3 runner/run_shell_problem.py --problem-dir problems/shell_lab/log-level-counter --command "cut -d' ' -f2 {input_file} | sort | uniq -c | awk '{print $2, $1}'"</code></pre>
         <h2>Metric labels</h2>
         <ul>
           <li><strong>strict</strong>: enforced runtime/test limits</li>
           <li><strong>advisory</strong>: environment-dependent, informational</li>
         </ul>
+        <div class="callout">Browser metrics on GitHub Pages are advisory; CI/local runner metrics should be treated as source of truth.</div>
       </section>
     </div>
   </body>
